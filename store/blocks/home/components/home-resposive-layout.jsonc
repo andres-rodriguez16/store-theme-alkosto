@@ -1,0 +1,38 @@
+{
+  "responsive-layout.desktop": {
+    "title" : "Componente en escritorio",
+    "children": ["rich-text#home__info--desktop"]
+  },
+  "responsive-layout.tablet": {
+    "title" : "Componente en tableta",
+    "children": ["rich-text#home__info--tablet"]
+  },
+  "responsive-layout.phone": {
+    "title" : "Componente en telefono",
+    "children": ["rich-text#home__info--phone"]
+  },
+  "responsive-layout.mobile": {
+    "title" : "Componente en mobile",
+    "children": ["rich-text#home__info--mobile"]
+  },
+  "rich-text#home__info--desktop" : {
+    "props" : {
+      "text" : "# resolución de escritorio"
+    }
+  },
+  "rich-text#home__info--tablet" : {
+    "props" : {
+      "text" : "resolución de tablet"
+    }
+  },
+  "rich-text#home__info--phone" : {
+    "props" : {
+      "text" : "resolución en telefono"
+    }
+  },
+  "rich-text#home__info--mobile" : {
+    "props" : {
+      "text" : "resolución Mobile"
+    }
+  }
+}
