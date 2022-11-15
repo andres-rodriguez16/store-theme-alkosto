@@ -1,3 +1,9 @@
 .paragraph--section__one--title {
   color: white;
 }
+
+.paragraph--rich-text__category {
+  color: #004797;
+  font-size: 14px;
+  margin: 5px 10px 15px 10px;
+}

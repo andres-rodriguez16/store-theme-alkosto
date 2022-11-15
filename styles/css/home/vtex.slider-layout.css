@@ -1,12 +1,26 @@
 .sliderLayoutContainer--home__slider {
   max-width: 1200px;
-  margin: 0 auto 50px;
 }
 
-.paginationDotsContainer--home__slider {
-  transform: translateY(30px);
+.paginationDot--home__slider {
+  margin-bottom: 10px;
+}
+
+.paginationDot--home__slider--isActive {
+  background-color: #eb5b26;
+
+}
+.caretIcon--home__slider {
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, .2));
+  border-radius: 50%;
+  background-color: white;
+  opacity: 1;
+  color: #eb5b26;
 }
 
 .imageElement--home__slider {
   max-height: initial !important;
+}
+.paginationDotsContainer--home__slider {
+  margin: 0;
 }
