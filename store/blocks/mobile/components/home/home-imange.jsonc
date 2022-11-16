@@ -1,0 +1,18 @@
+
+{
+  "image#home__image--mascotas" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/mascotas.png",
+      "max" : 600,
+      "title" : "B2B Commerce",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "responsive-layout.tablet#home__info--tablet": {
+    "children": [
+      "flex-layout.row#home__section--two-tablet",
+      "flex-layout.row#home__text--category",
+      "flex-layout.row#section__two--text-tablet",
+      "flex-layout.row#home__section--banner"
+    ]
+  }
+}

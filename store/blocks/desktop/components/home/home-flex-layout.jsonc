@@ -105,7 +105,7 @@
       "image#home__image--icono-navidad",
       "rich-text#section__departamento--iconoNavidad",
       "image#home__image--Pines",
-      "rich-text#section__departamento--pines"
+      "rich-text#section__departamento--ofertas"
     ],
     "props" : {
       "horizontalAlign" : "center",
@@ -254,6 +254,13 @@
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Navidad",
+      "blockClass" : "rich-text__category"
+    }
+  },
+  "rich-text#section__departamento--ofertas" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "text" : "Ofertas",
       "blockClass" : "rich-text__category"
     }
   }

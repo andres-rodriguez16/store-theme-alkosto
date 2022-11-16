@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#home__text--category" : {
+    "children" : [
+      "rich-text#home__category"
+    ],
+    "props" : {
+      "blockClass" : "home__container--text"
+    }
+  },
+  "rich-text#home__category" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "text" : "Compra por categorías",
+      "blockClass" : "rich-text__categorys"
+    }
+  }
+}

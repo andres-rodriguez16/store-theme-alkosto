@@ -6,7 +6,15 @@
   width: 75px;
 }
 
+.imageElement--home_image:hover{ 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1)
+}
 .container {
   margin-bottom: 20px;
   margin-left: 20px;
+}
+
+.flexRow--home__container-tablet {
+  flex-direction: column;
 }
