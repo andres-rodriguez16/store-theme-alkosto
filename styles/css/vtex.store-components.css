@@ -4,15 +4,14 @@
   padding: 10px;
   height: 75px;
   width: 75px;
+  background-color: white;
 }
 
 .imageElement--home_image:hover{ 
   -webkit-transform: scale(1.1);
-  transform: scale(1.1)
+  transform: scale(1.1);
+  font-family: Arial, sans-serif;
 }
-/* .container {
-  margin-bottom: 20px;
-} */
 
 .flexRow--home__container-tablet {
   flex-direction: column;
