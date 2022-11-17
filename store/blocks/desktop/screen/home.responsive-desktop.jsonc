@@ -5,7 +5,9 @@
       "flex-layout.row#home__section--two",
       // "flex-layout.row#home__section--three",
       //"image#home__image--two"
-      "flex-layout.row#home__section--banner"
+      "flex-layout.row#home__section--banner",
+      "flex-layout.row#home__text--category",
+      "slider-layout#home__slider--ofertas"
       // "responsive-layout.desktop",
       // "responsive-layout.tablet",
       // "responsive-layout.phone",

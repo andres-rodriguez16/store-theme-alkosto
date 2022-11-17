@@ -1,0 +1,43 @@
+{
+  "slider-layout#home__slider--ofertas": {
+    "title": "slider con hijos declarados",
+    "props":{
+      "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 1.5
+      },
+      "showPaginationDots":"never",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "usePagination" : false,
+      "blockClass": "home__slider--ofertas"
+    },
+    "children": [
+      "image#home__oferta--one",
+      "image#home__oferta--two",
+      "image#home__oferta--three",
+      "image#home__oferta--four"
+    ]
+  },
+  "image#home__oferta--one": {
+    "props": {
+      "src": "assets/img/oferta1.jpg"
+    }
+  },
+  "image#home__oferta--two": {
+    "props": {
+      "src": "assets/img/oferta2.jpg"
+    }
+  },
+  "image#home__oferta--three": {
+    "props": {
+      "src": "assets/img/oferta3.jpg"
+    }
+  },
+  "image#home__oferta--four": {
+    "props": {
+      "src": "assets/img/oferta4.jpg"
+    }
+  }
+}

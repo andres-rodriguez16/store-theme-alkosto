@@ -4,6 +4,7 @@
       "flex-layout.row#home__section--two-tablet",
       "flex-layout.row#home__text--category",
       "flex-layout.row#section__two--text-tablet",
+      "slider-layout#home__slider--ofertas",
       "flex-layout.row#home__section--banner"
     ]
   }
