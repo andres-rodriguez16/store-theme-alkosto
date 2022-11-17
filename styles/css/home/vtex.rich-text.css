@@ -7,3 +7,12 @@
   font-size: 14px;
   margin: 5px 10px 15px 10px;
 }
+
+.container--rich-text__categorys {
+  width: auto !important;
+  height: 40px;
+  border-bottom: 2px solid #eb5b25 ;
+  color: #004797;
+  font-size: 16px;
+  font-weight: 600;
+}

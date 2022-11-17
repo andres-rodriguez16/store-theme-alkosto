@@ -1,3 +1,19 @@
 .flexRow--home__container--departamentos {
   margin-top: 10px;
 }
+
+.flexRowContent--home__container--mobile {
+  background-color: #f5f5f5;
+}
+
+.flexRowContent--home__container--text {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.flexRow--home__section--one {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+/* .flexRow--home__container--tablet {
+  background-color: #f5f5f5;
+} */
