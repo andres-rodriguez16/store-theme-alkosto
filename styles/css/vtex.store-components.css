@@ -2,7 +2,7 @@
   border-radius: 50%;
   box-shadow: 0px 0px 4px 0px rgb(0 0 0 / 16%);
   padding: 10px;
-  height: 75px;
+  height: auto;
   width: 75px;
   background-color: white;
 }
@@ -10,9 +10,5 @@
 .imageElement--home_image:hover{ 
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-  font-family: Arial, sans-serif;
 }
 
-.flexRow--home__container-tablet {
-  flex-direction: column;
-}

@@ -29,7 +29,7 @@
     "children" : [
       "image#home__image--celulares",
       "rich-text#section__departamento--celulares",
-      "image#home__image--eletrodomésticos",
+      "image#home__image--Electrodomesticos",
       "rich-text#section__departamento--Electrodomesticos",
       "image#home__image--audio",
       "rich-text#section__departamento--audio",
@@ -96,15 +96,6 @@
       "marginRight": "10",
       "blockClass" : "home__departamento--one"
     }  
-  },
-  "flex-layout.row#home__section--banner" : {
-    "title" : "Seccion dos",
-    "children" : [
-      "image#home__image--two"
-    ],
-    "props" : {
-      "blockClass" : "home__image--category--one"
-    }
   },
   "rich-text#section__mobile" : {
     "props" : {

@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#home__container-phone" : {
+  "children" : [
+    "flex-layout.col#home__seccion-two"
+  ],
+  "props" : {
+    "blockClass" : "home__container--seccion"
+  }
+},
+  "flex-layout.col#home__seccion-two" : {
+    "children" : [
+      "flex-layout.row#home__text--celulares",
+      "slider-layout#home__slider--celulares"
+    ],
+    "props" : {
+      "blockClass" : "home__seccion--one"
+    }
+  },
+  "slider-layout#home__slider--celulares": {
+    "title": "slider con hijos declarados",
+    "props":{
+      "itemsPerPage": {
+          "desktop": 3,
+          "tablet": 3,
+          "phone": 1.5
+      },
+      "showPaginationDots":"never",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "usePagination" : false,
+      "blockClass": "home__slider--celulares"
+    },
+    "children": [
+      "image#home__celulares--one",
+      "image#home__celulares--two",
+      "image#home__celulares--three"
+    ]
+  },
+  "image#home__celulares--one": {
+    "props": {
+      "src": "assets/img/celulares1.jpg",
+      "blockClass" : "home__silder--item"
+    }
+  },
+  "image#home__celulares--two": {
+    "props": {
+      "src": "assets/img/celulares2.jpg",
+      "blockClass" : "home__silder--item"
+    }
+  },
+  "image#home__celulares--three": {
+    "props": {
+      "src": "assets/img/celulares3.jpg",
+      "blockClass" : "home__silder--item"
+    }
+  },
+  "flex-layout.row#home__text--celulares" : {
+    "children" : [
+      "rich-text#home__celulares"
+    ],
+    "props" : {
+      "blockClass" : "home__container--celulares"
+    }
+  },
+  "rich-text#home__celulares" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "text" : "Celulares",
+      "blockClass" : "rich-text__categorys"
+    }
+  }
+}

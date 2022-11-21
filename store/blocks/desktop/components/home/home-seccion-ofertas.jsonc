@@ -1,4 +1,18 @@
 {
+  "flex-layout.row#home__container--seccion" : {
+    "children" : [
+      "flex-layout.col#home__container--ofertas"
+    ],
+    "props" : {
+      "blockClass" : "home__container--ofertas"
+    }
+  },
+  "flex-layout.col#home__container--ofertas" : {
+    "children" : [
+      "flex-layout.row#home__text--ofertas",
+      "slider-layout#home__slider--ofertas"
+    ]
+  },
   "slider-layout#home__slider--ofertas": {
     "title": "slider con hijos declarados",
     "props":{
@@ -38,6 +52,21 @@
   "image#home__oferta--four": {
     "props": {
       "src": "assets/img/oferta4.jpg"
+    }
+  },
+  "flex-layout.row#home__text--ofertas" : {
+    "children" : [
+      "rich-text#home__ofertas"
+    ],
+    "props" : {
+      "blockClass" : "home__container--text"
+    }
+  },
+  "rich-text#home__ofertas" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "text" : "Ofertas Destacadas",
+      "blockClass" : "rich-text__categorys"
     }
   }
 }

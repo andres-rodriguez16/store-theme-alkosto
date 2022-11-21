@@ -1,0 +1,72 @@
+{
+  "flex-layout.row#home__container-tv" : {
+    "children" : [
+      "flex-layout.col#home__seccion-three"
+    ],
+    "props" : {
+      "blockClass" : "home__container--seccion"
+    }
+  },
+    "flex-layout.col#home__seccion-three" : {
+      "children" : [
+        "flex-layout.row#home__text--tv",
+        "slider-layout#home__slider--tv"
+      ],
+      "props" : {
+        "blockClass" : "home__seccion--one"
+      }
+    },
+    "slider-layout#home__slider--tv": {
+      "title": "slider con hijos declarados",
+      "props":{
+        "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1.5
+        },
+        "showPaginationDots":"never",
+        "showNavigationArrows": "never",
+        "infinite": false,
+        "usePagination" : false,
+        "blockClass": "home__slider--celulares"
+      },
+      "children": [
+        "image#home__tv--one",
+        "image#home__tv--two",
+        "image#home__tv--three"
+      ]
+    },
+    "image#home__tv--one": {
+      "props": {
+        "src": "assets/img/televisores1.jpg",
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "image#home__tv--two": {
+      "props": {
+        "src": "assets/img/televisores2.jpg",
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "image#home__tv--three": {
+      "props": {
+        "src": "assets/img/televisores3.jpg",
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "flex-layout.row#home__text--tv" : {
+      "children" : [
+        "rich-text#home__tv"
+      ],
+      "props" : {
+        "blockClass" : "home__container--celulares"
+      }
+    },
+    "rich-text#home__tv" : {
+      "props" : {
+        "textAlignment": "CENTER",
+        "text" : "Televisores",
+        "blockClass" : "rich-text__categorys"
+      }
+    }
+}

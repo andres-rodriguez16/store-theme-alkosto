@@ -1,0 +1,75 @@
+{
+  "flex-layout.row#home__container--bancos": {
+    "children": ["flex-layout.col#home__seccion-seven"],
+    "props": {
+      "blockClass": "home__container--seccion"
+    }
+  },
+  "flex-layout.col#home__seccion-seven": {
+    "children": [
+      "flex-layout.row#home__text--bancos",
+      "slider-layout#home__slider--bancos"
+    ],
+    "props": {
+      "blockClass": "home__seccion--one"
+    }
+  },
+  "slider-layout#home__slider--bancos": {
+    "title": "slider con hijos declarados",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1.5
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "usePagination": false,
+      "blockClass": "home__slider--celulares"
+    },
+    "children": [
+      "image#home__bancos--one",
+      "image#home__bancos--two",
+      "image#home__bancos--three",
+      "image#home__bancos--five"
+    ]
+  },
+  "image#home__bancos--one": {
+    "props": {
+      "src": "assets/img/bancos1.png",
+      "blockClass": "home__silder--item"
+    }
+  },
+  "image#home__bancos--two": {
+    "props": {
+      "src": "assets/img/bancos2.png",
+      "blockClass": "home__silder--item"
+    }
+  },
+  "image#home__bancos--three": {
+    "props": {
+      "src": "assets/img/bancos3.png",
+      "blockClass": "home__silder--item"
+    }
+  },
+  "image#home__bancos--five": {
+    "props": {
+      "src": "assets/img/bancos4.png",
+      "blockClass": "home__silder--item"
+    }
+  },
+  "flex-layout.row#home__text--bancos": {
+    "children": ["rich-text#home__bancos"],
+    "props": {
+      "blockClass": "home__container--celulares"
+    }
+  },
+  "rich-text#home__bancos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "Beneficios con bancos",
+      "blockClass": "rich-text__categorys"
+    }
+  }
+}

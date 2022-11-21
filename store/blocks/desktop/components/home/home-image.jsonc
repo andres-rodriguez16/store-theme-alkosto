@@ -195,7 +195,7 @@
       }
     }
   },
-  "image#home__image--eletrodomésticos" : {
+  "image#home__image--Electrodomesticos" : {
     "title" : "Image de home",
     "props" : {
       "src" :"assets/img/electrodomesticos.jpg",
@@ -297,6 +297,19 @@
     "title" : "Image de home",
     "props" : {
       "src" :"assets/img/publi.jpg",
+      "title" : "B2B Commerce",
+      "blockClass" : "home_image--banner",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__banner2" : {
+    "title" : "banner 2",
+    "props" : {
+      "src" :"assets/img/banner2.jpg",
       "title" : "B2B Commerce",
       "blockClass" : "home_image--banner",
       "link" : {
