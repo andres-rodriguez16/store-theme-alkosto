@@ -1,0 +1,93 @@
+{
+  "flex-layout.row#home__container--otros" : {
+    "children" : [
+      "flex-layout.col#home__seccion-five"
+    ],
+    "props" : {
+      "blockClass" : "home__container--seccion"
+    }
+  },
+    "flex-layout.col#home__seccion-five" : {
+      "children" : [
+        "flex-layout.row#home__text--otros",
+        "slider-layout#home__slider--otros"
+      ],
+      "props" : {
+        "blockClass" : "home__seccion--one"
+      }
+    },
+    "slider-layout#home__slider--otros": {
+      "title": "slider con hijos declarados",
+      "props":{
+        "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1.5
+        },
+        "showPaginationDots":"never",
+        "showNavigationArrows": "never",
+        "infinite": false,
+        "usePagination" : false,
+        "blockClass": "home__slider--celulares"
+      },
+      "children": [
+        "image#home__otros--one",
+        "image#home__otros--two",
+        "image#home__otros--three"
+      ]
+    },
+    "image#home__otros--one": {
+      "title" : "Videojuegos y más",
+      "props": {
+      "title" : "Videojuegos y más",
+        "src": "assets/img/otros1.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "image#home__otros--two": {
+      "title" : "Videojuegos y más",
+      "props": {
+      "title" : "Videojuegos y más",
+        "src": "assets/img/otros2.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "image#home__otros--three": {
+      "title" : "Videojuegos y más",
+      "props": {
+      "title" : "Videojuegos y más",
+        "src": "assets/img/otros3.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "flex-layout.row#home__text--otros" : {
+      "children" : [
+        "rich-text#home__otros"
+      ],
+      "props" : {
+        "blockClass" : "home__container--celulares"
+      }
+    },
+    "rich-text#home__otros" : {
+      "props" : {
+        "textAlignment": "CENTER",
+        "text" : "[Videojuegos y más](https://www.markdownguide.org/basic-syntax/)",
+        "blockClass" : "rich-text__categorys"
+      }
+    }
+}

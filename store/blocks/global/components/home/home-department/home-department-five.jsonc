@@ -1,0 +1,56 @@
+{
+  "flex-layout.col#section__departamento--five" : {
+    "children" : [
+      "flex-layout.col#home__category--electromenor",
+      "flex-layout.col#home__category--tablet",
+      "flex-layout.col#home__category--iconoNavidad",
+      "flex-layout.col#home__category--ofertas"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--electromenor" : {
+    "title" : "categoria de electromenor",
+    "children" : [
+      "image#home__image--electro-menores",
+      "rich-text#section__departamento--electromenor"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--tablet" : {
+    "title" : "categoria de tablet",
+    "children" : [
+      "image#home__image--tablet",
+      "rich-text#section__departamento--tablet"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--iconoNavidad" : {
+    "title" : "categoria de iconoNavidad",
+    "children" : [
+      "image#home__image--icono-navidad",
+      "rich-text#section__departamento--iconoNavidad"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--ofertas" : {
+    "title" : "categoria de ofertas",
+    "children" : [
+      "image#home__image--Pines",
+      "rich-text#section__departamento--ofertas"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  }
+}

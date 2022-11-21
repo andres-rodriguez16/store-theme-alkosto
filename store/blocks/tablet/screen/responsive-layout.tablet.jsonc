@@ -5,7 +5,15 @@
       "flex-layout.row#home__text--category",
       "flex-layout.row#section__two--text-tablet",
       "flex-layout.row#home__section--banner",
-      "slider-layout#home__slider--ofertas"
+      "flex-layout.row#home__container--seccion",
+      "flex-layout.row#home__container-phone",
+      "flex-layout.row#home__container--computadores",
+      "flex-layout.row#home__container-tv",
+      "flex-layout.row#home__container-eletrodomesticos",
+      "flex-layout.row#home__container--otros",
+      "flex-layout.row#home__container--conoces-mas",
+      "flex-layout.row#home__section--banner-two",
+      "flex-layout.row#home__container--bancos"
     ]
   }
 }

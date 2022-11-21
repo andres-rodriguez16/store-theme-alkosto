@@ -1,0 +1,56 @@
+{
+  "flex-layout.col#section__departamento--three" : {
+    "children" : [
+      "flex-layout.col#home__category--televisores",
+      "flex-layout.col#home__category--accesorios",
+      "flex-layout.col#home__category--hogar",
+      "flex-layout.col#home__category--deportes"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--televisores" : {
+    "title" : "categoria de televisores",
+    "children" : [
+      "image#home__image--televisores",
+      "rich-text#section__departamento--televisor" 
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--accesorios" : {
+    "title" : "categoria de accesorios",
+    "children" : [
+      "image#home__image--accesorios",
+      "rich-text#section__departamento--accesorios"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--hogar" : {
+    "title" : "categoria de hogar",
+    "children" : [
+      "image#home__image--hogar",
+      "rich-text#section__departamento--hogar"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--deportes" : {
+    "title" : "categoria de deportes",
+    "children" : [
+      "image#home__image--deportes",
+      "rich-text#section__departamento--deportes"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  }
+}

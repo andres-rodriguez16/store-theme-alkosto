@@ -8,8 +8,11 @@
 
 .paginationDot--home__slider--isActive {
   background-color: #eb5b26;
-
 }
+.sliderTrackContainer--home__slider--ofertas {
+  margin: 0 10px 0 10px;
+}
+
 .caretIcon--home__slider {
   filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, .2));
   border-radius: 50%;
@@ -18,9 +21,23 @@
   color: #eb5b26;
 }
 
+.sliderLayoutContainer--home__slider--ofertas {
+  padding: 15px;
+}
 .imageElement--home__slider {
   max-height: initial !important;
 }
 .paginationDotsContainer--home__slider {
   margin: 0;
 }
+
+.slide--home__slider--celulares {
+  margin: 0 10px;
+}
+.sliderTrack--home__slider--celulares {
+  margin: 20px 0;
+}
+.sliderTrackContainer--home__slider--celulares {
+  margin: 0 25px;
+}
+

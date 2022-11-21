@@ -6,6 +6,10 @@
   color: #004797;
   font-size: 14px;
   margin: 5px 10px 15px 10px;
+  width: 85px;
+}
+.wrapper--rich-text__category {
+  justify-content: center;
 }
 
 .container--rich-text__categorys {
@@ -15,4 +19,37 @@
   color: #004797;
   font-size: 16px;
   font-weight: 600;
+}
+
+.container--home__text--bancos {
+  margin: 0 auto;
+}
+
+.link--home__text--bancos {
+  text-decoration: none;
+  color: #3f3f40;
+  text-decoration-color:#eb5b25 !important;
+}
+
+.link--rich-text__categorys {
+  text-decoration: none;
+  color: #004797;
+  text-decoration-color:#eb5b25 !important;
+}
+
+.link--rich-text__categorys:hover {
+  text-decoration: underline;
+}
+.link--home__text--bancos:hover {
+  text-decoration: underline;
+}
+.paragraph--home__text--bancos  {
+  margin: 16px 0 -20px 0;
+}
+.link--bancos__four-seccion {
+  color: #eb5b25;
+  font-size: 14px;
+}
+.container--bancos__four-seccion {
+  margin: 0 auto;
 }

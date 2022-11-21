@@ -4,13 +4,13 @@
       "rich-text#home__category"
     ],
     "props" : {
-      "blockClass" : "home__container--text"
+      "blockClass" : ["home__container--text","home__container--text2" ]
     }
   },
   "rich-text#home__category" : {
     "props" : {
       "textAlignment": "CENTER",
-      "text" : "Compra por categorías",
+      "text" : "Compras por categorias",
       "blockClass" : "rich-text__categorys"
     }
   }

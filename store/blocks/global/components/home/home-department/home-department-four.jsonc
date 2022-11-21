@@ -1,0 +1,56 @@
+{
+  "flex-layout.col#section__departamento--four" : {
+    "children" : [
+      "flex-layout.col#home__category--reloj",
+      "flex-layout.col#home__category--ejemplo",
+      "flex-layout.col#home__category--juguetes",
+      "flex-layout.col#home__category--llantas"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--ejemplo" : {
+    "children" : [
+      "image#home__image--Electrodomesticos",
+      "rich-text#section__departamento--Electrodomesticos"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--reloj" : {
+    "title" : "categoria de reloj",
+    "children" : [
+      "image#home__image--reloj",
+      "rich-text#section__departamento--reloj"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--juguetes" : {
+    "title" : "categoria de juguetes",
+    "children" : [
+      "image#home__image--juguetes",
+      "rich-text#section__departamento--juguetes"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--llantas" : {
+    "title" : "categoria de llantas",
+    "children" : [
+      "image#home__image--llantas",
+      "rich-text#section__departamento--llantas"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  }
+}
+
