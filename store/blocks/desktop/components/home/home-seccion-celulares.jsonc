@@ -37,24 +37,46 @@
     ]
   },
   "image#home__celulares--one": {
+    "title" : "xiaomi note 11",
     "props": {
+    "title" : "xiaomi note 11",
       "src": "assets/img/celulares1.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
       "blockClass" : "home__silder--item"
     }
   },
   "image#home__celulares--two": {
+    "title" : "moto g31",
     "props": {
+    "title" : "moto g31",
       "src": "assets/img/celulares2.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
       "blockClass" : "home__silder--item"
     }
   },
   "image#home__celulares--three": {
+    "title" : "VIVO Y21S",
     "props": {
+    "title" : "VIVO Y21S",
       "src": "assets/img/celulares3.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
       "blockClass" : "home__silder--item"
     }
   },
   "flex-layout.row#home__text--celulares" : {
+    "title" : "xiaomi note 11",
     "children" : [
       "rich-text#home__celulares"
     ],
@@ -65,7 +87,7 @@
   "rich-text#home__celulares" : {
     "props" : {
       "textAlignment": "CENTER",
-      "text" : "Celulares",
+      "text" : "[Celulares](https://www.markdownguide.org/basic-syntax/)",
       "blockClass" : "rich-text__categorys"
     }
   }

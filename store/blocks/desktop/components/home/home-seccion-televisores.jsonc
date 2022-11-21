@@ -37,20 +37,41 @@
       ]
     },
     "image#home__tv--one": {
+      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
       "props": {
+      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
         "src": "assets/img/televisores1.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
     "image#home__tv--two": {
+      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
       "props": {
+      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
         "src": "assets/img/televisores2.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
     "image#home__tv--three": {
+      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
       "props": {
+      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
         "src": "assets/img/televisores3.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
@@ -65,7 +86,7 @@
     "rich-text#home__tv" : {
       "props" : {
         "textAlignment": "CENTER",
-        "text" : "Televisores",
+        "text" : "[Televisores](https://www.markdownguide.org/basic-syntax/)",
         "blockClass" : "rich-text__categorys"
       }
     }

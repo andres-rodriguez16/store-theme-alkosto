@@ -38,26 +38,54 @@
       ]
     },
     "image#home__conoces-mas--one": {
+      "title" : "Conoces más",
       "props": {
+      "title" : "Conoces más",
         "src": "assets/img/conocesmas1.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
     "image#home__conoces-mas--two": {
+      "title" : "Conoces más",
       "props": {
+      "title" : "Conoces más",
         "src": "assets/img/conocesmas2.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
     "image#home__conoces-mas--three": {
+      "title" : "Conoces más",
       "props": {
+      "title" : "Conoces más",
         "src": "assets/img/conocesmas3.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
     "image#home__conoces-mas--four": {
+      "title" : "Conoces más",
       "props": {
+      "title" : "Conoces más",
         "src": "assets/img/conocesmas4.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },

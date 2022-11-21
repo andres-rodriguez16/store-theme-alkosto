@@ -37,20 +37,41 @@
       ]
     },
     "image#home__otros--one": {
+      "title" : "Videojuegos y más",
       "props": {
+      "title" : "Videojuegos y más",
         "src": "assets/img/otros1.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
     "image#home__otros--two": {
+      "title" : "Videojuegos y más",
       "props": {
+      "title" : "Videojuegos y más",
         "src": "assets/img/otros2.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
     "image#home__otros--three": {
+      "title" : "Videojuegos y más",
       "props": {
+      "title" : "Videojuegos y más",
         "src": "assets/img/otros3.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
         "blockClass" : "home__silder--item"
       }
     },
@@ -65,7 +86,7 @@
     "rich-text#home__otros" : {
       "props" : {
         "textAlignment": "CENTER",
-        "text" : "Videojuegos y más",
+        "text" : "[Videojuegos y más](https://www.markdownguide.org/basic-syntax/)",
         "blockClass" : "rich-text__categorys"
       }
     }

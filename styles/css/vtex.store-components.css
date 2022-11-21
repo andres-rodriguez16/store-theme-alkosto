@@ -11,4 +11,14 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+.imageElement--home_image--banner {
+  width: 1080px;
+}
 
+.imageElementLink--home_image--banner {
+  width: 1080px !important;
+}
+
+.imageElement--home__silder--item {
+  margin: 0 auto;
+}

@@ -29,35 +29,11 @@
       "blockClass": "home__slider--celulares"
     },
     "children": [
-      "image#home__bancos--one",
-      "image#home__bancos--two",
-      "image#home__bancos--three",
-      "image#home__bancos--five"
+      "flex-layout.col#home__bancos--one",
+      "flex-layout.col#home__bancos--two",
+      "flex-layout.col#home__bancos--three",
+      "flex-layout.col#home__bancos--four"
     ]
-  },
-  "image#home__bancos--one": {
-    "props": {
-      "src": "assets/img/bancos1.png",
-      "blockClass": "home__silder--item"
-    }
-  },
-  "image#home__bancos--two": {
-    "props": {
-      "src": "assets/img/bancos2.png",
-      "blockClass": "home__silder--item"
-    }
-  },
-  "image#home__bancos--three": {
-    "props": {
-      "src": "assets/img/bancos3.png",
-      "blockClass": "home__silder--item"
-    }
-  },
-  "image#home__bancos--five": {
-    "props": {
-      "src": "assets/img/bancos4.png",
-      "blockClass": "home__silder--item"
-    }
   },
   "flex-layout.row#home__text--bancos": {
     "children": ["rich-text#home__bancos"],
@@ -65,11 +41,159 @@
       "blockClass": "home__container--celulares"
     }
   },
+  "flex-layout.col#home__bancos--one" : {
+    "children" : [
+      "image#home__bancos--one",
+      "rich-text#home__bancos--one",
+      "rich-text#bancos__one-seccion"
+    ],
+    "props" : {
+      "blockClass" : "home__bancos-item"
+    }
+  },
+  "flex-layout.col#home__bancos--two" : {
+    "children" : [
+      "image#home__bancos--two",
+      "rich-text#home__bancos--two",
+      "rich-text#bancos__two-seccion"
+    ],
+    "props" : {
+      "blockClass" : "home__bancos-item"
+    }
+  },
+  "flex-layout.col#home__bancos--three" : {
+    "children" : [
+      "image#home__bancos--three",
+      "rich-text#home__bancos--three",
+      "rich-text#bancos__three-seccion"
+    ],
+    "props" : {
+      "blockClass" : "home__bancos-item"
+    }
+  },
+  "flex-layout.col#home__bancos--four" : {
+    "children" : [
+      "image#home__bancos--four",
+      "rich-text#home__bancos--four",
+      "rich-text#bancos__four-seccion"
+    ],
+    "props" : {
+      "blockClass" : "home__bancos-item"
+    }
+  },
   "rich-text#home__bancos": {
     "props": {
       "textAlignment": "CENTER",
       "text": "Beneficios con bancos",
       "blockClass": "rich-text__categorys"
+    }
+  },
+  "rich-text#home__bancos--one" : {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "**[Tarjeta Alkosto Mastercard](https://andresrodriguez--itgloberspartnercl.myvtex.com/).**",
+      "blockClass" : "home__text--bancos"
+    }
+  },
+  "rich-text#home__bancos--two" : {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "**[Tarjeta de Crédito Fácil Codensa](https://andresrodriguez--itgloberspartnercl.myvtex.com/).**",
+      "blockClass" : "home__text--bancos"
+    }
+  },
+  "rich-text#home__bancos--three" : {
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "**[Conoce aquí nuestro plan 0 es 3](https://andresrodriguez--itgloberspartnercl.myvtex.com/).**",
+      "blockClass" : "home__text--bancos"
+    }
+  },
+  "rich-text#home__bancos--four" : {
+    "props": {
+      "textAlignment": "CENTER",
+      "blockClass" : "home__text--bancos",
+      "text": "**[Solicita aquí tu](https://andresrodriguez--itgloberspartnercl.myvtex.com/).**"
+    }
+  },
+  "rich-text#bancos__one-seccion" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "blockClass" : "bancos__four-seccion",
+      "text": "[Conoce las ofertas](https://andresrodriguez--itgloberspartnercl.myvtex.com/)."
+    }
+  },
+  "rich-text#bancos__three-seccion" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "blockClass" : "bancos__four-seccion",
+      "text": "[en equipos Apple](https://developers.vtex.com/vtex-developer-docs/docs/welcome)."
+    }
+  },
+  "rich-text#bancos__two-seccion" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "blockClass" : "bancos__four-seccion",
+      "text": "[Conoce las ofertas](https://andresrodriguez--itgloberspartnercl.myvtex.com/)."
+    }
+  },
+  "rich-text#bancos__four-seccion" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "blockClass" : "bancos__four-seccion",
+      "text": "[Krédito en 20 Minutos](https://andresrodriguez--itgloberspartnercl.myvtex.com/)."
+    }
+  },
+  "image#home__bancos--one": {
+    "title" : "Beneficios con bancos",
+    "props": {
+    "title" : "Beneficios con bancos",
+      "src": "assets/img/bancos1.png",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+      "blockClass": "home__silder--item"
+    }
+  },
+  "image#home__bancos--two": {
+    "title" : "Beneficios con bancos",
+    "props": {
+    "title" : "Beneficios con bancos",
+      "src": "assets/img/bancos2.png",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+      "blockClass": "home__silder--item"
+    }
+  },
+  "image#home__bancos--three": {
+    "title" : "Beneficios con bancos",
+    "props": {
+    "title" : "Beneficios con bancos",
+      "src": "assets/img/bancos3.png",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+      "blockClass": "home__silder--item"
+    }
+  },
+  "image#home__bancos--four": {
+    "title" : "Beneficios con bancos",
+    "props": {
+    "title" : "Beneficios con bancos",
+      "src": "assets/img/bancos4.png",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+      "blockClass": "home__silder--item"
     }
   }
 }
