@@ -34,7 +34,9 @@
   background-color: #f5f5f5;
   margin-top: 20px;
 }
-
+.flexColChild--home__departamento--one {
+  height: 20%;
+}
 .flexRow--home__section--one {
   margin-left: 20px;
   margin-bottom: 20px;
@@ -48,3 +50,11 @@
   margin: 0 auto;
 }
 
+.flexCol--home__container--tablet {
+  margin-right: auto;
+  margin-left: 45px;
+}
+
+/* .flexColChild--category__celphones {
+  height: ;
+} */
