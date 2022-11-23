@@ -33,7 +33,7 @@
       "flex-layout.col#home__category--pines",
       "flex-layout.col#home__category--colchones",
       "flex-layout.col#home__category--llantas",
-      "flex-layout.row#home__category--mascotas"
+      "flex-layout.col#home__category--mascotas"
     ],
     "props" : {
       "horizontalAlign" : "center",
@@ -67,7 +67,7 @@
       "flex-layout.col#home__category--hogar",
       "flex-layout.col#home__category--deportes",
       "flex-layout.col#home__category--iconoNavidad",
-      "flex-layout.col#home__category--llantas"
+      "flex-layout.col#home__category--ofertas"
     ],
     "props" : {
       "horizontalAlign" : "center",
@@ -83,7 +83,7 @@
       "blockClass" : "rich-text__category"
     }
   },
-  "flex-layout.row#home__category--mascotas" : {
+  "flex-layout.col#home__category--mascotas" : {
     "children" : [
       "image#home__image--mascotas",
       "rich-text#section__departamento--mascotas"

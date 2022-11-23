@@ -9,7 +9,10 @@
   "header-layout.desktop": {
     "children": [
       "header-row#header__top",
-      "header-row#header__middle"
+      // "header-row#header__middle",
+      // "menu#header__menu"
+      // "header-row#menu__seccion",
+      "header-row#menu__seccion"
     ]
   },
   "header-layout.mobile": {
@@ -48,7 +51,7 @@
   "header-row#header__middle": {
     "title": "header medio",
     "children": [
-      "drawer#header__mobile--menu",
+      // "drawer#header__mobile--menu",
       "search-bar#header__search"
     ]
   },
@@ -59,14 +62,14 @@
     "props" : {
       "openAutocompleteOnFocus": true
     }
-  },
+  }
   // "header-force-center#header__middle": {
   //   "children": []
   // },
-  "drawer#header__mobile--menu": {
-    "children": ["menu#header__menu"]
+  //"drawer#header__mobile--menu": {
+    // "children": ["menu#header__menu"]
     // "blocks": ["drawer-trigger"]
-  }
+  //}
   // "drawer-trigger": {
   //   "children": ["rich-text#header__text-menu"]
   // },

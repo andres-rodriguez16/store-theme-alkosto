@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#home__section--two-tablet",
       "flex-layout.row#home__text--category",
-      "flex-layout.row#section__two--text-tablet",
+      "flex-layout.row#container__categorias",
+      "flex-layout.col#home__category--mascotas",
       "flex-layout.row#home__section--banner",
       "flex-layout.row#home__container--seccion",
       "flex-layout.row#home__container-phone",
