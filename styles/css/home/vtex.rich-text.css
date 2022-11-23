@@ -53,3 +53,18 @@
 .container--bancos__four-seccion {
   margin: 0 auto;
 }
+
+.paragraph--text__celphones--title {
+  font-size: 13px;
+  margin: 0;
+  color: #eb5b25;
+}
+
+.paragraph--text__celphones--description {
+  font-size: 12px;
+  margin: 0;
+  color: #3f3f40;
+}
+.link--text__celphones--description {
+  color:#3f3f40;
+}

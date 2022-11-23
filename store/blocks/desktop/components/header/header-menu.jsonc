@@ -8,7 +8,9 @@
     "children": ["vtex.menu@2.x:menu#header__menu--seccion"]
   },
   "vtex.menu@2.x:menu#header__menu--seccion": {
-    "children": ["menu-item#department__celphones--one"]
+    "children": [
+      "menu-item#department__celphones--one"
+    ]
   },
   "menu-item#department__celphones--one": {
     "props": {
@@ -34,11 +36,13 @@
         "noFollow": true,
         "tagTitle": "Celulares",
         "text": "Celulares"
-      }
+      },
+      "blockClass" : "text__celphones--title"
     }
   },  
   "vtex.menu@2.x:submenu#department__celphones--one": {
-    "children": ["menu#department__celphones--one"],
+    "children": ["menu#department__celphones--one"
+  ],
     "props": {
       "blockClass": "category-container",
       "onMountBehavior": "open"
@@ -52,10 +56,7 @@
   "flex-layout.row#department__celphones--one" : {
     "children" : [
       "flex-layout.col#category__celphones--one",
-      "flex-layout.col#category__celphones--one",
-      "flex-layout.col#category__celphones--one",
-      "flex-layout.col#category__celphones--one",
-      "flex-layout.col#category__celphones--one"
+      "flex-layout.col#category__celphones--two"
   ],
     "props":{
       "orientation": "vertical"       
@@ -66,6 +67,7 @@
       "menu-item#department__celphones--celulares", 
       "rich-text#category__celphones--one-title1",
       "rich-text#category__celphones--one-description1",
+      "rich-text#category__celphones--one-title2",
       "rich-text#category__celphones--one-description2",
       "rich-text#category__celphones--one-title3",
       "rich-text#category__celphones--one-description3",
@@ -138,6 +140,56 @@
     "props":{
       "text":"[Sencilla](/) | [Dual](/)",
       "blockClass":"text__celphones--description"
+    }
+  },
+  "flex-layout.col#category__celphones--two":{
+    "children":[
+      "menu-item#category__celphones--two",
+      "rich-text#category__celphones--two-description1",
+      "rich-text#category__celphones--two-title1",
+      "rich-text#category__celphones--two-description2",
+      "rich-text#category__celphones--two-title2"
+    ],
+    "props":{
+      "blockClass":"category__celphones",
+      "colSizing":"auto"
+    } 
+  },  
+  "menu-item#category__celphones--two":{
+    "props":{
+      "id": "category-celphones--two",
+      "type": "custom",
+      "blockClass":"title__categories",
+      "itemProps": {
+        "href": "/catalogo",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios Celulares y Tabletas"
+        }
+    }
+  },  
+  "rich-text#category__celphones--two-description1":{
+    "props":{
+      "text":"[Carcasas y estuches](/)\n[Audífonos y manos libres](/)\n[Memorias Micro SD](/)\n[Baterías Externas Power Bank](/)\n[Cables, Cargadores, Adaptadores](/)\n[Bases y Soportes](/)\n[Selfie Stick](/)",
+      "blockClass":"text__celphones--two-description1"
+    }
+  },
+  "rich-text#category__celphones--two-title1":{
+    "props":{
+      "text":"Accesorios para iPhone",
+      "blockClass":"text__celphones--title"
+    }
+  },
+  "rich-text#category__celphones--two-description2":{
+    "props":{
+      "text":"[Carcasas y estuche](/) | \n[Cables, Cargadores, Adaptadores](/)",
+      "blockClass":"text__celphones--two-description2"
+    }
+  },
+  "rich-text#category__celphones--two-title2":{
+    "props":{
+      "text":"[Otros Accesorios](/)",
+      "blockClass":"text__celphones--two--title2"
     }
   }
 }
