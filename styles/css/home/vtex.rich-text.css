@@ -80,7 +80,7 @@
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: left;
 }
 
 .paragraph--text__celphones--three--title1,

@@ -9,6 +9,7 @@
 
 .submenuWrapper--category-container--isOpen {
   width: 98vw;
+  height: 100vh;
 }
 
 .styledLinkContainer--title__categories,
