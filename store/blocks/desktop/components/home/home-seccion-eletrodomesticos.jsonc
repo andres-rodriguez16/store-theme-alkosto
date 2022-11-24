@@ -1,0 +1,93 @@
+{
+  "flex-layout.row#home__container-eletrodomesticos" : {
+    "children" : [
+      "flex-layout.col#home__seccion-four"
+    ],
+    "props" : {
+      "blockClass" : "home__container--seccion"
+    }
+  },
+    "flex-layout.col#home__seccion-four" : {
+      "children" : [
+        "flex-layout.row#home__text--eletrodomesticos",
+        "slider-layout#home__slider--eletrodomesticos"
+      ],
+      "props" : {
+        "blockClass" : "home__seccion--one"
+      }
+    },
+    "slider-layout#home__slider--eletrodomesticos": {
+      "title": "slider con hijos declarados",
+      "props":{
+        "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 3,
+            "phone": 1.5
+        },
+        "showPaginationDots":"never",
+        "showNavigationArrows": "never",
+        "infinite": false,
+        "usePagination" : false,
+        "blockClass": "home__slider--celulares"
+      },
+      "children": [
+        "image#home__eletrodomesticos--one",
+        "image#home__eletrodomesticos--two",
+        "image#home__eletrodomesticos--three"
+      ]
+    },
+    "image#home__eletrodomesticos--one": {
+      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+      "props": {
+      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+        "src": "assets/img/eletrodomesticos1.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "image#home__eletrodomesticos--two": {
+      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+      "props": {
+      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+        "src": "assets/img/eletrodomesticos2.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "image#home__eletrodomesticos--three": {
+      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+      "props": {
+      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+        "src": "assets/img/eletrodomesticos3.jpg",
+        "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+        "blockClass" : "home__silder--item"
+      }
+    },
+    "flex-layout.row#home__text--eletrodomesticos" : {
+      "children" : [
+        "rich-text#home__eletrodomesticos"
+      ],
+      "props" : {
+        "blockClass" : "home__container--celulares"
+      }
+    },
+    "rich-text#home__eletrodomesticos" : {
+      "props" : {
+        "textAlignment": "CENTER",
+        "text" : "[Eletrodomésticos](https://www.markdownguide.org/basic-syntax/)",
+        "blockClass" : "rich-text__categorys"
+      }
+    }
+}

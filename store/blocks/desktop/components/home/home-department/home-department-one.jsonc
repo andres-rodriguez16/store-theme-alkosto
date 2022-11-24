@@ -1,0 +1,57 @@
+{
+  "flex-layout.col#section__departamento--one" : {
+    "children" : [
+      "flex-layout.col#home__category--celulares",
+      "flex-layout.col#home__category--audio",
+      "flex-layout.col#home__category--pines",
+      "flex-layout.col#home__category--colchones"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--celulares" : {
+    "title" : "categoria de celulares",
+    "children" : [
+      "image#home__image--celulares",
+      "rich-text#section__departamento--celulares"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--audio" : {
+    "title" : "categoria de audio",
+    "children" : [
+      "image#home__image--audio",
+      "rich-text#section__departamento--audio"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+      
+    }
+  },
+  "flex-layout.col#home__category--pines" : {
+    "title" : "categoria de pines",
+    "children" : [
+      "image#home__image--Pines",
+      "rich-text#section__departamento--pines"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--colchones" : {
+    "title" : "categoria de colchones",
+    "children" : [
+      "image#home__image--colchones",
+      "rich-text#section__departamento--colchones"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  }
+}

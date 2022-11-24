@@ -1,0 +1,81 @@
+{
+  "header": {
+    "title": "Header",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#header__top",
+      // "header-row#header__middle",
+      // "menu#header__menu"
+      // "header-row#menu__seccion",
+      "header-row#menu__seccion"
+    ]
+  },
+  "header-layout.mobile": {
+    "children": ["header-row#header__top", "header-row#header__middle"]
+  },
+  "header-row#header__top": {
+    "title": "Header superior",
+    "children": [
+      "logo#header__top--logo",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "passwordPlaceholder": "password",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true
+    }
+  },
+  // "modal-layout#header__top--login": {
+  //   "children": ["login-content"]
+  // },
+  "logo#header__top--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/alkosto-logo.svg",
+      "width": 221,
+      "href": "/"
+    }
+  },
+  "header-row#header__middle": {
+    "title": "header medio",
+    "children": [
+      // "drawer#header__mobile--menu",
+      "search-bar#header__search"
+    ]
+  },
+  "search-bar#header__search" : {
+    "blocks" : [
+      "autocomplete-result-list.v2"
+    ],
+    "props" : {
+      "openAutocompleteOnFocus": true
+    }
+  }
+  // "header-force-center#header__middle": {
+  //   "children": []
+  // },
+  //"drawer#header__mobile--menu": {
+    // "children": ["menu#header__menu"]
+    // "blocks": ["drawer-trigger"]
+  //}
+  // "drawer-trigger": {
+  //   "children": ["rich-text#header__text-menu"]
+  // },
+  // "rich-text#header__text-menu": {
+  //   "props": {
+  //     "text": "Menu"
+  //   }
+  // },
+}

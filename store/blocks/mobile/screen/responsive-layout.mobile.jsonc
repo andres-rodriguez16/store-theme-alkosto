@@ -1,0 +1,19 @@
+{
+  "responsive-layout.phone#home__info--phone": {
+    "children": [
+      "flex-layout.row#home__section--two-mobile",
+      "flex-layout.row#home__text--category",
+      "flex-layout.row#section__two--text-mobile",
+      "flex-layout.row#home__section--banner",
+      "flex-layout.row#home__container--seccion",
+      "flex-layout.row#home__container-phone",
+      "flex-layout.row#home__container--computadores",
+      "flex-layout.row#home__container-tv",
+      "flex-layout.row#home__container-eletrodomesticos",
+      "flex-layout.row#home__container--otros",
+      "flex-layout.row#home__container--conoces-mas",
+      "flex-layout.row#home__section--banner-two",
+      "flex-layout.row#home__container--bancos"
+    ]
+  }
+}

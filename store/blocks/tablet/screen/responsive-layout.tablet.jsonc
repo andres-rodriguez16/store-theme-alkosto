@@ -1,0 +1,20 @@
+{
+  "responsive-layout.tablet#home__info--tablet": {
+    "children": [
+      "flex-layout.row#home__section--two-tablet",
+      "flex-layout.row#home__text--category",
+      "flex-layout.row#container__categorias",
+      "flex-layout.col#home__category--mascotas",
+      "flex-layout.row#home__section--banner",
+      "flex-layout.row#home__container--seccion",
+      "flex-layout.row#home__container-phone",
+      "flex-layout.row#home__container--computadores",
+      "flex-layout.row#home__container-tv",
+      "flex-layout.row#home__container-eletrodomesticos",
+      "flex-layout.row#home__container--otros",
+      "flex-layout.row#home__container--conoces-mas",
+      "flex-layout.row#home__section--banner-two",
+      "flex-layout.row#home__container--bancos"
+    ]
+  }
+}

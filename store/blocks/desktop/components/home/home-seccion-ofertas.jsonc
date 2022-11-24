@@ -1,0 +1,100 @@
+{
+  "flex-layout.row#home__container--seccion" : {
+    "children" : [
+      "flex-layout.col#home__container--ofertas"
+    ],
+    "props" : {
+      "blockClass" : "home__container--ofertas"
+    }
+  },
+  "flex-layout.col#home__container--ofertas" : {
+    "children" : [
+      "flex-layout.row#home__text--ofertas",
+      "slider-layout#home__slider--ofertas"
+    ]
+  },
+  "slider-layout#home__slider--ofertas": {
+    "title": "slider con hijos declarados",
+    "props":{
+      "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 1.5
+      },
+      "showPaginationDots":"never",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "usePagination" : false,
+      "blockClass": "home__slider--ofertas"
+    },
+    "children": [
+      "image#home__oferta--one",
+      "image#home__oferta--two",
+      "image#home__oferta--three",
+      "image#home__oferta--four"
+    ]
+  },
+  "image#home__oferta--one": {
+    "title" : "Ofertas Destacadas",
+    "props": {
+    "title" : "Ofertas Destacadas",
+      "src": "assets/img/oferta1.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__oferta--two": {
+    "title" : "Ofertas Destacadas",
+    "props": {
+    "title" : "Ofertas Destacadas",
+      "src": "assets/img/oferta2.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__oferta--three": {
+    "title" : "Ofertas Destacadas",
+    "props": {
+    "title" : "Ofertas Destacadas",
+      "src": "assets/img/oferta3.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__oferta--four": {
+    "title" : "Ofertas Destacadas",
+    "props": {
+    "title" : "Ofertas Destacadas",
+      "src": "assets/img/oferta4.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "flex-layout.row#home__text--ofertas" : {
+    "children" : [
+      "rich-text#home__ofertas"
+    ],
+    "props" : {
+      "blockClass" : "home__container--text"
+    }
+  },
+  "rich-text#home__ofertas" : {
+    "props" : {
+      "textAlignment": "CENTER",
+      "text" : "Ofertas Destacadas",
+      "blockClass" : "rich-text__categorys"
+    }
+  }
+}

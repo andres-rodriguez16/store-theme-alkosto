@@ -1,0 +1,320 @@
+{
+  "image#home__image" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/imagefive.jpg",
+      "max" : 600,
+      "title" : "B2B Commerce",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--three" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/imageFour.jpg",
+      "max" : 600,
+      "title" : "B2B Commerce",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--celulares" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/celulares.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--muebles" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/boton-mueble.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--audio" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/audio.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--Pines" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/pines.png",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--colchones" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/colchones.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--computador" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/computador.png",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--videojuegos" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/videojuegos.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--impresoras" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/impresoras.png",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--televisores" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/televisor.png",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--accesorios" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/accesorios.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--hogar" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/hogar.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--deportes" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/deportes.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--Electrodomesticos" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/electrodomesticos.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--reloj" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/reloj.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--juguetes" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/juguetes.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--llantas" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/llanta.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--electro-menores" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/electro-menores.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  }, 
+  "image#home__image--tablet" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/tablet.jpg",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--icono-navidad" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/icono-navidad.png",
+      "max" : 600,
+      "title" : "Categorías",
+      "blockClass" : "home_image",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__image--two" : {
+    "title" : "Image de home",
+    "props" : {
+      "src" :"assets/img/publi.jpg",
+      "blockClass" : "home_image--banner",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#home__banner2" : {
+    "title" : "banner 2",
+    "props" : {
+      "src" :"assets/img/banner2.jpg",
+      "blockClass" : "home_image--banner",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+
+{
+  "image#header__logo" : {
+    "title" : "Logo del header",
+    "props" : {
+      "src" :"assets/img/alkosto-logo.svg",
+      "max" : 221,
+      "blockClass" : "header__logo"
+    }
+  }
+}

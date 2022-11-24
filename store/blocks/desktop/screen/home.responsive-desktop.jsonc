@@ -1,0 +1,17 @@
+{
+  "responsive-layout.desktop#home__info--desktop": {
+    "children": [
+      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__section--banner",
+      "flex-layout.row#home__container--seccion",
+      "flex-layout.row#home__container-phone",
+      "flex-layout.row#home__container--computadores",
+      "flex-layout.row#home__container-tv",
+      "flex-layout.row#home__container-eletrodomesticos",
+      "flex-layout.row#home__container--otros",
+      "flex-layout.row#home__container--conoces-mas",
+      "flex-layout.row#home__section--banner-two",
+      "flex-layout.row#home__container--bancos"
+    ]
+  }
+}
