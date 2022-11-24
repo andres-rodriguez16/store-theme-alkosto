@@ -58,3 +58,31 @@
 /* .flexColChild--category__celphones {
   height: ;
 } */
+
+.flexCol--category__celphones--one {
+  width: 65% !important;
+}
+
+.flexCol--category__celphones--two {
+  height: 70%;
+  width: 70% !important;
+}
+
+.flexCol--category__celphones--three  {
+  width: 65% !important;
+    height: 55%;
+}
+
+.flexCol--col__category__celphones--four {
+  width: 65%!important;
+  height: 10%;
+}
+.flexCol--col__category__celphones--five {
+  width: 60% !important;
+  height: 30%;
+}
+
+:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  /* background-color: rgb(0, 255, 76); */
+  /*width: 17% !important;*/
+}

@@ -56,7 +56,10 @@
   "flex-layout.row#department__celphones--one" : {
     "children" : [
       "flex-layout.col#category__celphones--one",
-      "flex-layout.col#category__celphones--two"
+      "flex-layout.col#category__celphones--two",
+      "flex-layout.col#category__celphones--three",
+      "flex-layout.col#category__celphones--four",
+      "flex-layout.col#category__celphones--five"
   ],
     "props":{
       "orientation": "vertical"       
@@ -77,7 +80,7 @@
       "rich-text#category__celphones--one-description5"
     ],
     "props":{
-      "blockClass":"category__celphones",
+      "blockClass":"category__celphones--one",
       "colSizing":"auto"
     } 
   },
@@ -151,26 +154,35 @@
       "rich-text#category__celphones--two-title2"
     ],
     "props":{
-      "blockClass":"category__celphones",
+      "blockClass":"category__celphones--two",
       "colSizing":"auto"
     } 
-  },  
+  }, 
   "menu-item#category__celphones--two":{
     "props":{
       "id": "category-celphones--two",
       "type": "custom",
-      "blockClass":"title__categories",
+      "blockClass":"title__categories--two",
       "itemProps": {
         "href": "/catalogo",
         "noFollow": true,
         "tagTitle": "Accesorios",
-        "text": "Accesorios Celulares y Tabletas"
+        "text": "Accesorios Celulares y Tabletas",
+        "iconProps": {
+          "id": "bnd-logo",
+          "size": 16,
+          "viewBox": "0 0 16 16",
+          "activeClassName": "rebel-pink",
+          "mutedClassName": "c-action-primary"
+        }
+        // ,
+        // "iconToTheRight": true
         }
     }
   },  
   "rich-text#category__celphones--two-description1":{
     "props":{
-      "text":"[Carcasas y estuches](/)\n[Audífonos y manos libres](/)\n[Memorias Micro SD](/)\n[Baterías Externas Power Bank](/)\n[Cables, Cargadores, Adaptadores](/)\n[Bases y Soportes](/)\n[Selfie Stick](/)",
+      "text":"[Carcasas y estuches](/)\n[Audífonos y manos libres](/)\n[Memorias Micro SD](/)\n[Baterías Externas Power Bank](/)\n[Cables, Cargadores, Adaptadores](/)\n[Bases y Soportes](/)\n[Selfie Stick](/)\n[Otros Accesorios](/)",
       "blockClass":"text__celphones--two-description1"
     }
   },
@@ -188,8 +200,137 @@
   },
   "rich-text#category__celphones--two-title2":{
     "props":{
-      "text":"[Otros Accesorios](/)",
+      "text":"",
       "blockClass":"text__celphones--two--title2"
+    }
+  },
+  "flex-layout.col#category__celphones--three":{
+    "children":[
+      "menu-item#category__celphones--three",
+      "rich-text#category__celphones--three-description1",
+      "rich-text#category__celphones--three-title1",
+      "rich-text#category__celphones--three-description2",
+      "rich-text#category__celphones--three-title2",
+      "rich-text#category__celphones--three-description3"
+    ],
+    "props":{
+      "blockClass":"category__celphones--three",
+      "colSizing":"auto"
+    } 
+  },
+  "menu-item#category__celphones--three":{
+    "props":{
+      "id": "category-celphones-three",
+      "type": "custom",
+      "blockClass":"title__categories",
+      "itemProps": {
+        "href": "/catalogo",
+        "noFollow": true,
+        "tagTitle": "Smartwatch",
+        "text": "Smartwatch"
+      }
+    }
+  },
+  "rich-text#category__celphones--three-description1":{
+    "props":{
+      "text":"[Relojes](/)\n[Bandas de Actividad](/)",
+      "blockClass":"text__celphones--three-description1"
+    }
+  },  
+  "rich-text#category__celphones--three-title1":{
+    "props":{
+      "text":"Marca",
+      "blockClass":"text__celphones--three--title1"
+    }
+  },  
+  "rich-text#category__celphones--three-description2":{
+    "props":{
+      "text":"[Apple Watch](/) | [Huawei](/) | [Samsung](/) |\n[Fitbit](/) | [Garmin](/) | [Xiaomi](/) | [Kalley](/) |\n[Multitech](/)",
+      "blockClass":"text__celphones--three-description2"
+    }
+  },
+  "rich-text#category__celphones--three-title2":{
+    "props":{
+      "text":"Accesorios para Smartwatch",
+      "blockClass":"text__celphones--three--title2"
+    }
+  }, 
+  "rich-text#category__celphones--three-description3":{
+    "props":{
+      "text":"[Cargadores](/) | [Correas](/)",
+      "blockClass":"text__celphones--three-description3"
+    }
+  },
+  "flex-layout.col#category__celphones--four":{
+    "children":[
+      "menu-item#category__celphones--four",
+      "rich-text#category__celphones--four-description1",
+      "rich-text#category__celphones--four-title1",
+      "rich-text#category__celphones--four-description2"
+    ],
+    "props":{
+      "blockClass":"col__category__celphones--four",
+      "colSizing":"auto"
+    } 
+  },
+  "menu-item#category__celphones--four":{
+    "props":{
+      "id": "category-celphones-four",
+      "type": "custom",
+      "blockClass":"title__categories",
+      "itemProps": {
+        "href": "/catalogo",
+        "noFollow": true,
+        "tagTitle": "Tabletas",
+        "text": "Tabletas"
+      }
+    }
+  },
+  "rich-text#category__celphones--four-description1":{
+    "props":{
+      "text":"[iPad](/)\n[Android](/)\n[Accesorios](/)",
+      "blockClass":"text__celphones--four-description1"
+    }
+  },  
+  "rich-text#category__celphones--four-title1":{
+    "props":{
+      "text":"Marca",
+      "blockClass":"text__celphones--four--title1"
+    }
+  },  
+  "rich-text#category__celphones--four-description2":{
+    "props":{
+      "text":"[Apple](/) | [Samsung](/) | [Lenovo](/) | [Huawei](/) |\n[Alcatel](/) | [Multitech](/)",
+      "blockClass":"text__celphones--four-description2"
+    }
+  },
+  "flex-layout.col#category__celphones--five":{
+    "children":[
+      "menu-item#category__celphones--five",
+      "rich-text#category__celphones--five-description1"
+    ],
+    "props":{
+      "blockClass":"col__category__celphones--five",
+      "colSizing":"auto"
+    } 
+  },
+  "menu-item#category__celphones--five":{
+    "props":{
+      "id": "category-celphones-five",
+      "type": "custom",
+      "blockClass":"title__categories",
+      "itemProps": {
+        "href": "/quienes-somos",
+        "noFollow": true,
+        "tagTitle": "Conoce mas",
+        "text": "Conoce más"
+      }
+    }
+  },
+  "rich-text#category__celphones--five-description1":{
+    "props":{
+      "text":"[Seguro gratis](/)\n[Guía de compra](/)\n[Celulares Baratos](/)\n[Celulares Nuevos](/)",
+      "blockClass":"text__celphones--five-description1"
     }
   }
 }
