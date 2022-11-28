@@ -1,3 +1,25 @@
 .headerRowContainer {
   background-color: rgb(0, 71, 151);
 }
+
+.headerRowContainer--header__desktop--menu {
+  background-color: white;
+  border-top: 3px solid #eb5b25;
+}
+.headerRowContainer--header__container {
+  display: flex;
+  justify-content: space-around;
+}
+.headerRowContentContainer--header__top--information {
+  padding: 0;
+}
+
+.headerRowContentContainer--header__bottom {
+  padding: 0;
+}
+
+.headerRowContainer--header__top--information {
+  display: flex;
+  justify-content: space-around;
+}
+

@@ -7,25 +7,62 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "header-row#header__top",
-      // "header-row#header__middle",
-      // "menu#header__menu"
-      // "header-row#menu__seccion",
-      "header-row#menu__seccion"
-    ]
+    "children": ["header-row#header__container", "header-row#menu__seccion"]
   },
   "header-layout.mobile": {
-    "children": ["header-row#header__top", "header-row#header__middle"]
+    "children": ["header-row#header__container", "header-row#menu__seccion"]
   },
-  "header-row#header__top": {
-    "title": "Header superior",
+  "header-row#header__container": {
     "children": [
       "logo#header__top--logo",
+      "flex-layout.row#header__conatiner--callToAction"
+    ],
+    "props": {
+      "blockClass": "header__container"
+    }
+  },
+  // "header-row#header__logo": {
+  //   "title": "logo",
+  //   "children": ["logo#header__top--logo"]
+  // },
+  "flex-layout.row#header__conatiner--callToAction": {
+    "children": ["flex-layout.col#header__callToAction"],
+    "props": {
+      "blockClass": "header-callToAction-row"
+    }
+  },
+  "flex-layout.col#header__callToAction": {
+    "children": [
+      "header-row#header__top--information",
+      "header-row#header__bottom"
+    ],
+    "props": {
+      "blockClass": "header-callToAction-col"
+    }
+  },
+  "header-row#header__top--information": {
+    "children": [
+      "rich-text#header__bottom--hiperofertas",
+      "rich-text#header__text--ventas",
+      "rich-text#header__text--seguimiento",
+      "rich-text#header__text--servicio",
+      "rich-text#header__text--catalogo",
+      "rich-text#header__text-ayuda"
+    ],
+    "props": {
+      "blockClass": "header__top--information"
+    }
+  },
+  "header-row#header__bottom": {
+    "children": [
+      "search-bar#header__search",
       "header-spacer",
       "login",
       "minicart.v2"
-    ]
+    ],
+    "props": {
+      "blockClass": "header__bottom"
+    }
   },
   "login": {
     "props": {
@@ -51,31 +88,77 @@
   "header-row#header__middle": {
     "title": "header medio",
     "children": [
-      // "drawer#header__mobile--menu",
+      "drawer#header__mobile--menu",
       "search-bar#header__search"
     ]
   },
-  "search-bar#header__search" : {
-    "blocks" : [
-      "autocomplete-result-list.v2"
-    ],
-    "props" : {
-      "openAutocompleteOnFocus": true
+  "search-bar#header__search": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "displayMode": "search-and-clear-buttons",
+      "maxWidth": 500,
+      "placeholder" : "¿Qué buscas hoy?"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "drawer#header__mobile--menu": {
+  "children": ["menu#header__menu"],
+  "blocks": ["drawer-trigger"]
+  },
+  "drawer-trigger": {
+    "children": []
+  },
+
+
+  "icon#home__orders--icon": {
+    "props": {
+      "id": "menu-tvicon",
+      "size": 20
+    }
+  },
+  "rich-text#header__bottom--hiperofertas": {
+    "props": {
+      "text": "Hiperofertas",
+      "blockClass" : "header__top--butoom"
+    }
+  },
+  "rich-text#header__text--ventas": {
+    "props": {
+      "text": "Venta: (601) 7468001",
+      "blockClass" : "header__top--text"
+    }
+  },
+  "rich-text#header__text--seguimiento": {
+    "props": {
+      "text": "Sigue tu pedido",
+      "blockClass" : "header__top--text"
+    }
+  },
+  "rich-text#header__text--servicio": {
+    "props": {
+      "text": "Servicio: (601) 407 3033",
+      "blockClass" : "header__top--text"
+    }
+  },
+  "rich-text#header__text--nuestraTienda": {
+    "props": {
+      "text": "Nuestras tiendas",
+      "blockClass" : "header__top--text"
+    }
+  },
+  "rich-text#header__text--catalogo": {
+    "props": {
+      "text": "Catálogo",
+      "blockClass" : "header__top--text"
+    }
+  },
+  "rich-text#header__text-ayuda": {
+    "props": {
+      "text": "Ayuda",
+      "blockClass" : "header__top--text"
     }
   }
-  // "header-force-center#header__middle": {
-  //   "children": []
-  // },
-  //"drawer#header__mobile--menu": {
-    // "children": ["menu#header__menu"]
-    // "blocks": ["drawer-trigger"]
-  //}
-  // "drawer-trigger": {
-  //   "children": ["rich-text#header__text-menu"]
-  // },
-  // "rich-text#header__text-menu": {
-  //   "props": {
-  //     "text": "Menu"
-  //   }
-  // },
 }

@@ -9,6 +9,8 @@
   },
   "vtex.menu@2.x:menu#header__menu--seccion": {
     "children": [
+      "menu-item#department__celphones--one",
+      "menu-item#department__celphones--one",
       "menu-item#department__celphones--one"
     ]
   },
@@ -62,6 +64,7 @@
       "flex-layout.col#category__celphones--five"
   ],
     "props":{
+      "blockClass" : "container__menu",
       "orientation": "vertical"       
     }
   },

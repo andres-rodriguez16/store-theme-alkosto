@@ -22,3 +22,9 @@
 .imageElement--home__silder--item {
   margin: 0 auto;
 }
+
+.searchBarIcon--external-search {
+  background: #eb5b25;
+  color: white;
+  padding: 10px;
+}
