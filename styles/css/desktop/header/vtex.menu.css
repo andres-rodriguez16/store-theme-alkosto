@@ -29,3 +29,7 @@
   border-bottom: 2px solid #eb5b25;
   padding-bottom: 2px;
 }
+
+.submenuContainer--category-container {
+  position: initial;
+}

@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__container-tv" : {
+    "title": "container seccion of televisores",
     "children" : [
       "flex-layout.col#home__seccion-three"
     ],
@@ -8,6 +9,7 @@
     }
   },
     "flex-layout.col#home__seccion-three" : {
+    "title": "container seccion of televisores bottom",
       "children" : [
         "flex-layout.row#home__text--tv",
         "slider-layout#home__slider--tv"
@@ -17,7 +19,7 @@
       }
     },
     "slider-layout#home__slider--tv": {
-      "title": "slider con hijos declarados",
+      "title": "slider of televisores with text",
       "props":{
         "itemsPerPage": {
             "desktop": 3,
@@ -37,7 +39,7 @@
       ]
     },
     "image#home__tv--one": {
-      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
+      "title" : "image slider one",
       "props": {
       "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
         "src": "assets/img/televisores1.jpg",
@@ -50,7 +52,7 @@
       }
     },
     "image#home__tv--two": {
-      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
+      "title" : "image slider two",
       "props": {
       "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
         "src": "assets/img/televisores2.jpg",
@@ -63,7 +65,7 @@
       }
     },
     "image#home__tv--three": {
-      "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
+    "title": "image slider three",
       "props": {
       "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
         "src": "assets/img/televisores3.jpg",
@@ -76,6 +78,7 @@
       }
     },
     "flex-layout.row#home__text--tv" : {
+    "title": "container televisores",
       "children" : [
         "rich-text#home__tv"
       ],
@@ -84,6 +87,7 @@
       }
     },
     "rich-text#home__tv" : {
+    "title": "text televisores",
       "props" : {
         "textAlignment": "CENTER",
         "text" : "[Televisores](https://www.markdownguide.org/basic-syntax/)",

@@ -1,18 +1,10 @@
 {
-  "header": {
-    "title": "Header",
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
   "header-layout.desktop": {
+    "title" : "resolution desktop",
     "children": ["header-row#header__container", "header-row#menu__seccion"]
   },
-  "header-layout.mobile": {
-    "children": ["logo#header__top--logo", "header-row#header__middle"]
-  },
   "header-row#header__container": {
+    "title" :  "header container desktop",
     "children": [
       "logo#header__top--logo",
       "flex-layout.row#header__conatiner--callToAction"
@@ -21,17 +13,15 @@
       "blockClass": "header__container"
     }
   },
-  // "header-row#header__logo": {
-  //   "title": "logo",
-  //   "children": ["logo#header__top--logo"]
-  // },
   "flex-layout.row#header__conatiner--callToAction": {
+    "title" : "header__callToAction",
     "children": ["flex-layout.col#header__callToAction"],
     "props": {
       "blockClass": "header-callToAction-row"
     }
   },
   "flex-layout.col#header__callToAction": {
+    "title" : "callToAction__container",
     "children": [
       "header-row#header__top--information",
       "header-row#header__bottom"
@@ -41,6 +31,7 @@
     }
   },
   "header-row#header__top--information": {
+    "title" : "header top__callToAction",
     "children": [
       "rich-text#header__bottom--hiperofertas",
       "rich-text#header__text--ventas",
@@ -54,6 +45,7 @@
     }
   },
   "header-row#header__bottom": {
+    "title" : "header__bottom--container",
     "children": [
       "search-bar#header__search",
       "header-spacer",
@@ -65,13 +57,15 @@
     }
   },
   "login": {
+    "title" : "login",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": true
+      "showIconProfile": false,
+      "iconLabel": "Mi cuenta"
     }
   },
   // "modal-layout#header__top--login": {
@@ -85,11 +79,8 @@
       "href": "/"
     }
   },
-  "header-row#header__middle": {
-    "title": "header medio",
-    "children": ["drawer#header__mobile--menu", "search-bar#header__search"]
-  },
   "search-bar#header__search": {
+    "title" : "search-bar",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
@@ -99,111 +90,53 @@
     }
   },
   "autocomplete-result-list.v2": {
+    "title" : "search-bar__autocomplete",
     "blocks": ["product-summary"]
   },
-  "drawer#header__mobile--menu": {
-    "children": ["vtex.menu@2.x:menu#mobile__menu"],
-    "blocks": []
-  },
-  "drawer-trigger": {
-    "children": []
-  },
-
-  "vtex.menu@2.x:menu#mobile__menu": {
-    "children": ["menu-item#shop", "login", "minicart.v2"],
-    "props" : {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#shop": {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#shop"]
-  },
-  "vtex.menu@2.x:submenu#shop": {
-    "children": ["vtex.menu@2.x:menu#submenushop"]
-  },
-  "vtex.menu@2.x:menu#submenushop": {
-    "children": [
-      "menu-item#shop2"
-    ]
-  },
-  "menu-item#shop2" : {
-    "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "hola",
-        "text": "hola"
-      }
-    }
-  },
-
-
-
-
-
-
-
-
-
-
-
-  "icon#home__orders--icon": {
-    "props": {
-      "id": "menu-tvicon",
-      "size": 20
-    }
-  },
   "rich-text#header__bottom--hiperofertas": {
+    "title" : "hiperofertas text",
     "props": {
       "text": "Hiperofertas",
       "blockClass": "header__top--butoom"
     }
   },
   "rich-text#header__text--ventas": {
+    "title" : "ventas text",
     "props": {
       "text": "Venta: (601) 7468001",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text--seguimiento": {
+    "title" : "seguimiento text",
     "props": {
       "text": "Sigue tu pedido",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text--servicio": {
+    "title" : "Servicio text",
     "props": {
       "text": "Servicio: (601) 407 3033",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text--nuestraTienda": {
+    "title" : "Nuestras tiendas text",
     "props": {
       "text": "Nuestras tiendas",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text--catalogo": {
+    "title" : "catalogo text",
     "props": {
       "text": "Catálogo",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text-ayuda": {
+    "title" : "ayuda text",
     "props": {
       "text": "Ayuda",
       "blockClass": "header__top--text"

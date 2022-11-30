@@ -1,11 +1,13 @@
 {
   "flex-layout.row#home__container--bancos": {
+    "title" : "container seccion of bank",
     "children": ["flex-layout.col#home__seccion-seven"],
     "props": {
       "blockClass": "home__container--seccion"
     }
   },
   "flex-layout.col#home__seccion-seven": {
+    "title" : "container seccion of bank bottom",
     "children": [
       "flex-layout.row#home__text--bancos",
       "slider-layout#home__slider--bancos"
@@ -15,7 +17,7 @@
     }
   },
   "slider-layout#home__slider--bancos": {
-    "title": "slider con hijos declarados",
+    "title": "slider of bank with text",
     "props": {
       "itemsPerPage": {
         "desktop": 4,
@@ -36,12 +38,14 @@
     ]
   },
   "flex-layout.row#home__text--bancos": {
+    "title" : "text bank",
     "children": ["rich-text#home__bancos"],
     "props": {
       "blockClass": "home__container--celulares"
     }
   },
   "flex-layout.col#home__bancos--one" : {
+    "title" : "slider of one bank",
     "children" : [
       "image#home__bancos--one",
       "rich-text#home__bancos--one",
@@ -52,6 +56,7 @@
     }
   },
   "flex-layout.col#home__bancos--two" : {
+    "title" : "slider of two bank",
     "children" : [
       "image#home__bancos--two",
       "rich-text#home__bancos--two",
@@ -62,6 +67,7 @@
     }
   },
   "flex-layout.col#home__bancos--three" : {
+    "title" : "slider of three bank",
     "children" : [
       "image#home__bancos--three",
       "rich-text#home__bancos--three",
@@ -72,6 +78,7 @@
     }
   },
   "flex-layout.col#home__bancos--four" : {
+    "title" : "slider of four bank",
     "children" : [
       "image#home__bancos--four",
       "rich-text#home__bancos--four",
@@ -82,6 +89,7 @@
     }
   },
   "rich-text#home__bancos": {
+    "title" : "Beneficios con bancos text",
     "props": {
       "textAlignment": "CENTER",
       "text": "Beneficios con bancos",
@@ -89,6 +97,7 @@
     }
   },
   "rich-text#home__bancos--one" : {
+    "title" : "slider text one",
     "props": {
       "textAlignment": "CENTER",
       "text": "**[Tarjeta Alkosto Mastercard](https://andresrodriguez--itgloberspartnercl.myvtex.com/).**",
@@ -96,6 +105,7 @@
     }
   },
   "rich-text#home__bancos--two" : {
+    "title" : "slider text two",
     "props": {
       "textAlignment": "CENTER",
       "text": "**[Tarjeta de Crédito Fácil Codensa](https://andresrodriguez--itgloberspartnercl.myvtex.com/).**",
@@ -103,6 +113,7 @@
     }
   },
   "rich-text#home__bancos--three" : {
+    "title" : "slider text three",
     "props": {
       "textAlignment": "CENTER",
       "text": "**[Conoce aquí nuestro plan 0 es 3](https://andresrodriguez--itgloberspartnercl.myvtex.com/).**",
@@ -110,6 +121,7 @@
     }
   },
   "rich-text#home__bancos--four" : {
+    "title" : "slider text four",
     "props": {
       "textAlignment": "CENTER",
       "blockClass" : "home__text--bancos",
@@ -117,6 +129,7 @@
     }
   },
   "rich-text#bancos__one-seccion" : {
+    "title" : "text Conoce las ofertas",
     "props" : {
       "textAlignment": "CENTER",
       "blockClass" : "bancos__four-seccion",
@@ -124,6 +137,7 @@
     }
   },
   "rich-text#bancos__three-seccion" : {
+    "title" : "en equipos Apple text",
     "props" : {
       "textAlignment": "CENTER",
       "blockClass" : "bancos__four-seccion",
@@ -131,6 +145,7 @@
     }
   },
   "rich-text#bancos__two-seccion" : {
+    "title" : "text Conoce las ofertas",
     "props" : {
       "textAlignment": "CENTER",
       "blockClass" : "bancos__four-seccion",
@@ -138,6 +153,7 @@
     }
   },
   "rich-text#bancos__four-seccion" : {
+    "title" : "Krédito en 20 Minutos text",
     "props" : {
       "textAlignment": "CENTER",
       "blockClass" : "bancos__four-seccion",
@@ -145,7 +161,7 @@
     }
   },
   "image#home__bancos--one": {
-    "title" : "Beneficios con bancos",
+    "title" : "image slider one",
     "props": {
     "title" : "Beneficios con bancos",
       "src": "assets/img/bancos1.png",
@@ -158,7 +174,7 @@
     }
   },
   "image#home__bancos--two": {
-    "title" : "Beneficios con bancos",
+    "title" : "image slider two",
     "props": {
     "title" : "Beneficios con bancos",
       "src": "assets/img/bancos2.png",
@@ -171,7 +187,7 @@
     }
   },
   "image#home__bancos--three": {
-    "title" : "Beneficios con bancos",
+    "title" : "image slider three",
     "props": {
     "title" : "Beneficios con bancos",
       "src": "assets/img/bancos3.png",
@@ -184,7 +200,7 @@
     }
   },
   "image#home__bancos--four": {
-    "title" : "Beneficios con bancos",
+    "title" : "image slider four",
     "props": {
     "title" : "Beneficios con bancos",
       "src": "assets/img/bancos4.png",

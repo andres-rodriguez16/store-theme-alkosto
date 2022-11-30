@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__container--seccion" : {
+    "title": "container seccion of ofertas",
     "children" : [
       "flex-layout.col#home__container--ofertas"
     ],
@@ -8,13 +9,14 @@
     }
   },
   "flex-layout.col#home__container--ofertas" : {
+    "title": "container seccion of ofertas bottom",
     "children" : [
       "flex-layout.row#home__text--ofertas",
       "slider-layout#home__slider--ofertas"
     ]
   },
   "slider-layout#home__slider--ofertas": {
-    "title": "slider con hijos declarados",
+    "title": "slider of ofertas with text",
     "props":{
       "itemsPerPage": {
           "desktop": 4,
@@ -35,7 +37,7 @@
     ]
   },
   "image#home__oferta--one": {
-    "title" : "Ofertas Destacadas",
+    "title": "image slider one",
     "props": {
     "title" : "Ofertas Destacadas",
       "src": "assets/img/oferta1.jpg",
@@ -47,7 +49,7 @@
     }
   },
   "image#home__oferta--two": {
-    "title" : "Ofertas Destacadas",
+    "title": "image slider two",
     "props": {
     "title" : "Ofertas Destacadas",
       "src": "assets/img/oferta2.jpg",
@@ -59,7 +61,7 @@
     }
   },
   "image#home__oferta--three": {
-    "title" : "Ofertas Destacadas",
+    "title": "image slider three",
     "props": {
     "title" : "Ofertas Destacadas",
       "src": "assets/img/oferta3.jpg",
@@ -71,7 +73,7 @@
     }
   },
   "image#home__oferta--four": {
-    "title" : "Ofertas Destacadas",
+    "title": "image slider four",
     "props": {
     "title" : "Ofertas Destacadas",
       "src": "assets/img/oferta4.jpg",
@@ -83,6 +85,7 @@
     }
   },
   "flex-layout.row#home__text--ofertas" : {
+    "title" : "container ofertas",
     "children" : [
       "rich-text#home__ofertas"
     ],
@@ -91,6 +94,7 @@
     }
   },
   "rich-text#home__ofertas" : {
+    "title": "text ofertas",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Ofertas Destacadas",

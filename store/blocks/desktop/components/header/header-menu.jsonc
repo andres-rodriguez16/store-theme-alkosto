@@ -15,6 +15,7 @@
     ]
   },
   "menu-item#department__celphones--one": {
+    "title": "celphones--one",
     "props": {
       "id": "category__one",
       "type": "custom",
@@ -29,6 +30,7 @@
     "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
   },
   "menu-item#department__celphones--celulares": {
+    "title": "celphones--one-bottom",
     "props": {
       "id": "category__one",
       "type": "custom",
@@ -39,38 +41,39 @@
         "tagTitle": "Celulares",
         "text": "Celulares"
       },
-      "blockClass" : "text__celphones--title"
+      "blockClass": "text__celphones--title"
     }
-  },  
+  },
   "vtex.menu@2.x:submenu#department__celphones--one": {
-    "children": ["menu#department__celphones--one"
-  ],
+    "title" : "cell phone",
+    "children": ["menu#department__celphones--one"],
     "props": {
       "blockClass": "category-container",
       "onMountBehavior": "open"
     }
   },
-  "menu#department__celphones--one" : {
-    "children" : [
-      "flex-layout.row#department__celphones--one"
-    ]
+  "menu#department__celphones--one": {
+    "title" : "cell phone container bottom",
+    "children": ["flex-layout.row#department__celphones--one"]
   },
-  "flex-layout.row#department__celphones--one" : {
-    "children" : [
+  "flex-layout.row#department__celphones--one": {
+    "title" : "cell phone container main",
+    "children": [
       "flex-layout.col#category__celphones--one",
       "flex-layout.col#category__celphones--two",
       "flex-layout.col#category__celphones--three",
       "flex-layout.col#category__celphones--four",
       "flex-layout.col#category__celphones--five"
-  ],
-    "props":{
-      "blockClass" : "container__menu",
-      "orientation": "vertical"       
+    ],
+    "props": {
+      "blockClass": "container__menu",
+      "orientation": "vertical"
     }
   },
-  "flex-layout.col#category__celphones--one" : {
-    "children" : [
-      "menu-item#department__celphones--celulares", 
+  "flex-layout.col#category__celphones--one": {
+    "title" : "cell phone container one",
+    "children": [
+      "menu-item#department__celphones--celulares",
       "rich-text#category__celphones--one-title1",
       "rich-text#category__celphones--one-description1",
       "rich-text#category__celphones--one-title2",
@@ -82,90 +85,101 @@
       "rich-text#category__celphones--one-title5",
       "rich-text#category__celphones--one-description5"
     ],
-    "props":{
-      "blockClass":"category__celphones--one",
-      "colSizing":"auto"
-    } 
+    "props": {
+      "blockClass": "category__celphones--one",
+      "colSizing": "auto"
+    }
   },
-  "rich-text#category__celphones--one-title1":{
-    "props":{
-      "text":"Marca",
-      "blockClass":"text__celphones--title",
+  "rich-text#category__celphones--one-title1": {
+    "title" : "marca title",
+    "props": {
+      "text": "Marca",
+      "blockClass": "text__celphones--title",
       "textAlignment": "CENTER"
     }
   },
-  "rich-text#category__celphones--one-description1":{
-    "props":{
-      "text":"[!Phone](/) | [Samsumg](/) | [Xiaomi](/) |\n[Motorola](/) | [vivo](/) | [Nokia](/) | [Oppo](/) |\n[Realme](/) | [Zte](/) | [TCL](/) | [Alcatel](/) | [Kalley](/) |\n[Huawei](/) | [Honor](/) | [Tecno](/)",
-      "blockClass":"text__celphones--description"
+  "rich-text#category__celphones--one-description1": {
+    "title" : "brands",
+    "props": {
+      "text": "[!Phone](/) | [Samsumg](/) | [Xiaomi](/) |\n[Motorola](/) | [vivo](/) | [Nokia](/) | [Oppo](/) |\n[Realme](/) | [Zte](/) | [TCL](/) | [Alcatel](/) | [Kalley](/) |\n[Huawei](/) | [Honor](/) | [Tecno](/)",
+      "blockClass": "text__celphones--description"
     }
   },
-  "rich-text#category__celphones--one-title2":{
-    "props":{
-      "text":"Capacidad de almacenamiento",
-      "blockClass":"text__celphones--title"
+  "rich-text#category__celphones--one-title2": {
+    "title" : "Capacidad de almacenamiento text",
+    "props": {
+      "text": "Capacidad de almacenamiento",
+      "blockClass": "text__celphones--title"
     }
   },
-  "rich-text#category__celphones--one-description2":{
-    "props":{
-      "text":"[32 GB](/) | [64 GB](/) | [128 GB](/) | [256 GB](/)",
-      "blockClass":"text__celphones--description"
+  "rich-text#category__celphones--one-description2": {
+    "title" : "almacenamiento text",
+    "props": {
+      "text": "[32 GB](/) | [64 GB](/) | [128 GB](/) | [256 GB](/)",
+      "blockClass": "text__celphones--description"
     }
   },
-  "rich-text#category__celphones--one-title3":{
-    "props":{
-      "text":"Tamaño de Pantalla",
-      "blockClass":"text__celphones--title"
+  "rich-text#category__celphones--one-title3": {
+    "title" : "screen size text",
+    "props": {
+      "text": "Tamaño de Pantalla",
+      "blockClass": "text__celphones--title"
     }
   },
-  "rich-text#category__celphones--one-description3":{
-    "props":{
-      "text":"[De 4.1' a 5'](/) | [De 5.1' a 6'](/) |\n[De 6.1' a 8'](/)",
-      "blockClass":"text__celphones--description"
+  "rich-text#category__celphones--one-description3": {
+    "title" : "screens text",
+    "props": {
+      "text": "[De 4.1' a 5'](/) | [De 5.1' a 6'](/) |\n[De 6.1' a 8'](/)",
+      "blockClass": "text__celphones--description"
     }
   },
-  "rich-text#category__celphones--one-title4":{
-    "props":{
-      "text":"Tipo de cámara posterior",
-      "blockClass":"text__celphones--title"
+  "rich-text#category__celphones--one-title4": {
+    "title" : "Tipo de cámara posterior text ",
+    "props": {
+      "text": "Tipo de cámara posterior",
+      "blockClass": "text__celphones--title"
     }
   },
-  "rich-text#category__celphones--one-description4":{
-    "props":{
-      "text":"[Sencilla](/) | [Dual](/) | [Triple](/) | [Cuádruple](/)",
-      "blockClass":"text__celphones--description"
+  "rich-text#category__celphones--one-description4": {
+    "title" : "cameras text",
+    "props": {
+      "text": "[Sencilla](/) | [Dual](/) | [Triple](/) | [Cuádruple](/)",
+      "blockClass": "text__celphones--description"
     }
   },
-  "rich-text#category__celphones--one-title5":{
-    "props":{
-      "text":"Tipo de cámara frontal",
-      "blockClass":"text__celphones--title"
+  "rich-text#category__celphones--one-title5": {
+    "title" : "Tipo de cámara frontal text", 
+    "props": {
+      "text": "Tipo de cámara frontal",
+      "blockClass": "text__celphones--title"
     }
   },
-  "rich-text#category__celphones--one-description5":{
-    "props":{
-      "text":"[Sencilla](/) | [Dual](/)",
-      "blockClass":"text__celphones--description"
+  "rich-text#category__celphones--one-description5": {
+    "title" : "floating cameras text",
+    "props": {
+      "text": "[Sencilla](/) | [Dual](/)",
+      "blockClass": "text__celphones--description"
     }
   },
-  "flex-layout.col#category__celphones--two":{
-    "children":[
+  "flex-layout.col#category__celphones--two": {
+    "title" : "container accesorios and tablets",
+    "children": [
       "menu-item#category__celphones--two",
       "rich-text#category__celphones--two-description1",
       "rich-text#category__celphones--two-title1",
-      "rich-text#category__celphones--two-description2",
-      "rich-text#category__celphones--two-title2"
+      "rich-text#category__celphones--two-description2"
     ],
-    "props":{
-      "blockClass":"category__celphones--two",
-      "colSizing":"auto"
-    } 
-  }, 
-  "menu-item#category__celphones--two":{
-    "props":{
+    "props": {
+      "blockClass": "category__celphones--two",
+      "colSizing": "auto"
+    }
+  },
+  "menu-item#category__celphones--two": {
+    "title" : "Accesorios Celulares y Tabletas menu",
+    "props": {
       "id": "category-celphones--two",
       "type": "custom",
-      "blockClass":"title__categories--two",
+      "blockClass": "title__categories--two",
       "itemProps": {
         "href": "/catalogo",
         "noFollow": true,
@@ -178,37 +192,33 @@
           "activeClassName": "rebel-pink",
           "mutedClassName": "c-action-primary"
         }
-        // ,
-        // "iconToTheRight": true
-        }
-    }
-  },  
-  "rich-text#category__celphones--two-description1":{
-    "props":{
-      "text":"[Carcasas y estuches](/)\n[Audífonos y manos libres](/)\n[Memorias Micro SD](/)\n[Baterías Externas Power Bank](/)\n[Cables, Cargadores, Adaptadores](/)\n[Bases y Soportes](/)\n[Selfie Stick](/)\n[Otros Accesorios](/)",
-      "blockClass":"text__celphones--two-description1"
+      }
     }
   },
-  "rich-text#category__celphones--two-title1":{
-    "props":{
-      "text":"Accesorios para iPhone",
-      "blockClass":"text__celphones--title"
+  "rich-text#category__celphones--two-description1": {
+    "title" : "description one text",
+    "props": {
+      "text": "[Carcasas y estuches](/)\n[Audífonos y manos libres](/)\n[Memorias Micro SD](/)\n[Baterías Externas Power Bank](/)\n[Cables, Cargadores, Adaptadores](/)\n[Bases y Soportes](/)\n[Selfie Stick](/)\n[Otros Accesorios](/)",
+      "blockClass": "text__celphones--two-description1"
     }
   },
-  "rich-text#category__celphones--two-description2":{
-    "props":{
-      "text":"[Carcasas y estuche](/) | \n[Cables, Cargadores, Adaptadores](/)",
-      "blockClass":"text__celphones--two-description2"
+  "rich-text#category__celphones--two-title1": {
+    "title" : "Accesorios para iPhone title",
+    "props": {
+      "text": "Accesorios para iPhone",
+      "blockClass": "text__celphones--title"
     }
   },
-  "rich-text#category__celphones--two-title2":{
-    "props":{
-      "text":"",
-      "blockClass":"text__celphones--two--title2"
+  "rich-text#category__celphones--two-description2": {
+    "title" : "description two text",
+    "props": {
+      "text": "[Carcasas y estuche](/) | \n[Cables, Cargadores, Adaptadores](/)",
+      "blockClass": "text__celphones--two-description2"
     }
   },
-  "flex-layout.col#category__celphones--three":{
-    "children":[
+  "flex-layout.col#category__celphones--three": {
+    "title" : "Smartwatch container",
+    "children": [
       "menu-item#category__celphones--three",
       "rich-text#category__celphones--three-description1",
       "rich-text#category__celphones--three-title1",
@@ -216,16 +226,17 @@
       "rich-text#category__celphones--three-title2",
       "rich-text#category__celphones--three-description3"
     ],
-    "props":{
-      "blockClass":"category__celphones--three",
-      "colSizing":"auto"
-    } 
+    "props": {
+      "blockClass": "category__celphones--three",
+      "colSizing": "auto"
+    }
   },
-  "menu-item#category__celphones--three":{
-    "props":{
+  "menu-item#category__celphones--three": {
+    "title" : "Smartwatch title",
+    "props": {
       "id": "category-celphones-three",
       "type": "custom",
-      "blockClass":"title__categories",
+      "blockClass": "title__categories",
       "itemProps": {
         "href": "/catalogo",
         "noFollow": true,
@@ -234,53 +245,60 @@
       }
     }
   },
-  "rich-text#category__celphones--three-description1":{
-    "props":{
-      "text":"[Relojes](/)\n[Bandas de Actividad](/)",
-      "blockClass":"text__celphones--three-description1"
-    }
-  },  
-  "rich-text#category__celphones--three-title1":{
-    "props":{
-      "text":"Marca",
-      "blockClass":"text__celphones--three--title1"
-    }
-  },  
-  "rich-text#category__celphones--three-description2":{
-    "props":{
-      "text":"[Apple Watch](/) | [Huawei](/) | [Samsung](/) |\n[Fitbit](/) | [Garmin](/) | [Xiaomi](/) | [Kalley](/) |\n[Multitech](/)",
-      "blockClass":"text__celphones--three-description2"
+  "rich-text#category__celphones--three-description1": {
+    "title" : "Smartwatch description 1",
+    "props": {
+      "text": "[Relojes](/)\n[Bandas de Actividad](/)",
+      "blockClass": "text__celphones--three-description1"
     }
   },
-  "rich-text#category__celphones--three-title2":{
-    "props":{
-      "text":"Accesorios para Smartwatch",
-      "blockClass":"text__celphones--three--title2"
-    }
-  }, 
-  "rich-text#category__celphones--three-description3":{
-    "props":{
-      "text":"[Cargadores](/) | [Correas](/)",
-      "blockClass":"text__celphones--three-description3"
+  "rich-text#category__celphones--three-title1": {
+    "title" : "brands title",
+    "props": {
+      "text": "Marca",
+      "blockClass": "text__celphones--three--title1"
     }
   },
-  "flex-layout.col#category__celphones--four":{
-    "children":[
+  "rich-text#category__celphones--three-description2": {
+    "title" : "Smartwatch description 2",
+    "props": {
+      "text": "[Apple Watch](/) | [Huawei](/) | [Samsung](/) |\n[Fitbit](/) | [Garmin](/) | [Xiaomi](/) | [Kalley](/) |\n[Multitech](/)",
+      "blockClass": "text__celphones--three-description2"
+    }
+  },
+  "rich-text#category__celphones--three-title2": {
+    "title" : "Accesorios para Smartwatch title",
+    "props": {
+      "text": "Accesorios para Smartwatch",
+      "blockClass": "text__celphones--three--title2"
+    }
+  },
+  "rich-text#category__celphones--three-description3": {
+    "title" :"Smartwatch description 3",
+    "props": {
+      "text": "[Cargadores](/) | [Correas](/)",
+      "blockClass": "text__celphones--three-description3"
+    }
+  },
+  "flex-layout.col#category__celphones--four": {
+    "title" : "Tabletas container",
+    "children": [
       "menu-item#category__celphones--four",
       "rich-text#category__celphones--four-description1",
       "rich-text#category__celphones--four-title1",
       "rich-text#category__celphones--four-description2"
     ],
-    "props":{
-      "blockClass":"col__category__celphones--four",
-      "colSizing":"auto"
-    } 
+    "props": {
+      "blockClass": "col__category__celphones--four",
+      "colSizing": "auto"
+    }
   },
-  "menu-item#category__celphones--four":{
-    "props":{
+  "menu-item#category__celphones--four": {
+    "title" : "Tabletas title",
+    "props": {
       "id": "category-celphones-four",
       "type": "custom",
-      "blockClass":"title__categories",
+      "blockClass": "title__categories",
       "itemProps": {
         "href": "/catalogo",
         "noFollow": true,
@@ -289,39 +307,44 @@
       }
     }
   },
-  "rich-text#category__celphones--four-description1":{
-    "props":{
-      "text":"[iPad](/)\n[Android](/)\n[Accesorios](/)",
-      "blockClass":"text__celphones--four-description1"
-    }
-  },  
-  "rich-text#category__celphones--four-title1":{
-    "props":{
-      "text":"Marca",
-      "blockClass":"text__celphones--four--title1"
-    }
-  },  
-  "rich-text#category__celphones--four-description2":{
-    "props":{
-      "text":"[Apple](/) | [Samsung](/) | [Lenovo](/) | [Huawei](/) |\n[Alcatel](/) | [Multitech](/)",
-      "blockClass":"text__celphones--four-description2"
+  "rich-text#category__celphones--four-description1": {
+    "title" : "Tabletas description 1",
+    "props": {
+      "text": "[iPad](/)\n[Android](/)\n[Accesorios](/)",
+      "blockClass": "text__celphones--four-description1"
     }
   },
-  "flex-layout.col#category__celphones--five":{
-    "children":[
+  "rich-text#category__celphones--four-title1": {
+    "title" : "brands title",
+    "props": {
+      "text": "Marca",
+      "blockClass": "text__celphones--four--title1"
+    }
+  },
+  "rich-text#category__celphones--four-description2": {
+    "title" : "tabletas description 2",
+    "props": {
+      "text": "[Apple](/) | [Samsung](/) | [Lenovo](/) | [Huawei](/) |\n[Alcatel](/) | [Multitech](/)",
+      "blockClass": "text__celphones--four-description2"
+    }
+  },
+  "flex-layout.col#category__celphones--five": {
+    "title" : "Conoce más container",
+    "children": [
       "menu-item#category__celphones--five",
       "rich-text#category__celphones--five-description1"
     ],
-    "props":{
-      "blockClass":"col__category__celphones--five",
-      "colSizing":"auto"
-    } 
+    "props": {
+      "blockClass": "col__category__celphones--five",
+      "colSizing": "auto"
+    }
   },
-  "menu-item#category__celphones--five":{
-    "props":{
+  "menu-item#category__celphones--five": {
+    "title" : "Conoce mas title",
+    "props": {
       "id": "category-celphones-five",
       "type": "custom",
-      "blockClass":"title__categories",
+      "blockClass": "title__categories",
       "itemProps": {
         "href": "/quienes-somos",
         "noFollow": true,
@@ -330,10 +353,11 @@
       }
     }
   },
-  "rich-text#category__celphones--five-description1":{
-    "props":{
-      "text":"[Seguro gratis](/)\n[Guía de compra](/)\n[Celulares Baratos](/)\n[Celulares Nuevos](/)",
-      "blockClass":"text__celphones--five-description1"
+  "rich-text#category__celphones--five-description1": {
+      "title" : "Conoce mas description 1",
+      "props": {
+      "text": "[Seguro gratis](/)\n[Guía de compra](/)\n[Celulares Baratos](/)\n[Celulares Nuevos](/)",
+      "blockClass": "text__celphones--five-description1"
     }
   }
 }

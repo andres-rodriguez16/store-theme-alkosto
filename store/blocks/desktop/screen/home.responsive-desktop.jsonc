@@ -1,7 +1,7 @@
 {
   "responsive-layout.desktop#home__info--desktop": {
     "children": [
-      "flex-layout.row#home__section--two",
+      "flex-layout.row#home__slider--menu",
       "flex-layout.row#home__section--banner",
       "search-result-layout.customQuery#home__search",
       "flex-layout.row#home__container--seccion",
@@ -14,44 +14,5 @@
       "flex-layout.row#home__section--banner-two",
       "flex-layout.row#home__container--bancos"
     ]
-  },
-  "search-result-layout.customQuery#home__search" : {
-    "title" : "search-result",
-    // "blocks" : ["search-result-layout"],
-    "props" : {
-      "querySchema" : {
-        "skusFilter" : "ALL",
-        "simulationBehavior" : "skip"
-      }
-    },
-    "blocks" : [
-      "search-result-layout.desktop#home__search--desktop",
-      "search-result-layout.mobile#home__search--mobile",
-      "search-not-found-layout"
-    ]
-  },
-  "search-result-layout.desktop#home__search--desktop" : {
-    "title" : "search-result-desktop", 
-    "children" : [
-      "flex-layout.row#desktop__home--results-search"
-    ]
-  },
-  "search-result-layout.mobile#home__search--mobile" : {
-    "children" : [
-      "flex-layout.row#desktop__home--results-search"
-    ]
-  },
-  "flex-layout.row#desktop__home--results-search" : {
-    "title" : "container search-result",
-    "children" : ["flex-layout.col#desktop__home-searh-results"]
-  },
-  "flex-layout.col#desktop__home-searh-results" : {
-    "children" : ["search-content#home__results--search"]
-  },
-  "search-content#home__results--search" : {
-    "blocks" : ["gallery", "not-found"]
-  },
-  "gallery" : {
-    "blocks" : ["product-summary.shelf"]
   }
 }

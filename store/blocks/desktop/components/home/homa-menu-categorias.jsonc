@@ -1,0 +1,277 @@
+{
+  "flex-layout.col#section__departamento--one" : {
+    "title" : "department col 1",
+    "children" : [
+      "flex-layout.col#home__category--celulares",
+      "flex-layout.col#home__category--audio",
+      "flex-layout.col#home__category--pines",
+      "flex-layout.col#home__category--colchones"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--celulares" : {
+    "title" : "categoria de celulares",
+    "children" : [
+      "image#home__image--celulares",
+      "rich-text#section__departamento--celulares"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--audio" : {
+    "title" : "categoria de audio",
+    "children" : [
+      "image#home__image--audio",
+      "rich-text#section__departamento--audio"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+      
+    }
+  },
+  "flex-layout.col#home__category--pines" : {
+    "title" : "categoria de pines",
+    "children" : [
+      "image#home__image--Pines",
+      "rich-text#section__departamento--pines"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--colchones" : {
+    "title" : "categoria de colchones",
+    "children" : [
+      "image#home__image--colchones",
+      "rich-text#section__departamento--colchones"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#section__departamento--two" : {
+    "title" : "department col 2",
+    "children" : [
+      "flex-layout.col#home__category--computador",
+      "flex-layout.col#home__category--videojuegos",
+      "flex-layout.col#home__category--impresoras",
+      "flex-layout.col#home__category--muebles"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--computador" : {
+    "title" : "categoria de computador",
+    "children" : [
+      "image#home__image--computador",
+      "rich-text#section__departamento--computador"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--videojuegos" : {
+    "title" : "categoria de videojuegos",
+    "children" : [
+      "image#home__image--videojuegos",
+      "rich-text#section__departamento--videojuegos"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--impresoras" : {
+    "title" : "categoria de impresoras",
+    "children" : [
+      "image#home__image--impresoras",
+      "rich-text#section__departamento--impresoras"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--muebles" : {
+    "title" : "categoria de muebles",
+    "children" : [
+      "image#home__image--muebles",
+      "rich-text#section__departamento--muebles"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#section__departamento--three" : {
+    "title" : "department col 3",
+    "children" : [
+      "flex-layout.col#home__category--televisores",
+      "flex-layout.col#home__category--accesorios",
+      "flex-layout.col#home__category--hogar",
+      "flex-layout.col#home__category--deportes"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--televisores" : {
+    "title" : "categoria de televisores",
+    "children" : [
+      "image#home__image--televisores",
+      "rich-text#section__departamento--televisor" 
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--accesorios" : {
+    "title" : "categoria de accesorios",
+    "children" : [
+      "image#home__image--accesorios",
+      "rich-text#section__departamento--accesorios"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--hogar" : {
+    "title" : "categoria de hogar",
+    "children" : [
+      "image#home__image--hogar",
+      "rich-text#section__departamento--hogar"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--deportes" : {
+    "title" : "categoria de deportes",
+    "children" : [
+      "image#home__image--deportes",
+      "rich-text#section__departamento--deportes"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#section__departamento--four" : {
+    "title" : "department col 4",
+    "children" : [
+      "flex-layout.col#home__category--reloj",
+      "flex-layout.col#home__category--ejemplo",
+      "flex-layout.col#home__category--juguetes",
+      "flex-layout.col#home__category--llantas"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--ejemplo" : {
+    "children" : [
+      "image#home__image--Electrodomesticos",
+      "rich-text#section__departamento--Electrodomesticos"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--reloj" : {
+    "title" : "categoria de reloj",
+    "children" : [
+      "image#home__image--reloj",
+      "rich-text#section__departamento--reloj"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--juguetes" : {
+    "title" : "categoria de juguetes",
+    "children" : [
+      "image#home__image--juguetes",
+      "rich-text#section__departamento--juguetes"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--llantas" : {
+    "title" : "categoria de llantas",
+    "children" : [
+      "image#home__image--llantas",
+      "rich-text#section__departamento--llantas"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#section__departamento--five" : {
+    "title" : "department col 5",
+    "children" : [
+      "flex-layout.col#home__category--electromenor",
+      "flex-layout.col#home__category--tablet",
+      "flex-layout.col#home__category--iconoNavidad",
+      "flex-layout.col#home__category--ofertas"
+    ],
+    "props" : {
+      "horizontalAlign" : "center",
+      "marginLeft" : "5",
+      "marginRight": "5",
+      "blockClass" : "home__departamento--one"
+    }  
+  },
+  "flex-layout.col#home__category--electromenor" : {
+    "title" : "categoria de electromenor",
+    "children" : [
+      "image#home__image--electro-menores",
+      "rich-text#section__departamento--electromenor"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--tablet" : {
+    "title" : "categoria de tablet",
+    "children" : [
+      "image#home__image--tablet",
+      "rich-text#section__departamento--tablet"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--iconoNavidad" : {
+    "title" : "categoria de iconoNavidad",
+    "children" : [
+      "image#home__image--icono-navidad",
+      "rich-text#section__departamento--iconoNavidad"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  },
+  "flex-layout.col#home__category--ofertas" : {
+    "title" : "categoria de ofertas",
+    "children" : [
+      "image#home__image--Pines",
+      "rich-text#section__departamento--ofertas"
+    ],
+    "props" : {
+      "blockClass" : "home__categorys--item"
+    }
+  }
+}
