@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__container-eletrodomesticos" : {
+    "title": "container seccion of eletrodomesticos",
     "children" : [
       "flex-layout.col#home__seccion-four"
     ],
@@ -8,6 +9,7 @@
     }
   },
     "flex-layout.col#home__seccion-four" : {
+    "title": "container seccion ofeletrodomesticos bottom",
       "children" : [
         "flex-layout.row#home__text--eletrodomesticos",
         "slider-layout#home__slider--eletrodomesticos"
@@ -17,7 +19,7 @@
       }
     },
     "slider-layout#home__slider--eletrodomesticos": {
-      "title": "slider con hijos declarados",
+      "title": "slider of eletrodomesticos with text",
       "props":{
         "itemsPerPage": {
             "desktop": 3,
@@ -37,7 +39,7 @@
       ]
     },
     "image#home__eletrodomesticos--one": {
-      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+      "title": "image slider one",
       "props": {
       "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
         "src": "assets/img/eletrodomesticos1.jpg",
@@ -50,7 +52,7 @@
       }
     },
     "image#home__eletrodomesticos--two": {
-      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+      "title" : "image slider two",
       "props": {
       "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
         "src": "assets/img/eletrodomesticos2.jpg",
@@ -63,7 +65,7 @@
       }
     },
     "image#home__eletrodomesticos--three": {
-      "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+      "title": "image slider three",
       "props": {
       "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
         "src": "assets/img/eletrodomesticos3.jpg",
@@ -76,6 +78,7 @@
       }
     },
     "flex-layout.row#home__text--eletrodomesticos" : {
+    "title": "container eletrodomesticos",
       "children" : [
         "rich-text#home__eletrodomesticos"
       ],
@@ -84,6 +87,7 @@
       }
     },
     "rich-text#home__eletrodomesticos" : {
+      "title": "text eletrodomesticos",
       "props" : {
         "textAlignment": "CENTER",
         "text" : "[Eletrodomésticos](https://www.markdownguide.org/basic-syntax/)",

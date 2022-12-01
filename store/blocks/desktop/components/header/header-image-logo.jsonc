@@ -1,7 +1,7 @@
 
 {
   "image#header__logo" : {
-    "title" : "Logo del header",
+    "title" : "Logo of header",
     "props" : {
       "src" :"assets/img/alkosto-logo.svg",
       "max" : 221,

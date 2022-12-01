@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__container--otros" : {
+    "title": "container seccion of videojuegos y otros",
     "children" : [
       "flex-layout.col#home__seccion-five"
     ],
@@ -8,6 +9,7 @@
     }
   },
     "flex-layout.col#home__seccion-five" : {
+    "title": "container seccion of videojuegos y otros",
       "children" : [
         "flex-layout.row#home__text--otros",
         "slider-layout#home__slider--otros"
@@ -17,7 +19,7 @@
       }
     },
     "slider-layout#home__slider--otros": {
-      "title": "slider con hijos declarados",
+    "title": "slider of videojuegos y otros with text",
       "props":{
         "itemsPerPage": {
             "desktop": 3,
@@ -37,7 +39,7 @@
       ]
     },
     "image#home__otros--one": {
-      "title" : "Videojuegos y más",
+      "title" : "image slider one",
       "props": {
       "title" : "Videojuegos y más",
         "src": "assets/img/otros1.jpg",
@@ -50,7 +52,7 @@
       }
     },
     "image#home__otros--two": {
-      "title" : "Videojuegos y más",
+      "title": "image slider two",
       "props": {
       "title" : "Videojuegos y más",
         "src": "assets/img/otros2.jpg",
@@ -63,7 +65,7 @@
       }
     },
     "image#home__otros--three": {
-      "title" : "Videojuegos y más",
+      "title": "image slider three",
       "props": {
       "title" : "Videojuegos y más",
         "src": "assets/img/otros3.jpg",
@@ -76,6 +78,7 @@
       }
     },
     "flex-layout.row#home__text--otros" : {
+    "title": "container videojuegos y otros",
       "children" : [
         "rich-text#home__otros"
       ],
@@ -84,6 +87,7 @@
       }
     },
     "rich-text#home__otros" : {
+    "title": "text videojuegos y otros",
       "props" : {
         "textAlignment": "CENTER",
         "text" : "[Videojuegos y más](https://www.markdownguide.org/basic-syntax/)",

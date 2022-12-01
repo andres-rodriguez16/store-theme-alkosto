@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__container--conoces-mas" : {
+    "title": "container seccion of conoces-mas",
     "children" : [
       "flex-layout.col#home__seccion-six"
     ],
@@ -8,6 +9,7 @@
     }
   },
     "flex-layout.col#home__seccion-six" : {
+      "title": "container seccion of conoces-mas bottom",
       "children" : [
         "flex-layout.row#home__text--conoces-mas",
         "slider-layout#home__slider--conoces-mas"
@@ -17,7 +19,7 @@
       }
     },
     "slider-layout#home__slider--conoces-mas": {
-      "title": "slider con hijos declarados",
+      "title": "slider of conoces-mas with text",
       "props":{
         "itemsPerPage": {
             "desktop": 4,
@@ -38,7 +40,7 @@
       ]
     },
     "image#home__conoces-mas--one": {
-      "title" : "Conoces más",
+      "title": "image slider one",
       "props": {
       "title" : "Conoces más",
         "src": "assets/img/conocesmas1.jpg",
@@ -51,7 +53,7 @@
       }
     },
     "image#home__conoces-mas--two": {
-      "title" : "Conoces más",
+      "title": "image slider two",
       "props": {
       "title" : "Conoces más",
         "src": "assets/img/conocesmas2.jpg",
@@ -64,7 +66,7 @@
       }
     },
     "image#home__conoces-mas--three": {
-      "title" : "Conoces más",
+      "title": "image slider three",
       "props": {
       "title" : "Conoces más",
         "src": "assets/img/conocesmas3.jpg",
@@ -77,7 +79,7 @@
       }
     },
     "image#home__conoces-mas--four": {
-      "title" : "Conoces más",
+      "title": "image slider four",
       "props": {
       "title" : "Conoces más",
         "src": "assets/img/conocesmas4.jpg",
@@ -90,6 +92,7 @@
       }
     },
     "flex-layout.row#home__text--conoces-mas" : {
+    "title": "container conoces-mas",
       "children" : [
         "rich-text#home__conoces-mas"
       ],
@@ -98,6 +101,7 @@
       }
     },
     "rich-text#home__conoces-mas" : {
+    "title": "text conoces-mas",
       "props" : {
         "textAlignment": "CENTER",
         "text" : "Conoces más",

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home__section--two-mobile" : {
-    "title" : "Sección Uno",
+    "title" : "container mobile menu category",
     "children" : [
       "slider-layout#home__slider--children"
     ],
@@ -10,7 +10,7 @@
     }
   },
   "flex-layout.row#section__two--text-mobile": {
-    "title" : "Titulo seccion 1",
+    "title" : "menu category",
     "children" : [
       "flex-layout.col#section__departamento--one-mobile",
       "flex-layout.col#section__departamento--two-mobile",
@@ -26,6 +26,7 @@
     }
   },
   "flex-layout.col#section__departamento--one-mobile" : {
+    "title" : "col 1",
     "children" : [
       "flex-layout.col#home__category--celulares",
       "flex-layout.col#home__category--ejemplo",
@@ -43,6 +44,7 @@
     }  
   },
   "flex-layout.col#section__departamento--two-mobile" : {
+    "title" : "col 2",
     "children" : [
       "flex-layout.col#home__category--computador",
       "flex-layout.col#home__category--electromenor",
@@ -60,6 +62,7 @@
     }  
   },
   "flex-layout.col#section__departamento--three-mobile" : {
+    "title" : "col 3",
     "children" : [
       "flex-layout.col#home__category--televisores",
       "flex-layout.col#home__category--accesorios",
@@ -76,20 +79,15 @@
       "blockClass" : "home__departamento--one"
     }  
   },
-  "rich-text#section__mobile" : {
-    "props" : {
-      "textAlignment": "CENTER",
-      "text" : "mobile",
-      "blockClass" : "rich-text__category"
-    }
-  },
   "flex-layout.col#home__category--mascotas" : {
+    "title" : "category mascotas",
     "children" : [
       "image#home__image--mascotas",
       "rich-text#section__departamento--mascotas"
     ]
   },
   "rich-text#section__departamento--mascotas" : {
+    "title" : "text mascotas",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Mascotas",

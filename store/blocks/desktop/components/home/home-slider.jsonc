@@ -2,7 +2,7 @@
 
 {
   "slider-layout#home__slider--children" : {
-    "title": "slider con hijos declarados",
+    "title": "slider seccion ofertas",
     "props" : {
       "itemsPerPage" : {
         "desktop" : 1,
@@ -23,18 +23,21 @@
     ]
   },
   "image#home__slider--one" : {
+    "title" : "image slider one",
     "props" : {
       "src" : "assets/img/imageOne.jpg"
     }
   }
   ,
   "image#home__slider--two" : {
+    "title" : "image slider two",
     "props" : {
       "src" : "assets/img/imagetwo.jpg"
     }
   }
   ,
   "image#home__slider--three" : {
+    "title" : "image slider three",
     "props" : {
       "src" : "assets/img/imageThree.jpg"
     }
