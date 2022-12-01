@@ -49,12 +49,16 @@
     "children": [
       "search-bar#header__search",
       "header-spacer",
-      "login",
+      "flex-layout.row#login__container",
       "minicart.v2"
     ],
     "props": {
       "blockClass": "header__bottom"
     }
+  },
+  "flex-layout.row#login__container" : {
+    "title" : "container login",
+    "children" : ["login"]
   },
   "login": {
     "title" : "login",
@@ -64,7 +68,7 @@
       "emailPlaceholder": "e-mail",
       "passwordPlaceholder": "password",
       "showPasswordVerificationIntoTooltip": true,
-      "showIconProfile": false,
+      "showIconProfile": true,
       "iconLabel": "Mi cuenta"
     }
   },

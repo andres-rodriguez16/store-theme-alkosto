@@ -389,14 +389,7 @@
         "href": "/quienes-somos",
         "noFollow": true,
         "tagTitle": "Conoce mas",
-        "text": "Conoce más",
-        "iconProps": {
-          "id": "nav-arrow--right",
-          "size": 16,
-          "viewBox": "0 0 16 16",
-          "activeClassName": "rebel-pink",
-          "mutedClassName": "c-action-primary"
-        }
+        "text": "Conoce más"
       },
       "iconPosition" : "right"
     }

@@ -10,16 +10,19 @@
   display: flex;
   justify-content: space-around;
 }
-.headerRowContentContainer--header__top--information {
-  padding: 0;
-}
-
-.headerRowContentContainer--header__bottom {
-  padding: 0;
-}
 
 .headerRowContainer--header__top--information {
   display: flex;
   justify-content: space-around;
 }
 
+.headerRowContentContainer--header__desktop--menu {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.headerRowContentContainer--header__top--information,
+.headerRowContentContainer--header__bottom,
+.headerRowContentContainer--header__desktop--menu,
+.headerRowContentContainer--header__container {
+  padding: 0;
+}
