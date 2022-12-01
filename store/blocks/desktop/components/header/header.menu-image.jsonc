@@ -1,0 +1,72 @@
+{
+  "image#menu__image--celulares" : {
+    "title" : "icon celulares menu",
+    "props" : {
+      "src" :"assets/img/ICONO-CELULAR-AK.png",
+      "max" : 30,
+      "title" : "icon celulares menu",
+      "blockClass" : "menu__icon--cellPhone",
+      "link" : {
+        "url" : "/",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#menu__image--accesorios" : {
+    "title" : "icon accesorios menu",
+    "props" : {
+      "src" :"assets/img/ICONO-ACCESORIOS.png",
+      "max" : 30,
+      "title" : "icon accesorios menu",
+      "blockClass" : "menu__icon--cellPhone",
+      "link" : {
+        "url" : "/",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#menu__image--Smartwatch" : {
+    "title" : "icon Smartwatch menu",
+    "props" : {
+      "src" :"assets/img/ICONO-SMARTWATCH-.png",
+      "max" : 30,
+      "title" : "icon Smartwatch menu",
+      "blockClass" : "menu__icon--cellPhone",
+      "link" : {
+        "url" : "/",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#menu__image--tablet" : {
+    "title" : "icon tablet menu",
+    "props" : {
+      "src" :"assets/img/ICONO-TABLET.png",
+      "max" : 30,
+      "title" : "icon tablet menu",
+      "blockClass" : "menu__icon--cellPhone",
+      "link" : {
+        "url" : "/",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  },
+  "image#menu__image--conocer-mas" : {
+    "title" : "icon tablet menu",
+    "props" : {
+      "src" :"assets/img/ICONO-CONOCE-MAS.png",
+      "max" : 30,
+      "title" : "icon tablet menu",
+      "blockClass" : "menu__icon--cellPhone",
+      "link" : {
+        "url" : "/",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      }
+    }
+  }
+}

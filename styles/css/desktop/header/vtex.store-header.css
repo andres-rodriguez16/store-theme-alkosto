@@ -1,0 +1,28 @@
+.headerRowContainer {
+  background-color: rgb(0, 71, 151);
+}
+
+.headerRowContainer--header__desktop--menu {
+  background-color: white;
+  border-top: 3px solid #eb5b25;
+}
+.headerRowContainer--header__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerRowContainer--header__top--information {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerRowContentContainer--header__desktop--menu {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.headerRowContentContainer--header__top--information,
+.headerRowContentContainer--header__bottom,
+.headerRowContentContainer--header__desktop--menu,
+.headerRowContentContainer--header__container {
+  padding: 0;
+}

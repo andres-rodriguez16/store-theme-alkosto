@@ -1,5 +1,6 @@
 {
   "flex-layout.row#home__container-phone" : {
+  "title" : "container seccion of cell phone",
   "children" : [
     "flex-layout.col#home__seccion-two"
   ],
@@ -8,6 +9,7 @@
   }
 },
   "flex-layout.col#home__seccion-two" : {
+    "title" : "container seccion of cell phone bottom",
     "children" : [
       "flex-layout.row#home__text--celulares",
       "slider-layout#home__slider--celulares"
@@ -17,7 +19,7 @@
     }
   },
   "slider-layout#home__slider--celulares": {
-    "title": "slider con hijos declarados",
+    "title": "slider of cell phone with text",
     "props":{
       "itemsPerPage": {
           "desktop": 3,
@@ -37,7 +39,7 @@
     ]
   },
   "image#home__celulares--one": {
-    "title" : "xiaomi note 11",
+    "title" : "image slider one",
     "props": {
     "title" : "xiaomi note 11",
       "src": "assets/img/celulares1.jpg",
@@ -50,7 +52,7 @@
     }
   },
   "image#home__celulares--two": {
-    "title" : "moto g31",
+    "title" : "image slider two",
     "props": {
     "title" : "moto g31",
       "src": "assets/img/celulares2.jpg",
@@ -63,7 +65,7 @@
     }
   },
   "image#home__celulares--three": {
-    "title" : "VIVO Y21S",
+    "title" : "image slider three",
     "props": {
     "title" : "VIVO Y21S",
       "src": "assets/img/celulares3.jpg",
@@ -76,7 +78,7 @@
     }
   },
   "flex-layout.row#home__text--celulares" : {
-    "title" : "xiaomi note 11",
+    "title" : "container cell phone",
     "children" : [
       "rich-text#home__celulares"
     ],
@@ -85,6 +87,7 @@
     }
   },
   "rich-text#home__celulares" : {
+    "title" : "text Celulares",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "[Celulares](https://www.markdownguide.org/basic-syntax/)",

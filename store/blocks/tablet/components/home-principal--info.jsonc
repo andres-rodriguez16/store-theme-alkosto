@@ -1,6 +1,6 @@
 {
   "flex-layout.row#home__section--two-tablet": {
-    "title": "Sección Uno",
+    "title": "container menu of categorys in tablet",
     "children": ["slider-layout#home__slider--children"],
     "props": {
       "blockClass": ["home__section--one", "home__container-tablet"]
@@ -10,7 +10,7 @@
     "children": ["flex-layout.col#section__two--text-tablet"]
   },
   "flex-layout.col#section__two--text-tablet": {
-    "title": "Titulo seccion 1",
+    "title": "conteiner of col",
     "children": [
       "flex-layout.row#section__departamento--one-tablet",
       "flex-layout.row#section__departamento--two-tablet",
@@ -29,6 +29,7 @@
     }
   },
   "flex-layout.row#section__departamento--one-tablet": {
+    "title" : "row 1",
     "children": [
       "flex-layout.col#home__category--celulares",
       "flex-layout.col#home__category--ejemplo",
@@ -43,6 +44,7 @@
     }
   },
   "flex-layout.row#section__departamento--two-tablet": {
+    "title" : "row 2",
     "children": [
       "flex-layout.col#home__category--electromenor",
       "flex-layout.col#home__category--videojuegos",
@@ -57,6 +59,7 @@
     }
   },
   "flex-layout.row#section__departamento--three-tablet": {
+    "title" : "row 3",
     "children": [
       "flex-layout.col#home__category--televisores",
       "flex-layout.col#home__category--accesorios",
@@ -71,6 +74,7 @@
     }
   },
   "flex-layout.row#section__departamento--four-tablet": {
+    "title" : "row 4",
     "children": [
       "flex-layout.col#home__category--juguetes",
       "flex-layout.col#home__category--tablet",
@@ -85,25 +89,12 @@
     }
   },
   "flex-layout.row#section__departamento--six--tablet": {
+    "title" : "row 5",
     "children": [
       "flex-layout.col#home__category--llantas",
       "flex-layout.col#home__category--deportes",
       "flex-layout.col#home__category--computador",
       "flex-layout.col#home__category--colchones" 
     ]
-  },
-  "rich-text#section__mobile": {
-    "props": {
-      "textAlignment": "CENTER",
-      "text": "mobile",
-      "blockClass": "rich-text__category"
-    }
-  },
-  "rich-text#section__departamento--mascotas": {
-    "props": {
-      "textAlignment": "CENTER",
-      "text": "Mascotas",
-      "blockClass": "rich-text__category"
-    }
   }
 }

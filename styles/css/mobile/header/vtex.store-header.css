@@ -1,0 +1,8 @@
+.headerRowContentContainer--header__top ,
+.headerRowContentContainer--mobile__middle {
+  padding: 0;
+}
+
+.headerRowContainer--mobile__middle {
+  justify-content: space-around;
+}

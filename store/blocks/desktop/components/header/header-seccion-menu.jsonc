@@ -1,0 +1,243 @@
+{
+  "menu-item#department__celphones--one": {
+    "title": "celphones--one",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  
+  "menu-item#department__computadores": {
+    "title": "menu-seccion computadores",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Computadores",
+        "text": "Computadores"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__electrodomesticos": {
+    "title": "menu-seccion electrodomesticos",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Electrodomesticos",
+        "text": "Electrodomesticos"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__tv": {
+    "title": "menu-seccion tv",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "TV",
+        "text": "TV"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__accesorios": {
+    "title": "menu-seccion acesorios",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__videojuegos": {
+    "title": "menu-seccion videojuegos",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Videojuegos",
+        "text": "Videojuegos"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__Audio": {
+    "title": "menu-seccion Audio",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Audio",
+        "text": "Audio"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+    "menu-item#department__Cámaras": {
+    "title": "menu-seccion Cámaras",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Cámaras",
+        "text": "Cámaras"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__casa-inteligente": {
+    "title": "menu-seccion casa-inteligente",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Casa inteligente",
+        "text": "Casa inteligente"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__Hogar": {
+    "title": "menu-seccion Hogar",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Hogar",
+        "text": "Hogar"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__Deportes": {
+    "title": "menu-seccion Deportes",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__Llantas-motos": {
+    "title": "menu-seccion Llantas y motos",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Llantas y motos",
+        "text": "Llantas y motos"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__Juguetes": {
+    "title": "menu-seccion Juguetes",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Juguetes",
+        "text": "Juguetes"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__Pines": {
+    "title": "menu-seccion Pines",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Pines",
+        "text": "Pines"
+      },
+      "blockClass" : "menu__title"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  },
+  "menu-item#department__Otros": {
+    "title": "menu-seccion Otros",
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Otros",
+        "text": "Otros"
+      },
+      "blockClass" : "menu__title--otro"
+    },
+    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
+  }
+}

@@ -1,93 +1,93 @@
 {
-  "flex-layout.row#home__container--computadores" : {
-    "children" : [
-      "flex-layout.col#home__seccion-one"
-    ],
-    "props" : {
-      "blockClass" : "home__container--seccion"
+  "flex-layout.row#home__container--computadores": {
+    "title": "container seccion of computadores",
+    "children": ["flex-layout.col#home__seccion-one"],
+    "props": {
+      "blockClass": "home__container--seccion"
     }
   },
-    "flex-layout.col#home__seccion-one" : {
-      "children" : [
-        "flex-layout.row#home__text--computadores",
-        "slider-layout#home__slider--computadores"
-      ],
-      "props" : {
-        "blockClass" : "home__seccion--one"
-      }
-    },
-    "slider-layout#home__slider--computadores": {
-      "title": "slider con hijos declarados",
-      "props":{
-        "itemsPerPage": {
-            "desktop": 3,
-            "tablet": 3,
-            "phone": 1.5
-        },
-        "showPaginationDots":"never",
-        "showNavigationArrows": "never",
-        "infinite": false,
-        "usePagination" : false,
-        "blockClass": "home__slider--celulares"
-      },
-      "children": [
-        "image#home__computadores--one",
-        "image#home__computadores--two",
-        "image#home__computadores--three"
-      ]
-    },
-    "image#home__computadores--one": {
-      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
-      "props": {
-      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
-        "src": "assets/img/computador1.jpg",
-        "link" : {
-        "url" : "https://www.gogle.com",
-        "newTab" : true,
-        "attributeNoFollow" : true
-      },
-        "blockClass" : "home__silder--item"
-      }
-    },
-    "image#home__computadores--two": {
-      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
-      "props": {
-      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
-        "src": "assets/img/computador2.jpg",
-        "link" : {
-        "url" : "https://www.gogle.com",
-        "newTab" : true,
-        "attributeNoFollow" : true
-      },
-        "blockClass" : "home__silder--item"
-      }
-    },
-    "image#home__computadores--three": {
-      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
-      "props": {
-      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
-        "src": "assets/img/computador3.jpg",
-        "link" : {
-        "url" : "https://www.gogle.com",
-        "newTab" : true,
-        "attributeNoFollow" : true
-      },
-        "blockClass" : "home__silder--item"
-      }
-    },
-    "flex-layout.row#home__text--computadores" : {
-      "children" : [
-        "rich-text#home__computadores"
-      ],
-      "props" : {
-        "blockClass" : "home__container--celulares"
-      }
-    },
-    "rich-text#home__computadores" : {
-      "props" : {
-        "textAlignment": "CENTER",
-        "text" : "[Computadores](https://www.markdownguide.org/basic-syntax/)",
-        "blockClass" : "rich-text__categorys"
-      }
+  "flex-layout.col#home__seccion-one": {
+    "title": "container seccion of computadores bottom",
+    "children": [
+      "flex-layout.row#home__text--computadores",
+      "slider-layout#home__slider--computadores"
+    ],
+    "props": {
+      "blockClass": "home__seccion--one"
     }
+  },
+  "slider-layout#home__slider--computadores": {
+    "title": "slider of computadores with text",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1.5
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "usePagination": false,
+      "blockClass": "home__slider--celulares"
+    },
+    "children": [
+      "image#home__computadores--one",
+      "image#home__computadores--two",
+      "image#home__computadores--three"
+    ]
+  },
+  "image#home__computadores--one": {
+    "title": "image slider one",
+    "props": {
+      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
+      "src": "assets/img/computador1.jpg",
+      "link": {
+        "url": "https://www.gogle.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "blockClass": "home__silder--item"
+    }
+  },
+  "image#home__computadores--two": {
+    "title": "image slider two",
+    "props": {
+      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
+      "src": "assets/img/computador2.jpg",
+      "link": {
+        "url": "https://www.gogle.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "blockClass": "home__silder--item"
+    }
+  },
+  "image#home__computadores--three": {
+    "title": "image slider three",
+    "props": {
+      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
+      "src": "assets/img/computador3.jpg",
+      "link": {
+        "url": "https://www.gogle.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "blockClass": "home__silder--item"
+    }
+  },
+  "flex-layout.row#home__text--computadores": {
+    "title": "container computadores",
+    "children": ["rich-text#home__computadores"],
+    "props": {
+      "blockClass": "home__container--celulares"
+    }
+  },
+  "rich-text#home__computadores": {
+    "title": "text Computadores",
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "[Computadores](https://www.markdownguide.org/basic-syntax/)",
+      "blockClass": "rich-text__categorys"
+    }
+  }
 }

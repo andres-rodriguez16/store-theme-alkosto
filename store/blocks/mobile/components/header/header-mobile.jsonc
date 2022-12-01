@@ -1,0 +1,110 @@
+{
+  "header-layout.mobile": {
+    "title": "header resolution mobile",
+    "children": [
+      "flex-layout.row#mobile__container--header",
+      "header-row#header__middle"
+    ]
+  },
+  "flex-layout.col#mobile__containder--col": {
+    "title": "col container header mobile",
+    "children": ["header-row#mobile__header--top"]
+  },
+  "header-row#header__middle": {
+    "title": "header container",
+    "children": ["drawer#header__mobile--menu", "login", "minicart.v2"],
+    "props": {
+      "blockClass": "mobile__middle"
+    }
+  },
+  "flex-layout.row#mobile__container--header": {
+    "title": "header container mobile",
+    "children": ["flex-layout.col#mobile__containder--col"],
+    "props": {
+      "blockClass": "mobile__containder--header"
+    }
+  },
+  "drawer#header__mobile--menu": {
+    "title": "drawer",
+    "children": ["vtex.menu@2.x:menu#mobile__menu"],
+    "blocks": ["drawer-trigger"]
+  },
+  "drawer-trigger": {
+    "children": ["rich-text#menu__text"]
+  },
+  "rich-text#menu__text": {
+    "title": "menu mobile categorys",
+    "props": {
+      "text": "Categorías",
+      "blockClass": "mobile__text--menu"
+    }
+  },
+  "header-row#mobile__header--top": {
+    "title": "header top",
+    "children": ["image#header__logo", "search-bar#header__search"],
+    "props": {
+      "blockClass": "header__top"
+    }
+  },
+  "vtex.menu@2.x:menu#mobile__menu": {
+    "children": ["menu-item#shop"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#shop": {
+    "title": "",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Shop",
+        "text": "Shop"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#shop"]
+  },
+  "vtex.menu@2.x:submenu#shop": {
+    "children": ["vtex.menu@2.x:menu#submenushop"]
+  },
+  "vtex.menu@2.x:menu#submenushop": {
+    "children": ["menu-item#shop2"]
+  },
+  "menu-item#shop2": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "hola",
+        "text": "hola"
+      }
+    }
+  },
+  "logo#header__top--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/alkosto-logo.svg",
+      "width": 221,
+      "href": "/"
+    }
+  },
+  "image#header__logo": {
+    "title": "logo",
+    "props": {
+      "src": "assets/img/alkosto-logo.svg",
+      "max": 30,
+      "blockClass": "header__logo",
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  }
+}

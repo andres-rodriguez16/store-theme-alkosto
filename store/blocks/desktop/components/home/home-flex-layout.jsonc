@@ -1,16 +1,16 @@
 {
-  "flex-layout.row#home__section--two" : {
-    "title" : "Sección Uno",
+  "flex-layout.row#home__slider--menu" : {
+    "title" : "container seccion",
     "children" : [
       "slider-layout#home__slider--children",
-      "flex-layout.row#section__two--text"
+      "flex-layout.row#home__container__department"
     ],
     "props": {
       "blockClass" : "home__section--one"
     }
   },
-  "flex-layout.row#section__two--text": {
-    "title" : "Titulo seccion 1",
+  "flex-layout.row#home__container__department": {
+    "title" : "menu of categorys",
     "children" : [
       "flex-layout.col#section__departamento--one",
       "flex-layout.col#section__departamento--two",
@@ -25,6 +25,7 @@
     }
   }, 
   "rich-text#section__departamento--celulares" : {
+    "title" : "category of cell phone",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Celulares",
@@ -32,6 +33,7 @@
     }
   },
   "rich-text#section__departamento--hogar" : {
+    "title" : "category of home",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Hogar",
@@ -39,6 +41,7 @@
     }
   },
   "rich-text#section__departamento--audio" : {
+    "title" : "category of home",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Audio",
@@ -46,6 +49,7 @@
     }
   },
   "rich-text#section__departamento--pines" : {
+    "title" : "category of pines",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Pines",
@@ -53,6 +57,7 @@
     }
   },
   "rich-text#section__departamento--colchones" : {
+    "title" : "category of colchones",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Colchones",
@@ -60,6 +65,7 @@
     }
   },
   "rich-text#section__departamento--computador" : {
+    "title" : "category of computador",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Computador",
@@ -67,6 +73,7 @@
     }
   },
   "rich-text#section__departamento--videojuegos" : {
+    "title" : "category of videojuegos",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Videojuegos",
@@ -74,6 +81,7 @@
     }
   },
   "rich-text#section__departamento--impresoras" : {
+    "title" : "category of impresoras",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Impresoras",
@@ -81,6 +89,7 @@
     }
   },
   "rich-text#section__departamento--muebles" : {
+    "title" : "category of muebles",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Muebles",
@@ -88,6 +97,7 @@
     }
   },
   "rich-text#section__departamento--televisor" : {
+    "title" : "category of televisor",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Televisor",
@@ -95,6 +105,7 @@
     }
   },
   "rich-text#section__departamento--accesorios" : {
+    "title" : "category of accesorios",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Accesorios",
@@ -102,6 +113,7 @@
     }
   },
   "rich-text#section__departamento--deportes" : {
+    "title" : "category of deportes",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Deportes",
@@ -109,6 +121,7 @@
     }
   },
   "rich-text#section__departamento--Electrodomesticos" : {
+    "title" : "category of electrodometicos",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Electrodomésticos",
@@ -116,6 +129,7 @@
     }
   },
   "rich-text#section__departamento--reloj" : {
+    "title" : "category of reloj",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Smartwatch",
@@ -123,6 +137,7 @@
     }
   },
   "rich-text#section__departamento--juguetes" : {
+    "title" : "category of juguetes",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Juguetes",
@@ -130,6 +145,7 @@
     }
   },
   "rich-text#section__departamento--llantas" : {
+    "title" : "category of llantas",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Llantas",
@@ -137,6 +153,7 @@
     }
   },
   "rich-text#section__departamento--electromenor" : {
+    "title" : "category of eletromenor",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Electromenor",
@@ -144,6 +161,7 @@
     }
   },
   "rich-text#section__departamento--tablet" : {
+    "title" : "category of tablet",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Tablet",
@@ -151,13 +169,15 @@
     }
   },
   "rich-text#section__departamento--iconoNavidad" : {
+    "title" : "category of iconoNavidad",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Navidad",
       "blockClass" : "rich-text__category"
     }
-  },
+  },  
   "rich-text#section__departamento--ofertas" : {
+    "title" : "category of ofertas",
     "props" : {
       "textAlignment": "CENTER",
       "text" : "Ofertas",
