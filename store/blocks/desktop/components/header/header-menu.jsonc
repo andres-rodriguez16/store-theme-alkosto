@@ -10,24 +10,21 @@
   "vtex.menu@2.x:menu#header__menu--seccion": {
     "children": [
       "menu-item#department__celphones--one",
-      "menu-item#department__celphones--one",
-      "menu-item#department__celphones--one"
+      "menu-item#department__computadores",
+      "menu-item#department__electrodomesticos",
+      "menu-item#department__tv",
+      "menu-item#department__accesorios",
+      "menu-item#department__videojuegos",
+      "menu-item#department__Audio",
+      "menu-item#department__Cámaras",
+      "menu-item#department__casa-inteligente",
+      "menu-item#department__Hogar",
+      "menu-item#department__Deportes",
+      "menu-item#department__Llantas-motos",
+      "menu-item#department__Juguetes",
+      "menu-item#department__Pines",
+      "menu-item#department__Otros"
     ]
-  },
-  "menu-item#department__celphones--one": {
-    "title": "celphones--one",
-    "props": {
-      "id": "category__one",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
-        "noFollow": true,
-        "tagTitle": "Celulares",
-        "text": "Celulares"
-      }
-    },
-    "blocks": ["vtex.menu@2.x:submenu#department__celphones--one"]
   },
   "menu-item#department__celphones--celulares": {
     "title": "celphones--one-bottom",
@@ -41,7 +38,7 @@
         "tagTitle": "Celulares",
         "text": "Celulares"
       },
-      "blockClass": "text__celphones--title"
+      "blockClass": "text__celphones--title--one"
     }
   },
   "vtex.menu@2.x:submenu#department__celphones--one": {
@@ -73,7 +70,7 @@
   "flex-layout.col#category__celphones--one": {
     "title" : "cell phone container one",
     "children": [
-      "menu-item#department__celphones--celulares",
+      "flex-layout.row#menu__container--image--title--celulares",
       "rich-text#category__celphones--one-title1",
       "rich-text#category__celphones--one-description1",
       "rich-text#category__celphones--one-title2",
@@ -88,6 +85,16 @@
     "props": {
       "blockClass": "category__celphones--one",
       "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#menu__container--image--title--celulares" : {
+    "title" : "container icon-text",
+    "children" : [
+      "image#menu__image--celulares",
+      "menu-item#department__celphones--celulares"
+    ], 
+    "props" : {
+      "blockClass" : "menu__container--image-title"
     }
   },
   "rich-text#category__celphones--one-title1": {
@@ -164,7 +171,7 @@
   "flex-layout.col#category__celphones--two": {
     "title" : "container accesorios and tablets",
     "children": [
-      "menu-item#category__celphones--two",
+      "flex-layout.row#menu__container--image--title--accesorios",
       "rich-text#category__celphones--two-description1",
       "rich-text#category__celphones--two-title1",
       "rich-text#category__celphones--two-description2"
@@ -174,24 +181,27 @@
       "colSizing": "auto"
     }
   },
+  "flex-layout.row#menu__container--image--title--accesorios" : {
+    "title" : "container icon-text",
+    "children" : [
+      "image#menu__image--accesorios",
+      "menu-item#category__celphones--two"
+    ], 
+    "props" : {
+      "blockClass" : "menu__container--image-title-two"
+    }
+  },
   "menu-item#category__celphones--two": {
     "title" : "Accesorios Celulares y Tabletas menu",
     "props": {
       "id": "category-celphones--two",
       "type": "custom",
-      "blockClass": "title__categories--two",
+      "blockClass": "title__categories--two--Accesorios",
       "itemProps": {
         "href": "/catalogo",
         "noFollow": true,
         "tagTitle": "Accesorios",
-        "text": "Accesorios Celulares y Tabletas",
-        "iconProps": {
-          "id": "bnd-logo",
-          "size": 16,
-          "viewBox": "0 0 16 16",
-          "activeClassName": "rebel-pink",
-          "mutedClassName": "c-action-primary"
-        }
+        "text": "Accesorios Celulares y Tabletas"
       }
     }
   },
@@ -219,7 +229,7 @@
   "flex-layout.col#category__celphones--three": {
     "title" : "Smartwatch container",
     "children": [
-      "menu-item#category__celphones--three",
+      "flex-layout.row#menu__container--image--title--Smartwatch",
       "rich-text#category__celphones--three-description1",
       "rich-text#category__celphones--three-title1",
       "rich-text#category__celphones--three-description2",
@@ -231,12 +241,22 @@
       "colSizing": "auto"
     }
   },
+  "flex-layout.row#menu__container--image--title--Smartwatch" : {
+    "title" : "container icon-text",
+    "children" : [
+      "image#menu__image--Smartwatch",
+      "menu-item#category__celphones--three"
+    ], 
+    "props" : {
+      "blockClass" : "menu__container--image-title"
+    }
+  },
   "menu-item#category__celphones--three": {
     "title" : "Smartwatch title",
     "props": {
       "id": "category-celphones-three",
       "type": "custom",
-      "blockClass": "title__categories",
+      "blockClass": "text__celphones--title--one",
       "itemProps": {
         "href": "/catalogo",
         "noFollow": true,
@@ -283,7 +303,7 @@
   "flex-layout.col#category__celphones--four": {
     "title" : "Tabletas container",
     "children": [
-      "menu-item#category__celphones--four",
+      "flex-layout.row#menu__container--image--title--tablet",
       "rich-text#category__celphones--four-description1",
       "rich-text#category__celphones--four-title1",
       "rich-text#category__celphones--four-description2"
@@ -293,12 +313,22 @@
       "colSizing": "auto"
     }
   },
+  "flex-layout.row#menu__container--image--title--tablet" : {
+    "title" : "container icon-text",
+    "children" : [
+      "image#menu__image--tablet",
+      "menu-item#category__celphones--four"
+    ], 
+    "props" : {
+      "blockClass" : "menu__container--image-title"
+    }
+  },
   "menu-item#category__celphones--four": {
     "title" : "Tabletas title",
     "props": {
       "id": "category-celphones-four",
       "type": "custom",
-      "blockClass": "title__categories",
+      "blockClass": "text__celphones--title--one",
       "itemProps": {
         "href": "/catalogo",
         "noFollow": true,
@@ -331,7 +361,7 @@
   "flex-layout.col#category__celphones--five": {
     "title" : "Conoce más container",
     "children": [
-      "menu-item#category__celphones--five",
+      "flex-layout.row#menu__container--image--title--conoces-mas",
       "rich-text#category__celphones--five-description1"
     ],
     "props": {
@@ -339,18 +369,36 @@
       "colSizing": "auto"
     }
   },
+  "flex-layout.row#menu__container--image--title--conoces-mas" : {
+    "title" : "container icon-text",
+    "children" : [
+      "image#menu__image--conocer-mas",
+      "menu-item#category__celphones--five"
+    ], 
+    "props" : {
+      "blockClass" : "menu__container--image-title"
+    }
+  },
   "menu-item#category__celphones--five": {
     "title" : "Conoce mas title",
     "props": {
       "id": "category-celphones-five",
       "type": "custom",
-      "blockClass": "title__categories",
+      "blockClass": "text__celphones--title--one",
       "itemProps": {
         "href": "/quienes-somos",
         "noFollow": true,
         "tagTitle": "Conoce mas",
-        "text": "Conoce más"
-      }
+        "text": "Conoce más",
+        "iconProps": {
+          "id": "nav-arrow--right",
+          "size": 16,
+          "viewBox": "0 0 16 16",
+          "activeClassName": "rebel-pink",
+          "mutedClassName": "c-action-primary"
+        }
+      },
+      "iconPosition" : "right"
     }
   },
   "rich-text#category__celphones--five-description1": {

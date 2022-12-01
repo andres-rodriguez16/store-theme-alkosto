@@ -7,10 +7,11 @@
   background-color: white;
 }
 
-.imageElement--home_image:hover{ 
+.imageElement--home_image:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 .imageElement--home_image--banner {
   width: 1080px;
 }
@@ -27,4 +28,17 @@
   background: #eb5b25;
   color: white;
   padding: 10px;
+}
+
+.imageElement--menu__icon--cellPhone {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: -25px;
+  bottom: 4px;
+}
+
+.imageElementLink--menu__icon--cellPhone {
+  width: 25px !important;
+  height: 25px;
 }
