@@ -27,10 +27,24 @@
   "drawer#header__mobile--menu": {
     "title": "drawer",
     "children": ["vtex.menu@2.x:menu#mobile__menu"],
-    "blocks": ["drawer-trigger"]
+    "blocks": ["drawer-trigger"],
+    "props" : {
+      "blockClass" : "drawer__menu"
+    }
   },
   "drawer-trigger": {
-    "children": ["rich-text#menu__text"]
+    "children": ["flex-layout.row#container__menu--categorias"]
+  },
+  "flex-layout.row#container__menu--categorias": {
+    "title": "row container catgorys",
+    "children": ["flex-layout.col#container__menu--categorias--col"]
+  },
+  "flex-layout.col#container__menu--categorias--col": {
+    "title": "container menu categorys col",
+    "children": ["image#mobile__menu--categorys", "rich-text#menu__text"],
+    "props": {
+      "blockClass": "menu__container--categorys"
+    }
   },
   "rich-text#menu__text": {
     "title": "menu mobile categorys",
@@ -46,10 +60,22 @@
       "blockClass": "header__top"
     }
   },
+
   "vtex.menu@2.x:menu#mobile__menu": {
-    "children": ["menu-item#shop"],
+    "children": ["flex-layout.row#container__menu", "flex-layout.row#container__menu", "flex-layout.row#container__menu"],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "menu__container"
+    }
+  },
+  "flex-layout.row#container__menu": {
+    "children": [
+      "flex-layout.row#conatiner__category__phone",
+      "flex-layout.row#conatiner__category__phone",
+      "flex-layout.row#conatiner__category__phone"
+    ],
+    "props" : {
+      "blockClass": ["menu__container--row","menu__container--row--tablet" ]
     }
   },
   "menu-item#shop": {
@@ -61,38 +87,24 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
-      }
+        "tagTitle": "celulares",
+        "text": "celulares"
+      },
+      "blockClass": "menu--item"
     },
-    "blocks": ["vtex.menu@2.x:submenu#shop"]
+    "blocks": ["submenu.accordion#department__one"]
   },
-  "vtex.menu@2.x:submenu#shop": {
-    "children": ["vtex.menu@2.x:menu#submenushop"]
-  },
-  "vtex.menu@2.x:menu#submenushop": {
-    "children": ["menu-item#shop2"]
-  },
-  "menu-item#shop2": {
+  "flex-layout.row#conatiner__category__phone": {
+    "title": "container categoria celulares",
+    "children": ["flex-layout.col#conatiner__category__phone"],
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "hola",
-        "text": "hola"
-      }
+      "blockClass": "mobile__menu--container--categorys--row"
     }
   },
-  "logo#header__top--logo": {
-    "title": "logo",
-    "props": {
-      "url": "assets/img/alkosto-logo.svg",
-      "width": 221,
-      "href": "/"
-    }
+  "flex-layout.col#conatiner__category__phone": {
+    "title": "container categoria celulares col",
+    "children": ["image#mobile__menu--laptop", "menu-item#shop"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
   },
   "image#header__logo": {
     "title": "logo",

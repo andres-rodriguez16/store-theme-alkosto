@@ -1,0 +1,25 @@
+{
+  "image#mobile__menu--categorys" : {
+    "title" : "icono de menu",
+    "props" : {
+      "src" :"assets/img/menu.png",
+      "max" : 30,
+      "title" : "categorias",
+      "blockClass" : "menu__icon"
+      // "link" : {
+      //   "url" : "/",
+      //   "newTab" : true,
+      //   "attributeNoFollow" : true
+      // }
+    }
+  },
+  "image#mobile__menu--laptop" : {
+    "title" : "image laptop",
+    "props" : {
+      "src" :"assets/img/PORTATILES-ICON-AK-2-.png",
+      "max" : 30,
+      "title" : "computadores", 
+      "blockClass" : "menu__image--categorys"
+    }
+  }
+}

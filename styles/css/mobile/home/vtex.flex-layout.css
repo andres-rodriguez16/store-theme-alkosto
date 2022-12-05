@@ -1,3 +1,17 @@
 .flexRow--mobile__containder--header {
   background: #004797;
 }
+
+.flexColChild--menu__container--categorys {
+  margin: 0 auto;
+}
+
+.flexCol--mobile__menu--container--categorys--col {
+  width: 50% !important;
+}
+
+.flexRowContent--menu__container--row {
+  display: flex;
+  width: 128px;
+  margin: 25px 0 25px -30px;
+}
