@@ -2,6 +2,24 @@
   width: 120px;
   margin-top: 10px;
 }
+
 .imageElementLink--header__logo {
   margin-right: 30px;
+}
+
+.imageElement--menu__icon {
+  width: 32px;
+}
+
+.imageElement--menu__image--categorys {
+  padding: 10px;
+  background: rgba(235, 91, 37, .05);
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.imageElement--menu__image--categorys {
+  position: relative;
+  left: 30px;
 }

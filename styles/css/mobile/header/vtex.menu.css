@@ -1,0 +1,15 @@
+.styledLinkContent--menu--item {
+  justify-content: normal;
+}
+
+.styledLinkContent--menu__categorys--sub {
+  white-space: normal;
+}
+
+.menuItem--menu--item--isOpen {
+  width: fit-content;
+}
+
+.accordionIcon--menu--item--isClosed {
+  display: none;
+}
