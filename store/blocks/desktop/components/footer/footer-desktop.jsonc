@@ -2,10 +2,26 @@
   "footer-layout.desktop": { 
     "title" : "footer desktop",
     "children": [
-      "flex-layout.row#container__contact"
+      "flex-layout.row#container__contact",
+      "flex-layout.row#title__means--payments",
+      "slider-layout#footer__means-of-payments",
+      "disclosure-layout-group#group"
     ], 
     "props" : {
       "blockClass" : "container__footer--desktop"
+    }
+  },
+  "flex-layout.row#title__means--payments" : {
+    "title" : "title means payments container",
+    "children" : [
+      "rich-text#text__means--payments"
+    ]
+  },
+  "rich-text#text__means--payments" : {
+    "title" : "title means payments",
+    "props" : {
+      "text" : "Medios de pago aceptados", 
+      "blockClass" : "text__means--payments"
     }
   },
   "rich-text#footer__mobile" : {
@@ -66,7 +82,7 @@
       "rich-text#description--email"
     ],
     "props" : {
-      "blockClass" : "container__contact--col"
+      "blockClass" : "container__contact--col--two"
     }
   },
   "rich-text#title__email" : {

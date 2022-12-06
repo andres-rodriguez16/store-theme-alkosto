@@ -1,0 +1,65 @@
+{
+  // "disclosure-layout#simple": {
+  //   "children": ["disclosure-trigger#simple", "disclosure-content#simple"]
+  // },
+  // "disclosure-trigger#simple": {
+  //   "children": ["rich-text#question"]
+  // },
+  // "disclosure-content#simple": {
+  //   "children": ["rich-text#answer"]
+  // },
+  // "rich-text#question": {
+  //   "props": {
+  //     "text": "How can I change my shipping address?"
+  //   }
+  // },
+  // "rich-text#answer": {
+  //   "props": {
+  //     "text": "Call us at the number (212) 1234-1234"
+  //   }
+  // }
+
+  "disclosure-layout-group#group": {
+    "children": ["disclosure-layout#first", "disclosure-layout#second"]
+  },
+
+  "disclosure-layout#first": {
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#first": {
+    "children": ["rich-text#question1"]
+  },
+  "disclosure-content#first": {
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question1": {
+    "props": {
+      "text": "How can I change my shipping address?"
+    }
+  },
+  "rich-text#answer1": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234."
+    }
+  },
+  "disclosure-layout#second": {
+    "children": ["disclosure-trigger#first", "disclosure-content#first"]
+  },
+  "disclosure-trigger#second": {
+    "children": ["rich-text#question1"]
+  },
+  "disclosure-content#second": {
+    "children": ["rich-text#answer1"]
+  },
+  "rich-text#question2": {
+    "props": {
+      "text": "How can I track my order?"
+    }
+  },
+  "rich-text#answer2": {
+    "props": {
+      "text": "After logging into your account, you can find this info at the link Orders."
+    }
+  }
+}
+

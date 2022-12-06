@@ -48,3 +48,7 @@
   position: relative;
   left: 43%;
 }
+
+.imageElement--image__means-of-payments {
+  width: 45px;
+}
