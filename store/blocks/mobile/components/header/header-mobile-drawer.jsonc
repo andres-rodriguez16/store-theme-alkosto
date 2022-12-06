@@ -17,95 +17,107 @@
   //   },
   //   "blocks": ["submenu.accordion#department__one"]
   // },
-  // "submenu.accordion#department__one": {
-  //   "children": ["menu#department__one"]
-  // },
-  // "menu#department__one": {
-  //   "children": [
-  //     "menu-item#category__one",
-  //     "menu-item#category__two",
-  //     "menu-item#category__three",
-  //     "menu-item#category__four",
-  //     "menu-item#category__five"
-  //   ],
-  //   "props": {}
-  // },
-  // "menu-item#category__one": {
-  //   "props": {
-  //     "id": "category__one",
-  //     "type": "custom",
-  //     "itemProps": {
-  //       "type": "external",
-  //       "href": "https://www.google.com/",
-  //       "noFollow": true,
-  //       "tagTitle": "Celulares",
-  //       "text": "Celulares"
-  //     }
-  //   }
-  // },
-  // "menu-item#category__two": {
-  //   "props": {
-  //     "id": "category__one",
-  //     "type": "custom",
-  //     "itemProps": {
-  //       "type": "external",
-  //       "href": "https://www.google.com/",
-  //       "noFollow": true,
-  //       "tagTitle": "Accesorios Celulares y Tabletas",
-  //       "text": "Accesorios Celulares y Tabletas"
-  //     }
-  //   }
-  // },
-  // "menu-item#category__three": {
-  //   "props": {
-  //     "id": "category__one",
-  //     "type": "custom",
-  //     "itemProps": {
-  //       "type": "external",
-  //       "href": "https://www.google.com/",
-  //       "noFollow": true,
-  //       "tagTitle": "Smartwatch",
-  //       "text": "Smartwatch"
-  //     }
-  //   }
-  // },
-  // "menu-item#category__four": {
-  //   "props": {
-  //     "id": "category__one",
-  //     "type": "custom",
-  //     "itemProps": {
-  //       "type": "external",
-  //       "href": "https://www.google.com/",
-  //       "noFollow": true,
-  //       "tagTitle": "Tabletas",
-  //       "text": "Tabletas"
-  //     }
-  //   }
-  // },
-  // "menu-item#category__five" : {
-  //   "props": {
-  //     "id": "category__one",
-  //     "type": "custom",
-  //     "itemProps": {
-  //       "type": "external",
-  //       "href": "https://www.google.com/",
-  //       "noFollow": true,
-  //       "tagTitle": "Conoce más",
-  //       "text": "Conoce más"
-  //     }
-  //   }
-  // },
-  // "menu-item#department__two": {
-  //   "props": {
-  //     "id": "department__two",
-  //     "type": "custom",
-  //     "itemProps": {
-  //       "type": "external",
-  //       "href": "https://www.google.com/",
-  //       "noFollow": true,
-  //       "tagTitle": "Bing Title",
-  //       "text": "Bing"
-  //     }
-  //   }
-  // }
+  "submenu.accordion#department__one": {
+    "children": ["menu#department__one"],
+    "props" : {
+      "blockClass" : "submenu__accordion"
+    }
+  },
+  "menu#department__one": {
+    "children": [
+      "menu-item#category__one",
+      "menu-item#category__two",
+      "menu-item#category__three",
+      "menu-item#category__four",
+      "menu-item#category__five"
+    ],
+    "props": {
+      "orientation" : "vertical",
+      "blockClass" : "submenu__accordion--menu"
+    }
+  },
+  "menu-item#category__one": {
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Celulares",
+        "text": "Celulares"
+      },
+      "blockClass" : "menu__categorys--sub"
+    }
+  },
+  "menu-item#category__two": {
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Accesorios Celulares y Tabletas",
+        "text": "Accesorios Celulares y Tabletas"
+      },
+      "blockClass" : "menu__categorys--sub"
+    }
+  },
+  "menu-item#category__three": {
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Smartwatch",
+        "text": "Smartwatch"
+      },
+      "blockClass" : "menu__categorys--sub"
+    }
+  },
+  "menu-item#category__four": {
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Tabletas",
+        "text": "Tabletas"
+      },
+      "blockClass" : "menu__categorys--sub"
+    }
+  },
+  "menu-item#category__five" : {
+    "props": {
+      "id": "category__one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Conoce más",
+        "text": "Conoce más"
+      },
+      "blockClass" : "menu__categorys--sub"
+    }
+  },
+  "menu-item#department__two": {
+    "props": {
+      "id": "department__two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "Bing Title",
+        "text": "Bing"
+      },
+      "blockClass" : "menu__categorys--sub"
+    }
+  }
 }

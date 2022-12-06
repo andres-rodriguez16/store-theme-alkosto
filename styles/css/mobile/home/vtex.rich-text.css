@@ -1,3 +1,7 @@
 .wrapper--mobile__text--menu {
-  color: blue;
+  color:  #eb5b25;
+  font-size: 13px;
+}
+.paragraph--mobile__text--menu {
+  margin: 0;
 }
