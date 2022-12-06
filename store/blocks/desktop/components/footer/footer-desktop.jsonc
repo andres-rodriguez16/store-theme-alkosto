@@ -1,0 +1,116 @@
+{
+  "footer-layout.desktop": { 
+    "title" : "footer desktop",
+    "children": [
+      "flex-layout.row#container__contact"
+    ], 
+    "props" : {
+      "blockClass" : "container__footer--desktop"
+    }
+  },
+  "rich-text#footer__mobile" : {
+    "title" : "text ejemplo footer",
+    "props" : {
+      "text" : "mobile"
+    }
+  },
+  "flex-layout.row#container__contact" : {
+    "title" : "container contact",
+    "children" : [
+      "flex-layout.col#about--us",
+      "flex-layout.col#email",
+      "flex-layout.col#telephonic--sales"
+    ], 
+    "props" : {
+      "blockClass" : "container__contact"
+    }
+  },
+  "flex-layout.col#about--us" : {
+    "title" : "about--us",
+    "children" : [  
+      "image#about--us",
+      "rich-text#title__about--us",
+      "rich-text#description--about--us",
+      "rich-text#nit__about--us"
+    ],
+    "props" : {
+      "blockClass" : "container__contact--col"
+    }
+  },
+  "rich-text#title__about--us" : {
+    "title" : "title about--us",
+    "props" : {
+      "text" : "Sobre Nosotros", 
+      "blockClass" : "title__about--us"
+    }
+  },
+  "rich-text#description--about--us" : {
+    "title" : "description about--us",
+    "props" : {
+      "text" : "Colombiana de Comercio S.A.", 
+      "blockClass" : "description__about--us"
+    }
+  },
+  "rich-text#nit__about--us" : {
+    "title" : "nit about--us",
+    "props" : {
+      "text" : "NIT: 890.900.943-1", 
+      "blockClass" : "nit__about--us"
+    }
+  },
+  "flex-layout.col#email" : {
+    "title" : "email",
+    "children" : [
+      "image#email",
+      "rich-text#title__email",
+      "rich-text#description--email"
+    ],
+    "props" : {
+      "blockClass" : "container__contact--col"
+    }
+  },
+  "rich-text#title__email" : {
+    "title" : "title email",
+    "props" : {
+      "text" : "Email",
+      "blockClass" : "title__email"
+    }
+  },
+  "rich-text#description--email" : {
+    "title" : "description email",
+    "props" : {
+      "text" : "sugerencias@alkosto.com",
+      "blockClass" : "email--description"
+    }
+  },
+  "flex-layout.col#telephonic--sales" : {
+    "title" : "conatiner telephonic--sales",
+    "children" : [
+      "image#telephonic--sales",
+      "rich-text#title__telephonic--sales",
+      "rich-text#description__telephonic--sales",
+      "rich-text#description__telephonic--sales2"
+    ]
+  },
+  "rich-text#title__telephonic--sales" : {
+    "title" : "title telephonic--sales",
+    "props" : {
+      "text" : "Venta telefónica",
+      "blockClass" : "title__telephonic--sales"
+    }
+  },
+  "rich-text#description__telephonic--sales" : {
+    "title" : "description telephonic sales",
+    "props" : {
+      "text" : "Servicio al cliente: (601) 407 3033",
+      "blockClass" : "description__telephonic--sales"
+    }
+  },
+  "rich-text#description__telephonic--sales2" : {
+    "title" : "description telephonic sales",
+    "props" : {
+      "text" : "Venta Telefónica: (601) 3649734",
+      "blockClass" : "description__telephonic--sales"
+    }
+  }
+}

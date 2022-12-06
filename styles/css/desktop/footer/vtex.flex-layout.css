@@ -1,0 +1,12 @@
+.flexRowContent--container__contact {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.flexCol--container__contact--col {
+  display: flex;
+  width: 65% !important;
+  padding: 0 20px;
+}
+
