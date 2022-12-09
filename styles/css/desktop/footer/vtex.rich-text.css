@@ -9,3 +9,42 @@
   border-top: 1px solid grey;
   margin-top: 50px;
 }
+
+.paragraph--disclosure-policies-text {
+  color: white;
+}
+
+.paragraph--policies__content-text {
+  font-size: 12px;
+  color: #929292;
+  text-align: justify;
+}
+
+.link--policies__content-text {
+  color: #929292;
+  text-decoration: none;
+}
+.wrapper--disclosure-policies-text {
+  margin-left: 93px;
+}
+
+.paragraph--links-title {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.paragraph--links-footer {
+  color: #929292;
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+.link--links-footer {
+  color: #929292;
+  text-decoration: none;
+}
+
+.paragraph--footer__container--text-socialmedia {
+  margin-top: 0;
+}

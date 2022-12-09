@@ -1,132 +1,419 @@
 {
-  "footer-layout.desktop": { 
-    "title" : "footer desktop",
+  "footer-layout.desktop": {
+    "title": "footer desktop",
     "children": [
       "flex-layout.row#container__contact",
       "flex-layout.row#title__means--payments",
       "slider-layout#footer__means-of-payments",
-      "disclosure-layout-group#group"
-    ], 
-    "props" : {
-      "blockClass" : "container__footer--desktop"
+      "disclosure-layout#policies",
+      "flex-layout.row#conatiner__footer--about-us",
+      "flex-layout.row#footer__container--socialmedia-text-icons"
+    ],
+    "props": {
+      "blockClass": "container__footer--desktop"
     }
   },
-  "flex-layout.row#title__means--payments" : {
-    "title" : "title means payments container",
-    "children" : [
-      "rich-text#text__means--payments"
-    ]
+  "flex-layout.row#title__means--payments": {
+    "title": "title means payments container",
+    "children": ["rich-text#text__means--payments"]
   },
-  "rich-text#text__means--payments" : {
-    "title" : "title means payments",
-    "props" : {
-      "text" : "Medios de pago aceptados", 
-      "blockClass" : "text__means--payments"
+  "rich-text#text__means--payments": {
+    "title": "title means payments",
+    "props": {
+      "text": "Medios de pago aceptados",
+      "blockClass": "text__means--payments"
     }
   },
-  "rich-text#footer__mobile" : {
-    "title" : "text ejemplo footer",
-    "props" : {
-      "text" : "mobile"
+  "rich-text#footer__mobile": {
+    "title": "text ejemplo footer",
+    "props": {
+      "text": "mobile"
     }
   },
-  "flex-layout.row#container__contact" : {
-    "title" : "container contact",
-    "children" : [
+  "flex-layout.row#container__contact": {
+    "title": "container contact",
+    "children": [
       "flex-layout.col#about--us",
       "flex-layout.col#email",
       "flex-layout.col#telephonic--sales"
-    ], 
-    "props" : {
-      "blockClass" : "container__contact"
+    ],
+    "props": {
+      "blockClass": "container__contact"
     }
   },
-  "flex-layout.col#about--us" : {
-    "title" : "about--us",
-    "children" : [  
+  "flex-layout.col#about--us": {
+    "title": "about--us",
+    "children": [
       "image#about--us",
       "rich-text#title__about--us",
       "rich-text#description--about--us",
       "rich-text#nit__about--us"
     ],
-    "props" : {
-      "blockClass" : "container__contact--col"
+    "props": {
+      "blockClass": "container__contact--col"
     }
   },
-  "rich-text#title__about--us" : {
-    "title" : "title about--us",
-    "props" : {
-      "text" : "Sobre Nosotros", 
-      "blockClass" : "title__about--us"
+  "rich-text#title__about--us": {
+    "title": "title about--us",
+    "props": {
+      "text": "Sobre Nosotros",
+      "blockClass": "title__about--us"
     }
   },
-  "rich-text#description--about--us" : {
-    "title" : "description about--us",
-    "props" : {
-      "text" : "Colombiana de Comercio S.A.", 
-      "blockClass" : "description__about--us"
+  "rich-text#description--about--us": {
+    "title": "description about--us",
+    "props": {
+      "text": "Colombiana de Comercio S.A.",
+      "blockClass": "description__about--us"
     }
   },
-  "rich-text#nit__about--us" : {
-    "title" : "nit about--us",
-    "props" : {
-      "text" : "NIT: 890.900.943-1", 
-      "blockClass" : "nit__about--us"
+  "rich-text#nit__about--us": {
+    "title": "nit about--us",
+    "props": {
+      "text": "NIT: 890.900.943-1",
+      "blockClass": "nit__about--us"
     }
   },
-  "flex-layout.col#email" : {
-    "title" : "email",
-    "children" : [
+  "flex-layout.col#email": {
+    "title": "email",
+    "children": [
       "image#email",
       "rich-text#title__email",
       "rich-text#description--email"
     ],
-    "props" : {
-      "blockClass" : "container__contact--col--two"
+    "props": {
+      "blockClass": "container__contact--col--two"
     }
   },
-  "rich-text#title__email" : {
-    "title" : "title email",
-    "props" : {
-      "text" : "Email",
-      "blockClass" : "title__email"
+  "rich-text#title__email": {
+    "title": "title email",
+    "props": {
+      "text": "Email",
+      "blockClass": "title__email"
     }
   },
-  "rich-text#description--email" : {
-    "title" : "description email",
-    "props" : {
-      "text" : "sugerencias@alkosto.com",
-      "blockClass" : "email--description"
+  "rich-text#description--email": {
+    "title": "description email",
+    "props": {
+      "text": "sugerencias@alkosto.com",
+      "blockClass": "email--description"
     }
   },
-  "flex-layout.col#telephonic--sales" : {
-    "title" : "conatiner telephonic--sales",
-    "children" : [
+  "flex-layout.col#telephonic--sales": {
+    "title": "conatiner telephonic--sales",
+    "children": [
       "image#telephonic--sales",
       "rich-text#title__telephonic--sales",
       "rich-text#description__telephonic--sales",
       "rich-text#description__telephonic--sales2"
     ]
   },
-  "rich-text#title__telephonic--sales" : {
-    "title" : "title telephonic--sales",
-    "props" : {
-      "text" : "Venta telefónica",
-      "blockClass" : "title__telephonic--sales"
+  "rich-text#title__telephonic--sales": {
+    "title": "title telephonic--sales",
+    "props": {
+      "text": "Venta telefónica",
+      "blockClass": "title__telephonic--sales"
     }
   },
-  "rich-text#description__telephonic--sales" : {
-    "title" : "description telephonic sales",
-    "props" : {
-      "text" : "Servicio al cliente: (601) 407 3033",
-      "blockClass" : "description__telephonic--sales"
+  "rich-text#description__telephonic--sales": {
+    "title": "description telephonic sales",
+    "props": {
+      "text": "Servicio al cliente: (601) 407 3033",
+      "blockClass": "description__telephonic--sales"
     }
   },
-  "rich-text#description__telephonic--sales2" : {
-    "title" : "description telephonic sales",
-    "props" : {
-      "text" : "Venta Telefónica: (601) 3649734",
-      "blockClass" : "description__telephonic--sales"
+  "rich-text#description__telephonic--sales2": {
+    "title": "description telephonic sales",
+    "props": {
+      "text": "Venta Telefónica: (601) 3649734",
+      "blockClass": "description__telephonic--sales"
+    }
+  },
+  "flex-layout.row#conatiner__footer--about-us": {
+    "title": "conatiner footer about us",
+    "children": [
+      "flex-layout.col#our--company",
+      "flex-layout.col#online-purchases",
+      "flex-layout.col#service",
+      "flex-layout.col#politcs"
+    ],
+    "props": {
+      "blockClass": "conatiner__footer--about-us"
+    }
+  },
+  "flex-layout.col#our--company": {
+    "title": "Our company",
+    "children": [
+      "rich-text#footer__container--links-col-one-title",
+      "rich-text#footer__container--links-col-one-link1",
+      "rich-text#footer__container--links-col-one-link2",
+      "rich-text#footer__container--links-col-one-link2",
+      "rich-text#footer__container--links-col-one-link3",
+      "rich-text#footer__container--links-col-one-link4",
+      "rich-text#footer__container--links-col-one-link5",
+      "rich-text#footer__container--links-col-one-link7"
+    ],
+    "props": {
+      "blockClass": "footer__our--company"
+    }
+  },
+  "rich-text#footer__container--links-col-one-title": {
+    "props": {
+      "text": "Nosotros",
+      "blockClass": "links-title"
+    }
+  },
+  "rich-text#footer__container--links-col-one-link1": {
+    "props": {
+      "text": "[Conócenos](/quienes-somos)",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-one-link2": {
+    "props": {
+      "text": "Tiendas Ktronix",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-one-link3": {
+    "props": {
+      "text": "Servicio al Cliente",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-one-link4": {
+    "props": {
+      "text": "Tarjeta Alkosto",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-one-link5": {
+    "props": {
+      "text": "Trabaja en Ktronix",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-one-link6": {
+    "props": {
+      "text": "Nuestras rifas",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-one-link7": {
+    "props": {
+      "text": "Certificados Tributarios",
+      "blockClass": "links-footer"
+    }
+  },
+  "flex-layout.col#online-purchases": {
+    "title": "container online purchases",
+    "children": [
+      "rich-text#footer__container--links-col-two-title",
+      "rich-text#footer__container--links-col-two-link1",
+      "rich-text#footer__container--links-col-two-link2",
+      "rich-text#footer__container--links-col-two-link3",
+      "rich-text#footer__container--links-col-two-link4",
+      "rich-text#footer__container--links-col-two-link5"
+    ],
+    "props": {
+      "blockClass": "footer__online-purchases"
+    }
+  },
+  "rich-text#footer__container--links-col-two-title": {
+    "props": {
+      "text": "Compras en Internet",
+      "blockClass": "links-title"
+    }
+  },
+  "rich-text#footer__container--links-col-two-link1": {
+    "props": {
+      "text": "¿Cómo comprar en línea",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-two-link2": {
+    "props": {
+      "text": "Compra seguro",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-two-link3": {
+    "props": {
+      "text": "Opciones de envío",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-two-link4": {
+    "props": {
+      "text": "Formas de pago",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-two-link5": {
+    "props": {
+      "text": "SOAT y otros seguros",
+      "blockClass": "links-footer"
+    }
+  },
+  "flex-layout.col#service": {
+    "title": "container service",
+    "children": [
+      "rich-text#footer__container--links-col-three-title",
+      "rich-text#footer__container--links-col-three-link1",
+      "rich-text#footer__container--links-col-three-link2"
+    ],
+    "props": {
+      "blockClass": "footer__service"
+    }
+  },
+  "rich-text#footer__container--links-col-three-title": {
+    "props": {
+      "text": "Nuestros servicios",
+      "blockClass": "links-title"
+    }
+  },
+  "rich-text#footer__container--links-col-three-link1": {
+    "props": {
+      "text": "¿Extiende tu garantía",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-three-link2": {
+    "props": {
+      "text": "¿Cómo solicitar garantía?",
+      "blockClass": "links-footer"
+    }
+  },
+  "flex-layout.col#politcs": {
+    "title": "container politcs",
+    "children": [
+      "rich-text#footer__container--links-col-four-title",
+      "rich-text#footer__container--links-col-four-link1",
+      "rich-text#footer__container--links-col-four-link2",
+      "rich-text#footer__container--links-col-four-link3",
+      "rich-text#footer__container--links-col-four-link4",
+      "rich-text#footer__container--links-col-four-link5",
+      "rich-text#footer__container--links-col-four-link6",
+      "rich-text#footer__container--links-col-four-link7",
+      "rich-text#footer__container--links-col-four-link8",
+      "rich-text#footer__container--links-col-four-link9",
+      "rich-text#footer__container--links-col-four-link10",
+      "rich-text#footer__container--links-col-four-link11"
+    ],
+    "props": {
+      "blockClass": "footer__politcs"
+    }
+  },
+  "rich-text#footer__container--links-col-four-title": {
+    "props": {
+      "text": "Nuestras políticas",
+      "blockClass": "links-title"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link1": {
+    "props": {
+      "text": "Términos y condiciones ktronix.com",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link2": {
+    "props": {
+      "text": "Acuerdo de compraventa en línea",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link3": {
+    "props": {
+      "text": "SIC",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link4": {
+    "props": {
+      "text": "Cuidamos tu privacidad",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link5": {
+    "props": {
+      "text": "Solicitud tratamiento de datos personales",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link6": {
+    "props": {
+      "text": "Código de ética",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link7": {
+    "props": {
+      "text": "Política uso de Cookies",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link8": {
+    "props": {
+      "text": "Cambios y devoluciones",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link9": {
+    "props": {
+      "text": "Normas SST para terceros",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link10": {
+    "props": {
+      "text": "TDT para todos",
+      "blockClass": "links-footer"
+    }
+  },
+  "rich-text#footer__container--links-col-four-link11": {
+    "props": {
+      "text": "Línea ética",
+      "blockClass": "links-footer"
+    }
+  },
+  "flex-layout.row#footer__container--socialmedia": {
+    "title": "section social media",
+    "children": ["flex-layout.row#footer__container--socialmedia-text-icons"],
+    "props": {
+      "blockClass": "footer__container--socialmedia"
+    }
+  },
+  "flex-layout.row#footer__container--socialmedia-text-icons": {
+    "children": ["rich-text#footer__container--socialmedia", "social-networks"],
+    "props": {
+      "blockClass": "footer__container--socialmedia-text-icons"
+    }
+  },
+  "rich-text#footer__container--socialmedia": {
+    "props": {
+      "text": "Síguenos en:",
+      "textColor": "c-on-emphasis",
+      "blockClass": "footer__container--text-socialmedia"
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://facebook.com/exito",
+          "name": "Facebook"
+        },
+        {
+          "url": "https://twitter.com/exito",
+          "name": "Twitter"
+        },
+        {
+          "url": "https://youtube.com/exito",
+          "name": "Youtube"
+        }
+      ],
+      "blockClass": "footer__container--icons-socialmedia"
     }
   }
 }

@@ -5,7 +5,15 @@
   "footer-layout.mobile": { 
     "title" : "footer mobile",
     "children": [
-      "rich-text#footer__mobile"
-    ]
+      "slider-layout#footer__contacts1",
+      "flex-layout.row#title__means--payments",
+      "slider-layout#footer__means-of-payments",
+      "disclosure-layout#policies",
+      "flex-layout.row#conatiner__footer--about-us",
+      "flex-layout.row#footer__container--socialmedia-text-icons"
+    ],
+    "props": {
+      "blockClass": "container__footer--mobile"
+    }
   }
 }

@@ -18,3 +18,35 @@
   border-left: 1px solid white;
 }
 
+.flexColChild--policies__content2--image {
+  margin: 14px 0;
+}
+
+.flexCol--footer__online-purchases {
+  height: 60% !important;
+}
+
+.flexCol--footer__service {
+  height: 35%;
+}
+
+.flexCol--footer__our--company {
+  height: 80%;
+}
+
+.flexRow--conatiner__footer--about-us {
+  margin: 20px 100px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.flexRow--footer__container--socialmedia-text-icons {
+  width: auto;
+  display: inline-block;
+}
+
+.flexRowContent--footer__container--socialmedia-text-icons {
+  position: relative;
+  left: 500%;
+}

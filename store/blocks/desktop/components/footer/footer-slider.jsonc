@@ -7,10 +7,12 @@
         "tablet": 4,
         "mobile": 4
       },
-      "infinite": true,
+      "showPaginationDots": "never",
       "showNavigationArrows": "never",
-      "blockClass": "carousel",
-      "fullWidth" : false
+      "infinite": false,
+      "usePagination": false,
+      "blockClass": "carousel"
+      // "fullWidth" : false
     },
     "children": [
       "image#visa",
