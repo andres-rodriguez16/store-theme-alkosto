@@ -30,20 +30,20 @@
 }
 
 .container--title__about--us {
-  position: relative;
-  left: 16%;
+  /* position: relative;
+  left: 16%; */
   margin: 5px 0;
 }
 
 .container--title__email {
-  position: relative;
-  left: 36%;
+  /* position: relative;
+  left: 36%; */
   margin: 5px 0;
 }
 
 .container--nit__about--us {
-  position: relative;
-  left: 17%;
+  /* position: relative;
+  left: 17%; */
 }
 
 .paragraph--email--description {
@@ -56,11 +56,11 @@
 }
 
 .container--email--description {
-  position: relative;
-  left: 16px;
+  /* position: relative;
+  left: 16px; */
 }
 
 .container--title__telephonic--sales {
-  position: relative;
-  left: 32%;
+  /* position: relative;
+  left: 32%; */
 }

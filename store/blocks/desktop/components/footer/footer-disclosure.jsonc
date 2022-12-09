@@ -11,7 +11,7 @@
     "title" : "text policies",
     "props": {
       "text": "Términos y Condiciones Ofertas de Medios de pago",
-      "blockClass": "disclosure-policies-text"
+      "blockClass": ["disclosure-policies-text", "disclosure-policies-text-mobile"]
     }
   },
   "disclosure-content#policies": {

@@ -56,6 +56,8 @@
   "rich-text#title__about--us": {
     "title": "title about--us",
     "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "text": "Sobre Nosotros",
       "blockClass": "title__about--us"
     }
@@ -63,6 +65,8 @@
   "rich-text#description--about--us": {
     "title": "description about--us",
     "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "text": "Colombiana de Comercio S.A.",
       "blockClass": "description__about--us"
     }
@@ -71,7 +75,9 @@
     "title": "nit about--us",
     "props": {
       "text": "NIT: 890.900.943-1",
-      "blockClass": "nit__about--us"
+      "blockClass": "nit__about--us",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#email": {
@@ -89,14 +95,18 @@
     "title": "title email",
     "props": {
       "text": "Email",
-      "blockClass": "title__email"
+      "blockClass": "title__email",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#description--email": {
     "title": "description email",
     "props": {
       "text": "sugerencias@alkosto.com",
-      "blockClass": "email--description"
+      "blockClass": "email--description",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.col#telephonic--sales": {
@@ -112,14 +122,18 @@
     "title": "title telephonic--sales",
     "props": {
       "text": "Venta telefónica",
-      "blockClass": "title__telephonic--sales"
+      "blockClass": "title__telephonic--sales",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#description__telephonic--sales": {
     "title": "description telephonic sales",
     "props": {
       "text": "Servicio al cliente: (601) 407 3033",
-      "blockClass": "description__telephonic--sales"
+      "blockClass": "description__telephonic--sales",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#description__telephonic--sales2": {
@@ -401,15 +415,15 @@
     "props": {
       "socialNetworks": [
         {
-          "url": "https://facebook.com/exito",
+          "url": "https://www.facebook.com/alkostohiperahorro",
           "name": "Facebook"
         },
         {
-          "url": "https://twitter.com/exito",
+          "url": "https://twitter.com/Alkosto",
           "name": "Twitter"
         },
         {
-          "url": "https://youtube.com/exito",
+          "url": "https://www.youtube.com/user/AlkostoHiperAhorro",
           "name": "Youtube"
         }
       ],

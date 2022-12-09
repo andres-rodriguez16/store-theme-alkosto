@@ -1,8 +1,9 @@
 .trigger--hidden,
 .trigger--visible {
   background: transparent;
+  border: transparent;
 }
 
 .content--visible {
-  margin: 0px 90px;
+  margin: 0px 35px;
 }

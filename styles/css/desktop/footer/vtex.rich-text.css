@@ -24,8 +24,9 @@
   color: #929292;
   text-decoration: none;
 }
-.wrapper--disclosure-policies-text {
-  margin-left: 93px;
+.container--disclosure-policies-text {
+  position: relative;
+  left: 25%;
 }
 
 .paragraph--links-title {
@@ -47,4 +48,14 @@
 
 .paragraph--footer__container--text-socialmedia {
   margin-top: 0;
+}
+
+.paragraph--disclosure-text {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .container--disclosure-policies-text {
+    position: initial;
+  }
 }

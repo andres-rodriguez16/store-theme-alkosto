@@ -54,5 +54,11 @@
 }
 
 .imageElement--image__logo--tuya {
-  width: 380px;
+  width: 300px;
+}
+
+@media (max-width: 450px) {
+  .imageElement--image__logo--tuya {
+    display: none;
+  }
 }

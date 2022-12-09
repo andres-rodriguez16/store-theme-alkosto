@@ -4,15 +4,15 @@
     "props": {
       "itemsPerPage": {
         "desktop": 13,
-        "tablet": 4,
-        "mobile": 4
+        "tablet": 5,
+        "mobile": 5
       },
       "showPaginationDots": "never",
       "showNavigationArrows": "never",
       "infinite": false,
       "usePagination": false,
-      "blockClass": "carousel"
-      // "fullWidth" : false
+      "blockClass": "carousel",
+      "fullWidth" : false
     },
     "children": [
       "image#visa",
