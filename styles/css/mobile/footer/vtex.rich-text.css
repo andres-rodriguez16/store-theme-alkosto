@@ -1,0 +1,66 @@
+
+.paragraph--title__email,
+.paragraph--title__about--us {
+  font-size: 16px;
+  color: #fff;
+  /* margin: 24px auto 7px; */
+  margin: 0;
+}
+
+.paragraph--title__telephonic--sales {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+.paragraph--description__about--us {
+  color: #fff;
+  font-size: 12px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.wrapper--description__telephonic--sales {
+  margin: 0 auto;
+}
+.paragraph--description__telephonic--sales,
+.paragraph--nit__about--us {
+  font-size: 12px; 
+  margin: 0;
+  color: #929292;
+}
+
+.container--title__about--us {
+  /* position: relative;
+  left: 16%; */
+  margin: 5px 0;
+}
+
+.container--title__email {
+  /* position: relative;
+  left: 36%; */
+  margin: 5px 0;
+}
+
+.container--nit__about--us {
+  /* position: relative;
+  left: 17%; */
+}
+
+.paragraph--email--description {
+  margin: 0;
+}
+
+.link--email--description {
+  font-size: 12px;
+  color: #929292;
+}
+
+.container--email--description {
+  /* position: relative;
+  left: 16px; */
+}
+
+.container--title__telephonic--sales {
+  /* position: relative;
+  left: 32%; */
+}

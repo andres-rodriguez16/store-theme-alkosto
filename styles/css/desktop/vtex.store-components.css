@@ -42,3 +42,23 @@
   width: 25px !important;
   height: 25px;
 }
+
+.imageElement--image__contact {
+  width: 25px;
+  position: relative;
+  left: 43%;
+}
+
+.imageElement--image__means-of-payments {
+  width: 45px;
+}
+
+.imageElement--image__logo--tuya {
+  width: 300px;
+}
+
+@media (max-width: 450px) {
+  .imageElement--image__logo--tuya {
+    display: none;
+  }
+}

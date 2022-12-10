@@ -13,3 +13,7 @@
 .accordionIcon--menu--item--isClosed {
   display: none;
 }
+
+.submenuAccordion--submenu__accordion {
+  padding: 0;
+}

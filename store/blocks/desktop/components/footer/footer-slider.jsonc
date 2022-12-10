@@ -1,0 +1,137 @@
+{
+  "slider-layout#footer__means-of-payments": {
+    "title": "slider of means of payments",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 13,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "usePagination": false,
+      "blockClass": "carousel",
+      "fullWidth" : false
+    },
+    "children": [
+      "image#visa",
+      "image#dinners--club",
+      "image#mastercard",
+      "image#america-express",
+      "image#bancolombia",
+      "image#pse",
+      "image#cards--alkosto",
+      "image#cards--efecty",
+      "image#cards--codensa",
+      "image#credit",
+      "image#Davivienda" ,
+      "image#bank--bancolombia",
+      "image#bank--of--bogota"
+    ]
+  },
+  "image#visa": {
+    "title": "image visa",
+    "props": {
+      "src": "assets/img/VISA.png",
+      "max": 30,
+      "blockClass": "image__means-of-payments"
+    }
+  },
+  "image#dinners--club" : {
+    "title" : "image Dinners club",
+    "props" : {
+      "src" : "assets/img/DINNERS-CLUB-18-min.svg", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#mastercard" : {
+    "title" : "image mastercard",
+    "props" : {
+      "src" : "assets/img/mastercard-icon.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#america-express" : {
+    "title" : "image america express",
+    "props" : {
+      "src" : "assets/img/amex-card-icon.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#bancolombia" : {
+    "title" : "image bancolombia",
+    "props" : {
+      "src" : "assets/img/bancolombia-boton-icon.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#pse" : {
+    "title" : "image pse",
+    "props" : {
+      "src" : "assets/img/pse-icon.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#cards--alkosto" : {
+    "title" : "image cards alkosto",
+    "props" : {
+      "src" : "assets/img/TARJETA-ALKOSTO.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#cards--efecty" : {
+    "title" : "image efety",
+    "props" : {
+      "src" : "assets/img/EFECTY.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#cards--codensa" : {
+    "title" : "image card dodensa",
+    "props" : {
+      "src" : "assets/img/CODENSA.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#credit" : {
+    "title" : "image credit",
+    "props" : {
+      "src" : "assets/img/credito20min-icon.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#Davivienda" : {
+    "title" : "image davivienda",
+    "props" : {
+      "src" : "assets/img/DAVIVIENDA.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#bank--bancolombia" : {
+    "title" : "image bank bancolombia",
+    "props" : {
+      "src" : "assets/img/BANCOLOMBIA.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  },
+  "image#bank--of--bogota" : {
+    "title" : "image bank of bogota",
+    "props" : {
+      "src" : "assets/img/BANCO-BOGOTA.png", 
+      "max" : 30, 
+      "blockClass" : "image__means-of-payments"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "image#about--us" : {
+    "title" : "image about--us",
+    "props" : {
+      "src" :"assets/img/about-icon.png",
+      "max" : 25,
+      "blockClass" : "image__contact"
+    }
+  },
+  "image#email" : {
+    "title" : "image email",
+    "props" : {
+      "src" :"assets/img/email-icon.png",
+      "max" : 25,
+      "blockClass" : "image__contact"
+    }
+  },
+  "image#telephonic--sales" : {
+    "title" : "image telephonic--sales",
+    "props" : {
+      "src" :"assets/img/contact-icon.png",
+      "max" : 25,
+      "blockClass" : "image__contact"
+    }
+  }
+}

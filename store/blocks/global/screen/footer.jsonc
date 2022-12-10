@@ -2,25 +2,139 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
   "footer-layout.mobile": { 
+    "title" : "footer mobile",
     "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+      "slider-layout#footer__contacts1",
+      "flex-layout.row#title__means--payments",
+      "slider-layout#footer__means-of-payments",
+      "flex-layout.row#container-disclosure",
+      "flex-layout.row#footer__container--socialmedia-text-icons"
+    ],
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "container__footer--mobile"
     }
+  },
+"flex-layout.row#container-disclosure" : {
+  "title" : "container disclosure",
+  "children" : ["flex-layout.col#container-disclosure-col"],
+  "props" : {
+    "blockClass" : "container-disclosure"
+  }
+},
+"flex-layout.col#container-disclosure-col" : {
+  "title" : "container disclosure col",
+  "children" : [
+    "disclosure-layout#policies",
+    "disclosure-layout#about-us",
+    "disclosure-layout#online-purchases",
+    "disclosure-layout#service",
+    "disclosure-layout#politcs"
+  ]
+},
+  "disclosure-layout#about-us": {
+    "title": "Disclosure about-us",
+    "children": ["disclosure-trigger#about-us", "disclosure-content#about-us"]
+  },
+  "disclosure-trigger#about-us": {
+    "title" : "conatiner about-us ",
+    "children": ["rich-text#about-us"]
+  },
+  "rich-text#about-us": {
+    "title" : "text about-us",
+    "props": {
+      "text": "Nosotros",
+      "blockClass": "disclosure-text"
+    }
+  },
+  "disclosure-content#about-us" : {
+    "title" : "content disclosure about",
+    "children" : [
+      "rich-text#footer__container--links-col-one-link1",
+      "rich-text#footer__container--links-col-one-link2",
+      "rich-text#footer__container--links-col-one-link2",
+      "rich-text#footer__container--links-col-one-link3",
+      "rich-text#footer__container--links-col-one-link4",
+      "rich-text#footer__container--links-col-one-link5",
+      "rich-text#footer__container--links-col-one-link7"
+    ]
+  },
+  "disclosure-layout#online-purchases": {
+    "title": "Disclosure online-purchases",
+    "children": ["disclosure-trigger#online-purchases", "disclosure-content#online-purchases"]
+  },
+  "disclosure-trigger#online-purchases": {
+    "title" : "conatiner online-purchases ",
+    "children": ["rich-text#online-purchases"]
+  },
+  "rich-text#online-purchases": {
+    "title" : "text online-purchases",
+    "props": {
+      "text": "Compras en Internet",
+      "blockClass": "disclosure-text"
+    }
+  },
+  "disclosure-content#online-purchases" : {
+    "title" : "content disclosure about",
+    "children" : [
+      "rich-text#footer__container--links-col-two-link1",
+      "rich-text#footer__container--links-col-two-link2",
+      "rich-text#footer__container--links-col-two-link3",
+      "rich-text#footer__container--links-col-two-link4",
+      "rich-text#footer__container--links-col-two-link5"
+    ]
+  },
+  "disclosure-layout#service": {
+    "title": "Disclosure service",
+    "children": ["disclosure-trigger#service", "disclosure-content#service"]
+  },
+  "disclosure-trigger#service": {
+    "title" : "conatiner service ",
+    "children": ["rich-text#service"]
+  },
+  "rich-text#service": {
+    "title" : "text service",
+    "props": {
+      "text": "Nuestros servicios",
+      "blockClass": "disclosure-text"
+    }
+  },
+  "disclosure-content#service" : {
+    "title" : "content disclosure about",
+    "children" : [
+      "rich-text#footer__container--links-col-three-link1",
+      "rich-text#footer__container--links-col-three-link2"
+    ]
+  },
+  "disclosure-layout#politcs": {
+    "title": "Disclosure politcs",
+    "children": ["disclosure-trigger#politcs", "disclosure-content#politcs"]
+  },
+  "disclosure-trigger#politcs": {
+    "title" : "conatiner politcs ",
+    "children": ["rich-text#politcs"]
+  },
+  "rich-text#politcs": {
+    "title" : "text politcs",
+    "props": {
+      "text": "Nuestras políticas",
+      "blockClass": "disclosure-text"
+    }
+  },
+  "disclosure-content#politcs" : {
+    "title" : "content disclosure about",
+    "children" : [
+      "rich-text#footer__container--links-col-four-link1",
+      "rich-text#footer__container--links-col-four-link2",
+      "rich-text#footer__container--links-col-four-link3",
+      "rich-text#footer__container--links-col-four-link4",
+      "rich-text#footer__container--links-col-four-link5",
+      "rich-text#footer__container--links-col-four-link6",
+      "rich-text#footer__container--links-col-four-link7",
+      "rich-text#footer__container--links-col-four-link8",
+      "rich-text#footer__container--links-col-four-link9",
+      "rich-text#footer__container--links-col-four-link10",
+      "rich-text#footer__container--links-col-four-link11"
+    ]
   }
 }
