@@ -2,22 +2,46 @@
   "store.search": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props" : {
+      "context" : {
+        "skusFilter" : "FIRST_AVAILABLE",
+        "simulationBehavior" : "default"
+      }
+    }
   },
   "store.search#category": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props" : {
+      "context" : {
+        "skusFilter" : "FIRST_AVAILABLE",
+        "simulationBehavior" : "default"
+      }
+    }
   },
   "store.search#subcategory": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props" : {
+      "context" : {
+        "skusFilter" : "FIRST_AVAILABLE",
+        "simulationBehavior" : "default"
+      }
+    }
   },
   "store.search#brand": {
     "blocks": [
       "search-result-layout"
-    ]
+    ],
+    "props" : {
+      "context" : {
+        "skusFilter" : "FIRST_AVAILABLE",
+        "simulationBehavior" : "default"
+      }
+    }
   },
   "search-result-layout" : {
     "blocks" : [
@@ -29,6 +53,7 @@
   "search-result-layout.desktop"  : {
     "children" : [
       "rich-text#destop__responsive"
+      // "filter-navigator.v3"
     ]
   },
   "search-result-layout.mobile" : {
@@ -39,6 +64,17 @@
   "rich-text#destop__responsive" : {
     "props" : {
       "text" : "desktop responsive"
+    }
+  },
+  "filter-navigator.v3": {
+    "props": {
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ]
     }
   }
 }

@@ -21,5 +21,32 @@
       "title" : "computadores", 
       "blockClass" : "menu__image--categorys"
     }
+  },
+  "image#mobile__menu--celular" : {
+    "title" : "image celular",
+    "props" : {
+      "src" :"assets/img/ICONO-CELULAR-AK.png",
+      "max" : 30,
+      "title" : "celulares", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--appliance" : {
+    "title" : "image appliance",
+    "props" : {
+      "src" :"assets/img/LAVADO-ICON-AK.png",
+      "max" : 30,
+      "title" : "Electrodomesticos", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--tv" : {
+    "title" : "image tv",
+    "props" : {
+      "src" :"assets/img/TV-ICON-AK.png",
+      "max" : 30,
+      "title" : "tv", 
+      "blockClass" : "menu__image--categorys"
+    }
   }
 }
