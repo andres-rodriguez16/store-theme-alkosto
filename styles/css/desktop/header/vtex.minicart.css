@@ -1,0 +1,27 @@
+
+.hover-b--action-primary:hover {
+  border-color: #eb5b25;
+}
+
+.hover-bg-action-primary:hover {
+  background-color:  #eb5b25;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  background-color: #eb5b25;
+  border-color: #eb5b25;
+  /* color: #000; */
+  font-weight: 500;
+}
+
+.minicartWrapperContainer {
+  float: none;
+  /* width: 85%; */
+  margin-bottom: 30px;
+}
+
+.minicartContentContainer--minicart-base-content {
+  max-height: none;
+  margin: 0 50px;
+  width: 100%;
+}

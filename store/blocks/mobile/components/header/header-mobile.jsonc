@@ -12,7 +12,7 @@
   },
   "header-row#header__middle": {
     "title": "header container",
-    "children": ["drawer#header__mobile--menu", "login", "minicart.v2"],
+    "children": ["drawer#header__mobile--menu", "login", "minicart.v2#contianer__minicart"],
     "props": {
       "blockClass": "mobile__middle"
     }
@@ -268,5 +268,5 @@
       "blockClass": "menu--item"
     },
     "blocks": ["submenu.accordion#department__one"]
-  },
+  }
 }

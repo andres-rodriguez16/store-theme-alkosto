@@ -1,0 +1,5 @@
+{
+  "store.custom#page__minicart": {
+    "blocks": ["minicart.v2"]
+  }
+}
