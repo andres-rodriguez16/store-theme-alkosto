@@ -161,3 +161,9 @@
   background-color: white;
   cursor: pointer;
 }
+
+.paragraph--minicart__empty--text1 {
+  font-size: 18px;
+  color: #444444;
+  font-weight: 600;
+}

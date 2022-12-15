@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout#department"],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -20,6 +20,7 @@
   "search-result-layout.desktop#desktop__department": {
     "children": [
       "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#deparment__results",
       "responsive-layout.desktop#desktop__department"
     ],
     "props": {
@@ -32,7 +33,7 @@
     "children": ["flex-layout.col#department__breadcrumb"]
   },
   "flex-layout.col#department__breadcrumb": {
-    "children": ["breadcrumb.search", "gallery-layout-switcher"],
+    "children": ["breadcrumb.search" ],
     "props": {
       "blockClass": "container__department__breadcrumb-and-switcher"
     }
@@ -40,6 +41,7 @@
   "search-result-layout.mobile#mobile__department": {
     "children": [
       "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#deparment__results",
       "responsive-layout.tablet#tablet__department",
       "responsive-layout.phone#phone__department"
     ]
@@ -87,18 +89,24 @@
     }
   },
   "search-content#results__content--products": {
-    "blocks": ["gallery#department", "not-found"]
+    "blocks": [
+      //
+      // 
+      // "gallery-layout-switcher",
+      "gallery#department",
+      "not-found"
+    ]
   },
   "gallery#department": {
     "props": {
       "layouts": [
         {
           "name": "grid",
-          "component": "GeneralGrid",
+          "component": "GridSummary",
           "itemsPerRow": {
-            "desktop": 4,
-            "tablet": 1,
-            "phone": 1
+            "(min-width:1008px)": 4,
+            "(min-width:623px) and (max-width:1007px)": 3,
+            "(max-width:622px)": 2
           }
         },
         {
@@ -107,8 +115,8 @@
           "itemsPerRow": 1
         }
       ],
-      "GeneralGrid": "product-summary.shelf#search-results__products--shelf",
-      "ListSummary": "product-summary.shelf#listLayout"
+      "ListSummary": "product-summary.shelf#listLayout",
+      "GridSummary": "product-summary.shelf#search-results__products--shelf"
     }
   },
   "product-summary.shelf#listLayout": {
@@ -125,6 +133,64 @@
     ],
     "props": {
       "blockClass": "search__container"
+    }
+  },
+  "flex-layout.row#deparment__results": {
+    "title": "deparment results",
+    "children": ["gallery-layout-switcher"],
+    "props": {
+      "blockclass": "Deparment__results"
+    }
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      /*
+        * For accessibility purposes, it is fundamental to define the layout options following the same ordering used to declare them in step 2.
+        */
+      "gallery-layout-option#grid",
+      "gallery-layout-option#list"
+    ]
+  },
+  "gallery-layout-option#grid": {
+    "props": {
+      "name": "grid"
+    },
+    "children": [
+      "icon-grid",
+      "responsive-layout.desktop#textOptionGrid"
+    ]
+  },
+  "gallery-layout-option#list": {
+    "props": {
+      "name": "list"
+    },
+    "children": [
+      "icon-inline-grid",
+      "responsive-layout.desktop#textOptionList"
+    ]
+  },
+  "responsive-layout.desktop#textOptionGrid": {
+    "children": [
+      "rich-text#option-grid"
+    ]
+  },
+  "responsive-layout.desktop#textOptionList": {
+    "children": [
+      "rich-text#option-list"
+    ]
+  },
+  "rich-text#option-grid": {
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+  "rich-text#option-list": {
+    "props": {
+      "text": "List",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
     }
   }
 }

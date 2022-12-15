@@ -3,7 +3,7 @@
     "blocks": ["search-result-layout#department"],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE",
+        "skusFilter": "ALL",
         "simulationBehavior": "default"
       }
     }
@@ -14,7 +14,7 @@
     ],
     "props" : {
       "context" : {
-        "skusFilter" : "FIRST_AVAILABLE",
+        "skusFilter" : "ALL",
         "simulationBehavior" : "default"
       }
     }
@@ -25,7 +25,7 @@
     ],
     "props" : {
       "context" : {
-        "skusFilter" : "FIRST_AVAILABLE",
+        "skusFilter" : "ALL",
         "simulationBehavior" : "default"
       }
     }
@@ -36,7 +36,7 @@
     ],
     "props" : {
       "context" : {
-        "skusFilter" : "FIRST_AVAILABLE",
+        "skusFilter" : "ALL",
         "simulationBehavior" : "default"
       }
     }

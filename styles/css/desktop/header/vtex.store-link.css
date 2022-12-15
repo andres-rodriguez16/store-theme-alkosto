@@ -1,0 +1,8 @@
+.label--minicart__empty--link {
+  padding: 20px 60px;
+  border: 1px solid;
+}
+
+.link--minicart__empty--link {
+  text-decoration: none;
+}

@@ -1,10 +1,9 @@
-
 .hover-b--action-primary:hover {
   border-color: #eb5b25;
 }
 
 .hover-bg-action-primary:hover {
-  background-color:  #eb5b25;
+  background-color: #eb5b25;
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
@@ -17,11 +16,25 @@
 .minicartWrapperContainer {
   float: none;
   /* width: 85%; */
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+}
+
+.minicartTitle--minicart-base-content__container {
+  margin-top: 30px;
+  color: #444;
+  font-weight: 700;
+}
+
+.minicartTitle--minicart-base-content__container::after {
+  content: " de compras";
 }
 
 .minicartContentContainer--minicart-base-content {
   max-height: none;
   margin: 0 50px;
   width: 100%;
+}
+
+.summaryItemContainer:first-child {
+  display: none;
 }
