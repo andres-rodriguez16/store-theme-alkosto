@@ -4,7 +4,8 @@
       "variation": "block",
       "itenCountMode": "total",
       "customPixelEventName": "pageView",
-      "quantityDisplay": "always"
+      "quantityDisplay": "always",
+      "blockClass": "minicart__page"
     },
     "children": ["minicart-base-content"]
   },
@@ -18,7 +19,9 @@
   "minicart-empty-state": {
     "children": ["flex-layout.row#minicart__empty"],
     "props": {
+      // "fullWidth": true,
       "colSizing": "auto",
+      "horizontalAlign" : "between",
       "blockClass": "container__minicart__empty-state"
     }
   },
@@ -37,7 +40,7 @@
       "rich-text#minicart__empty--text1",
       "rich-text#minicart__empty--text2",
       "rich-text#minicart__empty--text3",
-      "link#minicart__empty--link"
+      "link#minicart__empty--link1"
     ],
     "props": {
       "blockClass": "container__col1__minicart__empty"
@@ -56,16 +59,16 @@
   "rich-text#minicart__empty--text1": {
     "props": {
       "text": "**Productos en el carrito:(0)**",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
       "blockClass": "minicart__empty--text1"
     }
   },
   "rich-text#minicart__empty--text2": {
     "props": {
       "text": "Tu carrito de compras está vacío.",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      // "textAlignment": "CENTER",
+      // "textPosition": "CENTER",
       "blockClass": "minicart__empty--text2"
     }
   },
@@ -73,7 +76,16 @@
     "props": {
       "text": "Puedes seleccionar un producto para seguir comprando\nO puedes volver al inicio para ver las últimas ofertas",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass" : "empty--text"
+    }
+  },
+  "link#minicart__empty--link1": {
+    "props": {
+      "href": "/",
+      "label": "Volver al inicio",
+      /* "displayMode": "button", */
+      "blockClass": "minicart__empty--link1"
     }
   },
   "link#minicart__empty--link": {
@@ -84,12 +96,12 @@
       "blockClass": "minicart__empty--link"
     }
   },
-
   "rich-text#minicart__empty2--title": {
     "props": {
       "text": "**Mi carrito**",
       "textAlignment": "CENTER",
-      "textPosition": "CENTER"
+      "textPosition": "CENTER",
+      "blockClass" : "empty2--title"
     }
   },
   "rich-text#minicart__empty2--text1": {

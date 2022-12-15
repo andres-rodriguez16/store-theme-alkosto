@@ -167,3 +167,33 @@
   color: #444444;
   font-weight: 600;
 }
+
+.paragraph--empty--text {
+  font-size: 14px;
+}
+
+.wrapper--empty2--title {
+  font-size: 20px;
+}
+
+.wrapper--empty--text {
+  margin-bottom: 20px;
+}
+
+.paragraph--minicart__empty--text2 {
+  margin: 0;
+}
+
+.paragraph--minicart__empty2--text1 {
+  margin-top: 0;
+}
+
+.paragraph--empty2--title {
+  margin-bottom: 0;
+}
+
+@media (max-width: 520px) {
+  .paragraph--empty--text {
+    font-size: 12px;
+}
+}

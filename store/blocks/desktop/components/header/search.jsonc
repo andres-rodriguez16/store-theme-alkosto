@@ -40,39 +40,39 @@
         "simulationBehavior" : "default"
       }
     }
-  },
-  "search-result-layout" : {
-    "blocks" : [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ]
-  },
-  "search-result-layout.desktop"  : {
-    "children" : [
-      "rich-text#destop__responsive"
-      // "filter-navigator.v3"
-    ]
-  },
-  "search-result-layout.mobile" : {
-    "children" : [
-      "rich-text#destop__responsive"
-    ]
-  },
-  "rich-text#destop__responsive" : {
-    "props" : {
-      "text" : "desktop responsive"
-    }
-  },
-  "filter-navigator.v3": {
-    "props": {
-      "facetOrdering": [
-        {
-          "key": "brand",
-          "orderBy": "name",
-          "order": "ASC"
-        }
-      ]
-    }
   }
+  // "search-result-layout" : {
+  //   "blocks" : [
+  //     "search-result-layout.desktop",
+  //     "search-result-layout.mobile",
+  //     "search-not-found-layout"
+  //   ]
+  // },
+  // "search-result-layout.desktop"  : {
+  //   "children" : [
+  //     "rich-text#destop__responsive"
+  //     // "filter-navigator.v3"
+  //   ]
+  // },
+  // "search-result-layout.mobile" : {
+  //   "children" : [
+  //     "rich-text#destop__responsive"
+  //   ]
+  // },
+  // "rich-text#destop__responsive" : {
+  //   "props" : {
+  //     "text" : "desktop responsive"
+  //   }
+  // },
+  // "filter-navigator.v3": {
+  //   "props": {
+  //     "facetOrdering": [
+  //       {
+  //         "key": "brand",
+  //         "orderBy": "name",
+  //         "order": "ASC"
+  //       }
+  //     ]
+  //   }
+  // }
 }
