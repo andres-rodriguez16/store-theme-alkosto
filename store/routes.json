@@ -1,0 +1,8 @@
+{
+  "store.custom#{templatename}" : {
+    "path" : "/sobre-nosotros"
+  },
+  "store.custom#page__minicart" : {
+    "path" : "/cart"
+  }
+}

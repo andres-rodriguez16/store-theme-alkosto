@@ -1,10 +1,10 @@
 {
   "header-layout.desktop": {
-    "title" : "resolution desktop",
+    "title": "resolution desktop",
     "children": ["header-row#header__container", "header-row#menu__seccion"]
   },
   "header-row#header__container": {
-    "title" :  "header container desktop",
+    "title": "header container desktop",
     "children": [
       "logo#header__top--logo",
       "flex-layout.row#header__conatiner--callToAction"
@@ -14,14 +14,14 @@
     }
   },
   "flex-layout.row#header__conatiner--callToAction": {
-    "title" : "header__callToAction",
+    "title": "header__callToAction",
     "children": ["flex-layout.col#header__callToAction"],
     "props": {
       "blockClass": "header-callToAction-row"
     }
   },
   "flex-layout.col#header__callToAction": {
-    "title" : "callToAction__container",
+    "title": "callToAction__container",
     "children": [
       "header-row#header__top--information",
       "header-row#header__bottom"
@@ -31,7 +31,7 @@
     }
   },
   "header-row#header__top--information": {
-    "title" : "header top__callToAction",
+    "title": "header top__callToAction",
     "children": [
       "rich-text#header__bottom--hiperofertas",
       "rich-text#header__text--ventas",
@@ -45,23 +45,33 @@
     }
   },
   "header-row#header__bottom": {
-    "title" : "header__bottom--container",
+    "title": "header__bottom--container",
     "children": [
       "search-bar#header__search",
       "header-spacer",
       "flex-layout.row#login__container",
-      "minicart.v2"
+      "minicart.v2#contianer__minicart"
     ],
     "props": {
       "blockClass": "header__bottom"
     }
   },
-  "flex-layout.row#login__container" : {
-    "title" : "container login",
-    "children" : ["login"]
+  "minicart.v2#contianer__minicart": {
+    "title": "",
+    "props": {
+      "minicartIcon": "icon-cart",
+      "itemCountMode": "total",
+      "quantityDisplay": "always",
+      "variation": "link",
+      "linkVariationUrl": "/cart"
+    }
+  },
+  "flex-layout.row#login__container": {
+    "title": "container login",
+    "children": ["login"]
   },
   "login": {
-    "title" : "login",
+    "title": "login",
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
       "accessCodeTitle": "Acess Code LOG-IN",
@@ -84,7 +94,7 @@
     }
   },
   "search-bar#header__search": {
-    "title" : "search-bar",
+    "title": "search-bar",
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "openAutocompleteOnFocus": true,
@@ -94,53 +104,53 @@
     }
   },
   "autocomplete-result-list.v2": {
-    "title" : "search-bar__autocomplete",
+    "title": "search-bar__autocomplete",
     "blocks": ["product-summary"]
   },
   "rich-text#header__bottom--hiperofertas": {
-    "title" : "hiperofertas text",
+    "title": "hiperofertas text",
     "props": {
       "text": "Hiperofertas",
       "blockClass": "header__top--butoom"
     }
   },
   "rich-text#header__text--ventas": {
-    "title" : "ventas text",
+    "title": "ventas text",
     "props": {
       "text": "Venta: (601) 7468001",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text--seguimiento": {
-    "title" : "seguimiento text",
+    "title": "seguimiento text",
     "props": {
       "text": "Sigue tu pedido",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text--servicio": {
-    "title" : "Servicio text",
+    "title": "Servicio text",
     "props": {
       "text": "Servicio: (601) 407 3033",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text--nuestraTienda": {
-    "title" : "Nuestras tiendas text",
+    "title": "Nuestras tiendas text",
     "props": {
       "text": "Nuestras tiendas",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text--catalogo": {
-    "title" : "catalogo text",
+    "title": "catalogo text",
     "props": {
       "text": "Catálogo",
       "blockClass": "header__top--text"
     }
   },
   "rich-text#header__text-ayuda": {
-    "title" : "ayuda text",
+    "title": "ayuda text",
     "props": {
       "text": "Ayuda",
       "blockClass": "header__top--text"

@@ -12,7 +12,7 @@
   },
   "header-row#header__middle": {
     "title": "header container",
-    "children": ["drawer#header__mobile--menu", "login", "minicart.v2"],
+    "children": ["drawer#header__mobile--menu", "login", "minicart.v2#contianer__minicart"],
     "props": {
       "blockClass": "mobile__middle"
     }
@@ -62,23 +62,118 @@
   },
 
   "vtex.menu@2.x:menu#mobile__menu": {
-    "children": ["flex-layout.row#container__menu", "flex-layout.row#container__menu", "flex-layout.row#container__menu"],
+    "children": ["flex-layout.row#container__menu--one", "flex-layout.row#container__menu--two"],
     "props": {
       "orientation": "vertical",
       "blockClass": "menu__container"
     }
   },
-  "flex-layout.row#container__menu": {
+  "flex-layout.row#container__menu--one": {
     "children": [
       "flex-layout.row#conatiner__category__phone",
-      "flex-layout.row#conatiner__category__phone",
-      "flex-layout.row#conatiner__category__phone"
+      "flex-layout.row#conatiner__category__computer",
+      "flex-layout.row#conatiner__category__appliance"
     ],
     "props" : {
       "blockClass": ["menu__container--row","menu__container--row--tablet" ]
     }
   },
-  "menu-item#shop": {
+  "flex-layout.row#container__menu--two": {
+    "children": [
+      "flex-layout.row#conatiner__category__tv",
+      "flex-layout.row#conatiner__category__accessories",
+      "flex-layout.row#conatiner__category__Videogames"
+    ],
+    "props" : {
+      "blockClass": ["menu__container--row","menu__container--row--tablet" ]
+    }
+  },
+  "flex-layout.row#conatiner__category__phone": {
+    "title": "container categoria celulares",
+    "children": ["flex-layout.col#conatiner__category__phone"],
+    "props": {
+      "blockClass": "mobile__menu--container--categorys--row"
+    }
+  },
+  "flex-layout.row#conatiner__category__Videogames" : {
+    "title": "container categoria Videogames",
+    "children": ["flex-layout.col#conatiner__category__Videogames"],
+    "props": {
+      "blockClass": "mobile__menu--container--categorys--row"
+    }
+  },
+  "flex-layout.row#conatiner__category__tv": {
+    "title": "container categoria celulares",
+    "children": ["flex-layout.col#conatiner__category__tv"],
+    "props": {
+      "blockClass": "mobile__menu--container--categorys--row"
+    }
+  },
+  "flex-layout.row#conatiner__category__accessories" : {
+    "title": "container categoria accessories",
+    "children": ["flex-layout.col#conatiner__category__accessories"],
+    "props": {
+      "blockClass": "mobile__menu--container--categorys--row"
+    }
+  },
+  "flex-layout.col#conatiner__category__Videogames"  : {
+    "title" : "container category appliance col",
+    "children": [  "image#mobile__menu--Videogames", "menu-item#videogames"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.row#conatiner__category__appliance": {
+    "title": "container category appliance",
+    "children": ["flex-layout.col#conatiner__category__appliance"],
+    "props": {
+      "blockClass": "mobile__menu--container--categorys--row"
+    }
+  },
+  "flex-layout.row#conatiner__category__computer": {
+    "title": "container categoria computer",
+    "children": ["flex-layout.col#conatiner__category__computer"],
+    "props": {
+      "blockClass": "mobile__menu--container--categorys--row"
+    }
+  },
+  "flex-layout.col#conatiner__category__tv" : {
+    "title" : "container category tv col",
+    "children": [  "image#mobile__menu--tv", "menu-item#tv"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__accessories" : {
+    "title" : "container category appliance col",
+    "children": [  "image#mobile__menu--accessories", "menu-item#accessories"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__appliance" : {
+    "title" : "container category appliance col",
+    "children": [  "image#mobile__menu--appliance", "menu-item#appliance"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__computer" : {
+    "title": "container categoria celulares col",
+    "children": ["image#mobile__menu--laptop", "menu-item#laptop"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__phone": {
+    "title": "container categoria celulares col",
+    "children": ["image#mobile__menu--celular", "menu-item#phone"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "image#header__logo": {
+    "title": "logo",
+    "props": {
+      "src": "assets/img/alkosto-logo.svg",
+      "max": 30,
+      "blockClass": "header__logo",
+      "link": {
+        "url": "/",
+        "newTab": true,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "menu-item#phone": {
     "title": "",
     "props": {
       "type": "custom",
@@ -94,29 +189,84 @@
     },
     "blocks": ["submenu.accordion#department__one"]
   },
-  "flex-layout.row#conatiner__category__phone": {
-    "title": "container categoria celulares",
-    "children": ["flex-layout.col#conatiner__category__phone"],
+  "menu-item#laptop": {
+    "title": "",
     "props": {
-      "blockClass": "mobile__menu--container--categorys--row"
-    }
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Computadores",
+        "text": "Computadores"
+      },
+      "blockClass": "menu--item"
+    },
+    "blocks": ["submenu.accordion#department__one"]
   },
-  "flex-layout.col#conatiner__category__phone": {
-    "title": "container categoria celulares col",
-    "children": ["image#mobile__menu--laptop", "menu-item#shop"],
-    "props": { "blockClass": "mobile__menu--container--categorys--col" }
-  },
-  "image#header__logo": {
-    "title": "logo",
+  "menu-item#appliance": {
+    "title": "",
     "props": {
-      "src": "assets/img/alkosto-logo.svg",
-      "max": 30,
-      "blockClass": "header__logo",
-      "link": {
-        "url": "/",
-        "newTab": true,
-        "attributeNoFollow": true
-      }
-    }
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Electrodómesticos",
+        "text": "Electrodómesticos"
+      },
+      "blockClass": "menu--item"
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "menu-item#tv" : {
+    "title": "",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "TV",
+        "text": "TV"
+      },
+      "blockClass": "menu--item"
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "menu-item#accessories" : {
+    "title": "",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Accesorios",
+        "text": "Accesorios"
+      },
+      "blockClass": "menu--item"
+    },
+    "blocks": ["submenu.accordion#department__one"]
+  },
+  "menu-item#videogames" : {
+    "title": "",
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Videojuegos",
+        "text": "Videojuegos"
+      },
+      "blockClass": "menu--item"
+    },
+    "blocks": ["submenu.accordion#department__one"]
   }
 }
