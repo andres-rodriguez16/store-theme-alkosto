@@ -135,6 +135,7 @@
     }
   }, 
   "product-summary-name" : {
+    "title" : "product-summary-name",
     "props" : {
       "tag" : "h3"
     }

@@ -10,7 +10,8 @@
       "flex-layout.row#header__conatiner--callToAction"
     ],
     "props": {
-      "blockClass": "header__container"
+      "blockClass": "header__container",
+      "sticky": true
     }
   },
   "flex-layout.row#header__conatiner--callToAction": {

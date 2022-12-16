@@ -1,5 +1,6 @@
 {
   "footer": {
+    "title" : "conatiner footer",
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.mobile": { 

@@ -1,5 +1,6 @@
 {
   "store.custom#page__minicart": {
+    "title" : "page static minicart",
     "blocks": ["minicart.v2"]
   }
 }
