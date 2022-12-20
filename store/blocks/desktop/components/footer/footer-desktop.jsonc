@@ -179,7 +179,7 @@
   },
   "rich-text#footer__container--links-col-one-link1": {
     "props": {
-      "text": "[Conócenos](/quienes-somos)",
+      "text": "[Quiénes somos](/sobre-nosotros)",
       "blockClass": "links-footer"
     }
   },
