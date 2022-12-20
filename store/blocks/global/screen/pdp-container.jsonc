@@ -1,0 +1,97 @@
+{
+  "flex-layout.row#product-breadcrumb": {
+    "title": "breadcrumb pdp",
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "breadcrumb": {
+    "title": "breadcrumb pdp",
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "flex-layout.row#product-main": {
+    "title": "container pdp main",
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#product-image", "flex-layout.col#right-col"]
+  },
+  "flex-layout.col#product-image": {
+    "title": "col left pdp",
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    },
+    "children": [
+      "product-images"
+      // "product-description",
+      // "product-specifications"
+      // product-reviews
+    ]
+  },
+  // "product-images": {
+  //   "props": {
+  //     "displayThumbnailsArrows": false,
+  //     "aspectRatio" : "1:1"
+  //   }
+  // },
+  "flex-layout.col#right-col": {
+    "title": "info pdp rigth",
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "vtex.store-components:product-name",
+      "vtex.store-components:product-brand",
+      "product-rating-inline",
+      "vtex.store-components:product-price",
+      "product-selling-price",
+      // "product-separator",
+      "product-quantity",
+      "add-to-cart-button",
+      // "product-identifier.product",
+      // "sku-selector",
+      // "flex-layout.row#buy-button",
+      "shipping-simulator",
+      "share",
+      "availability-subscriber"
+    ]
+  },
+  "product-specification-group": {
+    "children": ["product-specification-text#group", "product-specification"]
+  },
+  "product-specification": {
+    "children": [
+      "product-specification-text#specification",
+      "product-specification-values"
+    ]
+  },
+  "product-specification-values": {
+    "children": ["product-specification-text#value"]
+  },
+  "product-specification-text#group": {
+    "props": {
+      "message": "{groupName}"
+    }
+  },
+  "product-specification-text#specification": {
+    "props": {
+      "message": "{specificationName}"
+    }
+  },
+  "product-specification-text#value": {
+    "props": {
+      "message": "{specificationValue}"
+    }
+  }
+  // "vtex.reviews-and-ratings": "2.x"
+}

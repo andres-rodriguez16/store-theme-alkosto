@@ -13,6 +13,10 @@
       "flex-layout.row#home__container--conoces-mas",
       "flex-layout.row#home__section--banner-two",
       "flex-layout.row#home__container--bancos"
-    ]
+    ],
+    "props" : {
+      "textAlignment" :"CENTER",
+      "horizontalAlign" :"CENTER"
+    }
   }
 }
