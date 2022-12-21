@@ -4,7 +4,6 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      // "flex-layout.row#container__product-image",
       "flex-layout.row#tab"
     ]
   }

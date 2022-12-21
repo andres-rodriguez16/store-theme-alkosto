@@ -1,5 +1,5 @@
 .styledLinkContent--menu--item {
-  justify-content: normal;
+  justify-content: center;
 }
 
 .styledLinkContent--menu__categorys--sub {
@@ -16,4 +16,8 @@
 
 .submenuAccordion--submenu__accordion {
   padding: 0;
+}
+
+.menuContainerNav--menu__container {
+  width: 100%;
 }

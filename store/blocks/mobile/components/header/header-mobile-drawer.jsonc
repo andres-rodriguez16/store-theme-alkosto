@@ -1,22 +1,5 @@
 {
-  // "menu#header__menu": {
-  //   "children": ["menu-item#department__one", "menu-item#department__two"],
-  //   "props": {}
-  // },
-  // "menu-item#department__one": {
-  //   "props": {
-  //     "id": "department__one",
-  //     "type": "custom",
-  //     "itemProps": {
-  //       "type": "external",
-  //       "href": "https://www.google.com/",
-  //       "noFollow": true,
-  //       "tagTitle": "Celulares",
-  //       "text": "Celulares"
-  //     }
-  //   },
-  //   "blocks": ["submenu.accordion#department__one"]
-  // },
+  
   "submenu.accordion#department__one": {
     "children": ["menu#department__one"],
     "props" : {
@@ -24,6 +7,7 @@
     }
   },
   "menu#department__one": {
+    "title" : "menu one",
     "children": [
       "menu-item#category__one",
       "menu-item#category__two",
@@ -37,6 +21,7 @@
     }
   },
   "menu-item#category__one": {
+    "title" : "Celulares menu",
     "props": {
       "id": "category__one",
       "type": "custom",
@@ -51,6 +36,8 @@
     }
   },
   "menu-item#category__two": {
+    "title" : "Accesorios Celulares y Tabletas menu",
+
     "props": {
       "id": "category__one",
       "type": "custom",
@@ -65,6 +52,7 @@
     }
   },
   "menu-item#category__three": {
+    "title" : "Smartwatch menu",
     "props": {
       "id": "category__one",
       "type": "custom",
@@ -79,6 +67,7 @@
     }
   },
   "menu-item#category__four": {
+    "title" : "Tabletas menu",
     "props": {
       "id": "category__one",
       "type": "custom",
@@ -93,6 +82,7 @@
     }
   },
   "menu-item#category__five" : {
+    "title" : "Conoce más menu",
     "props": {
       "id": "category__one",
       "type": "custom",
@@ -102,20 +92,6 @@
         "noFollow": true,
         "tagTitle": "Conoce más",
         "text": "Conoce más"
-      },
-      "blockClass" : "menu__categorys--sub"
-    }
-  },
-  "menu-item#department__two": {
-    "props": {
-      "id": "department__two",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "https://www.google.com/",
-        "noFollow": true,
-        "tagTitle": "Bing Title",
-        "text": "Bing"
       },
       "blockClass" : "menu__categorys--sub"
     }

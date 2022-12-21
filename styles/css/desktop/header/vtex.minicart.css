@@ -7,8 +7,6 @@
 
 .minicartWrapperContainer {
   float: none;
-  /* width: 85%; */
-  /* margin-bottom: 30px; */
 }
 
 .minicartTitle--minicart-base-content__container {
@@ -42,10 +40,6 @@
 
 .minicart-base-content__container{
   width: 70%;
-}
-
-.minicartContainer--minicart__page :global(.vtex-minicart-2-x-popupStyles){
-  /* max-width: 500px; */
 }
 
 @media (max-width: 768px) { 

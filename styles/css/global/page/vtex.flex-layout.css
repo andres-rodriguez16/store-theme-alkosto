@@ -68,10 +68,6 @@
     box-shadow: none;
     padding: 15px;
   }
-  /* .flexColChild--container__info--pdp :global(.vtex-button) {
-    width: 100% !important;
-  } */
-
   .flexCol--container__info--pdp {
     margin-left: 20px;
   }
