@@ -1,0 +1,14 @@
+.listItemActive--button__review-and-rating :global(.vtex-button),
+.listItemActive--button__specifications :global(.vtex-button),
+.listItemActive--button__QA :global(.vtex-button) {
+  background: #eb5b25;
+  border: #eb5b25;
+}
+
+.flexRow--product__info {
+  margin-left: 50px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+

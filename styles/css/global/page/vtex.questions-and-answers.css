@@ -1,0 +1,4 @@
+.create-question-text :global(.vtex-button__label) {
+  background: #eb5b25;
+  border: #eb5b25;
+}

@@ -58,6 +58,7 @@
   }
   .flexRowContent--container-disclosure {
     margin-left: 40px;
+    width: 80% !important;
   }
   .flexCol--container__contact--col {
     width: 100%!important;
