@@ -1,5 +1,5 @@
 {
-  "store.custom#{templatename}" : {
+  "store.custom#about-us" : {
     "path" : "/sobre-nosotros"
   },
   "store.custom#page__minicart" : {

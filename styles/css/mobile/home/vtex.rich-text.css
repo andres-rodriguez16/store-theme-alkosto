@@ -5,3 +5,9 @@
 .paragraph--mobile__text--menu {
   margin: 0;
 }
+
+.wrapper--text--categorys-top {
+  color: #004c99;
+  font-size: 20px;
+  font-weight: 600;
+}

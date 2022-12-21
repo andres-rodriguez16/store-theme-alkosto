@@ -1,0 +1,16 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "rich-text#about-us__section--one",
+      "flex-layout.row#about-us",
+      "flex-layout.row#container__about-introduction",
+      "link#about-us__section--two",
+      "flex-layout.row#container__alkosto--seccion",
+      "flex-layout.row#container__click--seccion",
+      "flex-layout.row#container__reference--seccion",
+      "flex-layout.row#container__shopping physical--seccion",
+      "flex-layout.row#container__plane--seccion",
+      "flex-layout.row#container__info--seccion"
+    ]
+  }
+}

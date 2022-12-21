@@ -17,9 +17,11 @@
   border-radius: 50%;
   height: 32px;
   width: 32px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .imageElement--menu__image--categorys {
-  position: relative;
-  left: 30px;
+  /* position: relative;
+  left: 30px; */
 }

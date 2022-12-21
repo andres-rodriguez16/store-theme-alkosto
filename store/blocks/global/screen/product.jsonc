@@ -1,0 +1,10 @@
+{
+  "store.product": {
+    "title": "store product pdp",
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#tab"
+    ]
+  }
+}

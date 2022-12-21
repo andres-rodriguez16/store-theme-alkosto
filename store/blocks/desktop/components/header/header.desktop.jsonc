@@ -2,6 +2,9 @@
   "header-layout.desktop": {
     "title": "resolution desktop",
     "children": ["header-row#header__container", "header-row#menu__seccion"]
+    // "props": {
+    //   "sticky": true
+    // }
   },
   "header-row#header__container": {
     "title": "header container desktop",

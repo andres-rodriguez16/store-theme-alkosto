@@ -61,10 +61,6 @@
   margin-left: 45px;
 }
 
-/* .flexColChild--category__celphones {
-  height: ;
-} */
-
 .flexCol--category__celphones--one {
   width: 100% !important;
   margin: 0 20px;
@@ -114,15 +110,8 @@
   position: initial;
 }
 
-/* .flexColChild--container__login::before{
-  content: url("assets/img/ICONO-ACCESORIOS.png");
-} */
 .flexRow--minicart-footer {
   box-shadow: none;
-}
-
-:global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  width: 70%;
 }
 
 .flexRowContent--minicart-footer {

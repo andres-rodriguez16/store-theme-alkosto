@@ -1,0 +1,13 @@
+.link--link__about-us {
+  display: flex;
+  justify-content: center;
+  color: #eb5b25;
+  text-decoration: none;
+}
+
+.label--link__about-us {
+  padding: 12px 40px;
+  border: 1px solid #eb5b25;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
