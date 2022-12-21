@@ -1,0 +1,26 @@
+.paragraph--about-introduction {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+
+.paragraph--about-introduction--two {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #444;
+}
+
+.paragraph--about-us__section--three-text1 {
+  padding: 10px 20px !important;
+  font-size: 16px;
+  color: #444444;
+  line-height: 24px;
+}
+
+.headingLevel4--text__title--about-us {
+  margin-left: 20px;
+  font-weight: 700;
+  color: #444;
+}

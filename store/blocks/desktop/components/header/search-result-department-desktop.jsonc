@@ -1,0 +1,282 @@
+{
+  "store.search#department": {
+    "title" : "store.search#department",
+    "blocks": ["search-result-layout#department"],
+    "props": {
+      "context": {
+        "skusFilter": "ALL",
+        "simulationBehavior": "default"
+      }
+    }
+  },
+  "search-result-layout#department": {
+    "title": "Departments",
+    "blocks": [
+      "search-result-layout.desktop#desktop__department",
+      "search-result-layout.mobile#mobile__department",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#desktop__department": {
+    "title" : "search result layout department desktop",
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "responsive-layout.desktop#desktop__department"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title" : "container breadcrumb",
+    "children": ["flex-layout.col#department__breadcrumb"]
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "title" : "col breadcrumb",
+    "children": ["breadcrumb.search"],
+    "props": {
+      "blockClass": "container__department__breadcrumb-and-switcher"
+    }
+  },
+  "search-result-layout.mobile#mobile__department": {
+    "title" : "search result layout department mobile",
+    "children": [
+      "flex-layout.row#department__breadcrumb",
+      "responsive-layout.tablet#tablet__department",
+      "responsive-layout.phone#phone__department"
+    ]
+  },
+  "responsive-layout.tablet#tablet__department": {
+    "title" : "responsive tablet department",
+    "children": ["flex-layout.row#category__results-mobile"]
+  },
+  "responsive-layout.phone#phone__department": {
+    "title" : "responsive phone department",
+    "children": ["flex-layout.row#category__results-mobile"]
+  },
+  "responsive-layout.desktop#desktop__department": {
+    "title" : "responsive desktop department",
+    "children": ["flex-layout.row#category__results"]
+  },
+  "flex-layout.row#category__results-mobile": {
+    "title" : "category results mobile",
+    "children": [
+      "flex-layout.col#category__results--filter",
+      "flex-layout.col#category__results--content--mobile"
+    ],
+    "props": {
+      "blockClass": "category__results"
+    }
+  },
+  "flex-layout.row#category__results": {
+    "title" : "category results desktop",
+    "children": [
+      "flex-layout.col#category__results--filter",
+      "flex-layout.col#category__results--content"
+    ],
+    "props": {
+      "blockClass": "category__results"
+    }
+  },
+  "flex-layout.col#category__results--filter": {
+    "title" : "conatiner filter",
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "width": "25%",
+      "blockClass": "category__results--filter"
+    }
+  },
+  "flex-layout.col#category__results--content": {
+    "title" : "container category results content",
+    "children": [
+      "flex-layout.row#deparment__results",
+      "search-content#results__content--products"
+    ],
+    "props": {
+      "width": "70%",
+      "blockClass": "category__results--content"
+    }
+  },
+  "flex-layout.col#category__results--content--mobile": {
+    "title" : "container category results content mobile",
+    "children": [
+      "flex-layout.row#orderByAndSwitcher--mobile",
+      "search-content#results__content--products"
+    ],
+    "props": {
+      "width": "70%",
+      "blockClass": "category__results--content"
+    }
+  },
+  "search-content#results__content--products": {
+    "title" : "results content products ",
+    "blocks": ["gallery#department", "not-found"]
+  },
+  "gallery#department": {
+    "title" : "gallery#department",
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "(min-width:1008px)": 4,
+            "(min-width:623px) and (max-width:1007px)": 3,
+            "(max-width:622px)": 2
+          }
+        },
+        {
+          "name": "list",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#listLayout",
+      "GridSummary": "product-summary.shelf#search-results__products--shelf"
+    }
+  },
+  "product-summary.shelf#listLayout": {
+    "title": "container productsummary listLayout",
+    "children": [
+      // "add-to-list-btn",
+      "flex-layout.row#container__product-summary"
+      // "product-rating-inline",
+      // "product-summary-sku-selector",
+      // "add-to-cart-button",
+      // "modal-trigger#global__quick-view"
+    ],
+    "props": {
+      "blockClass": "search__container"
+    }
+  },
+  "flex-layout.row#container__product-summary": {
+    "title": "container product-summary",
+    "children": [
+      "flex-layout.col#container__image",
+      "flex-layout.col#container__info",
+      "flex-layout.col#container__price__and__add-to-cart"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "flex-layout.col#container__image": {
+    "title": "container image",
+    "children": ["product-summary-image"],
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5
+    }
+  },
+  "flex-layout.col#container__info": {
+    "title": "container info",
+    "children": ["product-summary-name", "product-rating-inline"],
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5,
+      "blockClass": "col__info"
+    }
+  },
+  "flex-layout.col#container__price__and__add-to-cart": {
+    "title": "container price and add to cart",
+    "children": [
+      "product-list-price",
+      "product-selling-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "marginRight": 5,
+      "marginLeft": 5,
+      "blockClass": "col__price-and-add-to-cart"
+    }
+  },
+  "flex-layout.row#deparment__results": {
+    "title": "deparment results",
+    "children": ["flex-layout.row#orderByAndSwitcher"],
+    "props": {
+      "blockclass": "Deparment__results"
+    }
+  },
+  "flex-layout.row#orderByAndSwitcher": {
+    "title" : "conatiner orden By And Switcher",
+    "children": ["flex-layout.row#container__gallery-layout-option#grid","flex-layout.row#container__info-orden"],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "blockClass": "orderByAndSwitcher",
+      "colGap": 3,
+      "marginBottom": 6,
+      "blockclass" : "container__orderByAndSwitcher"
+    }
+  },
+  "flex-layout.row#orderByAndSwitcher--mobile": {
+    "title" : "orden By And Switcher mobile",
+    "children": ["flex-layout.row#container__gallery-layout-option#grid","total-products.v2", "order-by.v2"],
+    "props": {
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "blockClass": "orderByAndSwitcher",
+      "colGap": 3,
+      "marginBottom": 6,
+      "blockclass" : "container__orderByAndSwitcher"
+    }
+  },
+  "flex-layout.row#container__gallery-layout-option#grid" : {
+    "title" : "container__gallery-layout",
+    "children" : ["gallery-layout-switcher"],
+    "props" : {
+      "blockClass" : "container__gallery-layout"
+    }
+  },
+  "flex-layout.row#container__info-orden" : {
+    "title" : "container__info-orden",
+    "children" : [ "total-products.v2", "order-by.v2"],
+    "props" : {
+      "blockClass" : "container__gallery-layout"
+    }
+  },
+  "gallery-layout-switcher": {
+    "title" : "gallery-layout-switcher",
+    "children": ["gallery-layout-option#grid", "gallery-layout-option#list"]
+  },
+  "gallery-layout-option#grid": {
+    "title" : "gallery grid",
+    "props": {
+      "name": "grid"
+    },
+    "children": ["icon-grid", "responsive-layout.desktop#textOptionGrid"]
+  },
+  "gallery-layout-option#list": {
+    "title" : "gallery list",
+    "props": {
+      "name": "list"
+    },
+    "children": ["icon-inline-grid", "responsive-layout.desktop#textOptionList"]
+  },
+  "responsive-layout.desktop#textOptionGrid": {
+    "title" : "responsive option grid",
+    "children": ["rich-text#option-grid"]
+  },
+  "responsive-layout.desktop#textOptionList": {
+    "title" : "responsive option list",
+    "children": ["rich-text#option-list"]
+  },
+  "rich-text#option-grid": {
+    "title" : "text grid",
+    "props": {
+      "text": "Grid",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  },
+  "rich-text#option-list": {
+    "title" : "text list",
+    "props": {
+      "text": "List",
+      "textColor": "c-auto",
+      "blockClass": "layout-option"
+    }
+  }
+}

@@ -12,7 +12,11 @@
   },
   "header-row#header__middle": {
     "title": "header container",
-    "children": ["drawer#header__mobile--menu", "login", "minicart.v2"],
+    "children": [
+      "drawer#header__mobile--menu",
+      "login",
+      "minicart.v2#contianer__minicart"
+    ],
     "props": {
       "blockClass": "mobile__middle"
     }
@@ -27,9 +31,34 @@
   "drawer#header__mobile--menu": {
     "title": "drawer",
     "children": ["vtex.menu@2.x:menu#mobile__menu"],
-    "blocks": ["drawer-trigger"],
+    "blocks": ["drawer-trigger", "drawer-header#header--menu"],
+    "props": {
+      "blockClass": "drawer__menu",
+      "maxWidth": "100%",
+      "isFullWidth": true
+    }
+  },
+  "drawer-header#header--menu": {
+    "children": [
+      "flex-layout.row#container__top"
+      //flex-layout-row ---> children [drawer-close-button]
+    ],
     "props" : {
-      "blockClass" : "drawer__menu"
+      "maxWidth" : "100%"
+    }
+  },
+  "flex-layout.row#container__top": {
+    "title": "container__top menu",
+    "children": ["drawer-close-button", "rich-text#title--categorys"],
+    "props" : {
+      "blockClass" : "menu__top"
+    }
+  },
+  "rich-text#title--categorys" : {
+    "title" : "text categorys",
+    "props" : {
+      "text" : "Categorías",
+      "blockClass" : "text--categorys-top"
     }
   },
   "drawer-trigger": {
@@ -62,48 +91,147 @@
   },
 
   "vtex.menu@2.x:menu#mobile__menu": {
-    "children": ["flex-layout.row#container__menu", "flex-layout.row#container__menu", "flex-layout.row#container__menu"],
+    "children": [
+      "flex-layout.row#container__menu--one",
+      "flex-layout.row#container__menu--two",
+      "flex-layout.row#container__menu--three",
+      "flex-layout.row#container__menu--four",
+      "flex-layout.row#container__menu--five"
+    ],
     "props": {
       "orientation": "vertical",
       "blockClass": "menu__container"
     }
   },
-  "flex-layout.row#container__menu": {
+  "flex-layout.row#container__menu--one": {
     "children": [
-      "flex-layout.row#conatiner__category__phone",
-      "flex-layout.row#conatiner__category__phone",
-      "flex-layout.row#conatiner__category__phone"
+      "flex-layout.col#conatiner__category__phone",
+      "flex-layout.col#conatiner__category__computer",
+      "flex-layout.col#conatiner__category__appliance"
     ],
-    "props" : {
-      "blockClass": ["menu__container--row","menu__container--row--tablet" ]
+    "props": {
+      "blockClass": ["menu__container--row", "menu__container--row--tablet"]
     }
   },
-  "menu-item#shop": {
-    "title": "",
+  "flex-layout.row#container__menu--two": {
+    "children": [
+      "flex-layout.col#conatiner__category__tv",
+      "flex-layout.col#conatiner__category__accessories",
+      "flex-layout.col#conatiner__category__Videogames"
+    ],
     "props": {
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "celulares",
-        "text": "celulares"
-      },
-      "blockClass": "menu--item"
-    },
-    "blocks": ["submenu.accordion#department__one"]
-  },
-  "flex-layout.row#conatiner__category__phone": {
-    "title": "container categoria celulares",
-    "children": ["flex-layout.col#conatiner__category__phone"],
-    "props": {
-      "blockClass": "mobile__menu--container--categorys--row"
+      "blockClass": ["menu__container--row", "menu__container--row--tablet"]
     }
+  },
+  "flex-layout.row#container__menu--three": {
+    "children": [
+      "flex-layout.col#conatiner__category__audio",
+      "flex-layout.col#conatiner__category__camera",
+      "flex-layout.col#conatiner__category--intelligent--home"
+    ],
+    "props": {
+      "blockClass": ["menu__container--row", "menu__container--row--tablet"]
+    }
+  },
+  "flex-layout.row#container__menu--four": {
+    "children": [
+      "flex-layout.col#conatiner__category--home",
+      "flex-layout.col#conatiner__category--sport",
+      "flex-layout.col#conatiner__category--tires-and-motorcycles"
+    ],
+    "props": {
+      "blockClass": ["menu__container--row", "menu__container--row--tablet"]
+    }
+  },
+  "flex-layout.row#container__menu--five": {
+    "children": [
+      "flex-layout.col#conatiner__category--toys",
+      "flex-layout.col#conatiner__category--pins",
+      "flex-layout.col#conatiner__category--others"
+    ],
+    "props": {
+      "blockClass": ["menu__container--row", "menu__container--row--tablet"]
+    }
+  },
+  "flex-layout.col#conatiner__category__Videogames": {
+    "title": "container category appliance col",
+    "children": ["image#mobile__menu--Videogames", "menu-item#videogames"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__tv": {
+    "title": "container category tv col",
+    "children": ["image#mobile__menu--tv", "menu-item#tv"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__accessories": {
+    "title": "container category appliance col",
+    "children": ["image#mobile__menu--accessories", "menu-item#accessories"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__appliance": {
+    "title": "container category appliance col",
+    "children": ["image#mobile__menu--appliance", "menu-item#appliance"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__computer": {
+    "title": "container categoria celulares col",
+    "children": ["image#mobile__menu--laptop", "menu-item#laptop"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
   },
   "flex-layout.col#conatiner__category__phone": {
     "title": "container categoria celulares col",
-    "children": ["image#mobile__menu--laptop", "menu-item#shop"],
+    "children": ["image#mobile__menu--celular", "menu-item#phone"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__audio": {
+    "title": "container categoria audio col",
+    "children": ["image#mobile__menu--audio", "menu-item#audio"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category__camera": {
+    "title": "container categoria camera col",
+    "children": ["image#mobile__menu--camera", "menu-item#camera"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category--intelligent--home": {
+    "title": "container categoria intelligent--home col",
+    "children": [
+      "image#mobile__menu--home-intelligent",
+      "menu-item#home-intelligent"
+    ],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category--home": {
+    "title": "container categoria home col",
+    "children": ["image#mobile__menu--home", "menu-item#home"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category--sport": {
+    "title": "container categoria sport col",
+    "children": ["image#mobile__sport", "menu-item#sport"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category--tires-and-motorcycles": {
+    "title": "container categoria tires-and-motorcycles col",
+    "children": [
+      "image#mobile__tires-and-motorcycles",
+      "menu-item#tires-and-motorcycles"
+    ],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category--toys": {
+    "title": "container categoria toys col",
+    "children": ["image#mobile__toys", "menu-item#toys"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category--pins": {
+    "title": "container categoria pins col",
+    "children": ["image#mobile__pins", "menu-item#pins"],
+    "props": { "blockClass": "mobile__menu--container--categorys--col" }
+  },
+  "flex-layout.col#conatiner__category--others": {
+    "title": "container categoria pins col",
+    "children": ["image#mobile__others", "menu-item#others"],
     "props": { "blockClass": "mobile__menu--container--categorys--col" }
   },
   "image#header__logo": {

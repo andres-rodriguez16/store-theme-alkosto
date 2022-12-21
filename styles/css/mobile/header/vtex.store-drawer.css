@@ -1,5 +1,6 @@
 
 .opened--drawer__menu {
-  width: 100% !important;
+  /* width: 100vw !important;
   padding: 0;
+  max-width: none; */
 }

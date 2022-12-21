@@ -21,5 +21,131 @@
       "title" : "computadores", 
       "blockClass" : "menu__image--categorys"
     }
+  },
+  "image#mobile__menu--celular" : {
+    "title" : "image celular",
+    "props" : {
+      "src" :"assets/img/ICONO-CELULAR-AK.png",
+      "max" : 30,
+      "title" : "celulares", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--appliance" : {
+    "title" : "image appliance",
+    "props" : {
+      "src" :"assets/img/LAVADO-ICON-AK.png",
+      "max" : 30,
+      "title" : "Electrodomesticos", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--tv" : {
+    "title" : "image tv",
+    "props" : {
+      "src" :"assets/img/TV-ICON-AK.png",
+      "max" : 30,
+      "title" : "tv", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--accessories" : {
+    "title" : "image accessories",
+    "props" : {
+      "src" :"assets/img/ICONO-SMARTWATCH-AK.png",
+      "max" : 30,
+      "title" : "accessories", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--Videogames" : {
+    "title" : "image Videogames",
+    "props" : {
+      "src" :"assets/img/VIDEOJUEGOS-ICON-AK.png",
+      "max" : 30,
+      "title" : "Videogames", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--audio" : {
+    "title" : "image audio",
+    "props" : {
+      "src" :"assets/img/AUDIO-ICON-AK.png",
+      "max" : 30,
+      "title" : "Videogames", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--camera" : {
+    "title" : "image camera",
+    "props" : {
+      "src" :"assets/img/CAMARAS-ICON-AK.png",
+      "max" : 30,
+      "title" : "camera", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--home-intelligent" : {
+    "title" : "image camera",
+    "props" : {
+      "src" :"assets/img/CASA-INTELIGENTE-ICON-AK.png",
+      "max" : 30,
+      "title" : "Casa inteligente", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__menu--home" : {
+    "title" : "image home",
+    "props" : {
+      "src" :"assets/img/ICONO-HOGAR-AK.png",
+      "max" : 30,
+      "title" : "Casa", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__sport" : {
+    "title" : "image sport",
+    "props" : {
+      "src" :"assets/img/DEPORTES-ICON-AK.png",
+      "max" : 30,
+      "title" : "Deportes", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__tires-and-motorcycles" : {
+    "title" : "image tires-and-motorcycles",
+    "props" : {
+      "src" :"assets/img/LLANTAS-ICON-AK.png",
+      "max" : 30,
+      "title" : "Llantas y motos", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__toys" : {
+    "title" : "image toys",
+    "props" : {
+      "src" :"assets/img/JUGUETES-ICON-AK.png",
+      "max" : 30,
+      "title" : "Llantas y motos", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__pins" : {
+    "title" : "image pines",
+    "props" : {
+      "src" :"assets/img/NETFLIX-ICON-AK.png",
+      "max" : 30,
+      "title" : "Llantas y motos", 
+      "blockClass" : "menu__image--categorys"
+    }
+  },
+  "image#mobile__others" : {
+    "title" : "image otros",
+    "props" : {
+      "src" :"assets/img/AK-ICON-OTROS.png",
+      "max" : 30,
+      "title" : "Otros", 
+      "blockClass" : "menu__image--categorys"
+    }
   }
 }

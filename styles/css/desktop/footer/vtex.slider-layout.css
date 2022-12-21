@@ -1,0 +1,12 @@
+.sliderLayoutContainer--carousel {
+  padding-left: 120px !important;
+  padding-right: 120px !important;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .sliderLayoutContainer--carousel {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}

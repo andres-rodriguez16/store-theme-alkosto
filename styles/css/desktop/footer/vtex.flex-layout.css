@@ -1,0 +1,72 @@
+.flexRowContent--container__contact {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.flexCol--container__contact--col {
+  display: flex;
+  width: 65% !important;
+  padding: 0 20px;
+}
+
+.flexCol--container__contact--col--two {
+  display: flex;
+  width: 65% !important;
+  padding: 0 20px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.flexColChild--policies__content2--image {
+  margin: 14px 0;
+}
+
+.flexCol--footer__online-purchases {
+  height: 60% !important;
+}
+
+.flexCol--footer__service {
+  height: 35%;
+}
+
+.flexCol--footer__our--company {
+  height: 80%;
+}
+
+.flexRow--conatiner__footer--about-us {
+  margin: 20px 100px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+
+.flexRow--footer__container--socialmedia-text-icons {
+  display: flex;
+  justify-content: right;
+  margin-right: 8%;
+}
+
+:global(.vtex-store-components-3-x-container) {
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .flexRow--footer__container--socialmedia-text-icons {
+    display: flex;
+    justify-content: center;
+  }
+  .flexRowContent--container-disclosure {
+    margin-left: 40px;
+    width: 80% !important;
+  }
+  .flexCol--container__contact--col {
+    width: 100%!important;
+  }
+}
+
+@media (max-width: 500px) {
+  .flexRowContent--container-disclosure {
+    margin-left: 8px;
+  }
+}

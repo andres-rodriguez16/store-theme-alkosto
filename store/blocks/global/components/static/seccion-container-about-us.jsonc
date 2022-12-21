@@ -1,0 +1,212 @@
+
+{
+  "image#right-arrow" : {
+    "title" : "icon right arrow",
+    "props": {
+      "src": "assets/img/right-arrow.png"
+    }
+  },
+  "rich-text#about-us__section--one":{
+    "title" : "title about-us",
+    "props":{
+      "text":"#### Quiénes somos",
+      "blockClass" : "text__title--about-us"
+    }
+  },
+  "flex-layout.row#about-us": {
+    "children": ["image#about-us"]
+  },
+  "flex-layout.row#container__about-introduction": {
+    "title": "container about introduction",
+    "children": ["flex-layout.col#container__about-introduction"]
+  },
+  "flex-layout.col#container__about-introduction": {
+    "title": "col container about introduction",
+    "children": [
+      "rich-text#about-introduction--one",
+      "rich-text#about-introduction--two"
+    ]
+  },
+  "rich-text#about-introduction--one": {
+    "title": "text introduction one",
+    "props": {
+      "text": " Somos una cadena de almacenes 100% Colombiana, comercializadora de electrodomésticos, llantas, motos, mercado y hogar.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "about-introduction"
+    }
+  },
+  "rich-text#about-introduction--two": {
+    "title": "text introduction two",
+    "props": {
+      "text": "Trabajamos por cumplir la promesa de ofrecer HIPER AHORRO SIEMPRE",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "about-introduction--two"
+    }
+  },
+  "image#about-us": {
+    "title" : "image about-us",
+    "props": {
+      "src": "assets/img/Quienes-Somos-Alkosto.jpg"
+    }
+  },
+  "link#about-us__section--two": {
+    "props": {
+      "href": "/",
+      "label": "Ir a las mejores ofertas",
+      "blockClass": "link__about-us"
+    }
+  },
+  "flex-layout.row#container__alkosto--seccion": {
+    "title": "seccion alkosto about us",
+    "children": ["image#about-us__section--three-image-one", "rich-text#about-us__section--three-text-one"],
+    "props" : {
+      "blockClass" : "container__alkosto--seccion"
+    }
+  },
+  "image#about-us__section--three-image-one": {
+    "props": {
+      "src": "assets/img/simbolo-k.svg",
+      "blockClass": "about-us__section--three-image1"
+    }
+  },
+  "rich-text#about-us__section--three-text-one": {
+    "props": {
+      "text": "En 1998 ALKOSTO líder en tecnología decide lanzar un nuevo formato, Ktronix, como la única tienda multimarcas especializada en electrónica y tecnología.",
+      "blockClass": "about-us__section--three-text1"
+    }
+  },
+  "flex-layout.row#container__click--seccion": {
+    "title": "seccion click about us",
+    "children": ["image#about-us__click--seccion-image-one", "rich-text#about-us__click--seccion-text-one"],
+    "props" : {
+      "blockClass" : "container__click--seccion"
+    }
+  },
+  "image#about-us__click--seccion-image-one": {
+    "title" : "image click",
+    "props": {
+      "src": "assets/img/click-open.svg",
+      "blockClass": "about-us__section--three-image2"
+    }
+  },
+  "rich-text#about-us__click--seccion-text-one": {
+    "title" : "text click",
+    "props": {
+      "text": "En 2010 abrimos nuestra Tienda Virtual www.ktronix.com, con más de 1.000 referencias y la posibilidad de comprar en línea.",
+      "blockClass": "about-us__section--three-text1"
+    }
+  },
+  "flex-layout.row#container__reference--seccion": {
+    "title": "seccion referencia about us",
+    "children": ["image#about-us__section-referencia--three-image-one", "rich-text#about-us__section-referencia--three-text-one"],
+    "props" : {
+      "blockClass" : "container__alkosto--seccion"
+    }
+  },
+  "image#about-us__section-referencia--three-image-one": {
+    "title" : "image frige",
+    "props": {
+      "src": "assets/img/nevera-electro.svg",
+      "blockClass": "about-us__section--three-image1"
+    }
+  },
+  "rich-text#about-us__section-referencia--three-text-one": {
+    "title" : "text reference",
+    "props": {
+      "text": "Puedes elegir entre más de 1.600 referencias de electrodomésticos, tecnología, accesorios y consumibles, bajo un mismo techo.\nAlgunas de estas referencias ahora las puedes comprar en línea en www.ktronix.com.",
+      "blockClass": "about-us__section--three-text1"
+    }
+  },
+  "flex-layout.row#container__shopping physical--seccion": {
+    "title": "seccion shopping physical about us",
+    "children": ["image#about-us_shopping-physicalk--seccion-image-one", "rich-text#about-us__shopping physical--seccion-text-one"],
+    "props" : {
+      "blockClass" : "container__click--seccion"
+    }
+  },
+  "image#about-us_shopping-physicalk--seccion-image-one": {
+    "title" : "image shopping physical",
+    "props": {
+      "src": "assets/img/tiendas.svg",
+      "blockClass": "about-us__section--three-image2"
+    }
+  },
+  "rich-text#about-us__shopping physical--seccion-text-one": {
+    "title" : "text shopping physical",
+    "props": {
+      "text": "Nuestras tiendas, con un diseño de vanguardia en un ambiente moderno y futurista, cuentan con el mejor surtido, variedad y metros de exhibición de tecnología de todas las marcas, con la mejor asesoría y precios del mercado.",
+      "blockClass": "about-us__section--three-text1"
+    }
+  },
+  "flex-layout.row#container__plane--seccion": {
+    "title": "seccion plane about us",
+    "children": ["image#about-us__plane--seccion-image-one", "rich-text#about-us__plane--seccion-text-one"],
+    "props" : {
+      "blockClass" : "container__alkosto--seccion"
+    }
+  },
+  "image#about-us__plane--seccion-image-one": {
+    "title" : "image plane",
+    "props": {
+      "src": "assets/img/plane-nacional.svg",
+      "blockClass": "about-us__section--three-image1"
+    }
+  },
+  "rich-text#about-us__plane--seccion-text-one": {
+    "title" : "text plane",
+    "props": {
+      "text": "Hoy contamos con tiendas en Bogotá, Medellín, Bucaramanga, Cali, Villavicencio, Tunja, Manizales, con despacho a nivel Nacional.",
+      "blockClass": "about-us__section--three-text1"
+    }
+  },
+  "flex-layout.row#container__info--seccion": {
+    "title": "seccion shopping info about us",
+    "children": ["image#about-us__info--seccion-image-one", "rich-text#about-us__info--seccion-text-one"],
+    "props" : {
+      "blockClass" : "container__click--seccion"
+    }
+  },
+  "image#about-us__info--seccion-image-one": {
+    "title" : "image info",
+    "props": {
+      "src": "assets/img/empleados.svg",
+      "blockClass": "about-us__section--three-image2"
+    }
+  },
+  "rich-text#about-us__info--seccion-text-one": {
+    "title" : "text info",
+    "props": {
+      "text": "Ktronix una empresa 100% colombiana, ha significado la generación de empleos directos e indirecto. Velamos por la capacitación completa al personal, tanto en conocimiento de producto como en parámetros de atención y servicio.",
+      "blockClass": "about-us__section--three-text1"
+    }
+  }
+   // "flex-layout.row#breadcrumb" : {
+  //   "title" : "breadcrumb about-us",
+  //   "children" : [
+  //     "rich-text#beginning",
+  //     "image#right-arrow",
+  //     "rich-text#our__company",
+  //     "image#right-arrow",
+  //     "rich-text#about-us"
+  //   ]
+  // },
+  // "rich-text#beginning" : {
+  //   "text" : "text beginning", 
+  //   "props" : {
+  //     "text" : "Inicio"
+  //   }
+  // },
+  // "rich-text#our__company" : {
+  //   "text" : "text our company", 
+  //   "props" : {
+  //     "text" : "Nuestra compañia"
+  //   }
+  // },
+  // "rich-text#about-us" : {
+  //   "text" : "text about us", 
+  //   "props" : {
+  //     "text" : "Quiénes somos"
+  //   }
+}

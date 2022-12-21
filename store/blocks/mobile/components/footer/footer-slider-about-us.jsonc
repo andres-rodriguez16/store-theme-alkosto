@@ -1,0 +1,26 @@
+{
+  "slider-layout#footer__contacts1": {
+    "title": "slider of means of payments",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "showPaginationDots": "never",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "usePagination": false
+      //"blockClass": "carousel"
+      // "fullWidth" : false
+    },
+    "children": [
+      "flex-layout.row#ejemplo",
+      "flex-layout.row#ejemplo",
+      "flex-layout.row#ejemplo"
+    ]
+  },
+  "flex-layout.row#ejemplo" : {
+    "children" : ["flex-layout.col#about--us"]
+  }
+}
