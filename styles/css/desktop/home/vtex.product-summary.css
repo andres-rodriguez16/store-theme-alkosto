@@ -1,3 +1,8 @@
 .container--search__container {
   max-width: 700px !important;
 }
+
+.element--container-product-summary :global(.vtex-product-summary-2-x-image) {
+  width: 300px;
+  height: 300px;
+}

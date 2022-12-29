@@ -3,7 +3,8 @@
     "children": [
       "flex-layout.row#home__slider--menu",
       "flex-layout.row#home__section--banner",
-      // "search-result-layout.customQuery#home__search",
+      "list-context.bullet-group#ejemplo",
+      "list-context.product-list#slider",
       "flex-layout.row#home__container--seccion",
       "flex-layout.row#home__container-phone",
       "flex-layout.row#home__container--computadores",

@@ -6,6 +6,7 @@
       "flex-layout.row#container__categorias",
       "flex-layout.col#home__category--mascotas",
       "flex-layout.row#home__section--banner",
+      "list-context.product-list#slider",
       "flex-layout.row#home__container--seccion",
       "flex-layout.row#home__container-phone",
       "flex-layout.row#home__container--computadores",
