@@ -10,7 +10,8 @@
       "flex-layout.row#container__reference--seccion",
       "flex-layout.row#container__shopping physical--seccion",
       "flex-layout.row#container__plane--seccion",
-      "flex-layout.row#container__info--seccion"
+      "flex-layout.row#container__info--seccion",
+      "pdf-render"
     ]
   }
 }

@@ -1,0 +1,10 @@
+{
+  "pdf-render" : {
+    "title" : "custom pdf",
+    "props" : {
+      "pdfUrl" : "assets/documents/pdfejemplo (3).pdf",
+      "height" : 800,
+      "width" : 500
+    }
+  }
+}

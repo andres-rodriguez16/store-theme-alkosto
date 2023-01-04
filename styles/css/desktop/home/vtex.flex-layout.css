@@ -165,6 +165,11 @@
   align-items: center;
 }
 
+.flexColChild--product-image :global(.vtex-store-components-3-x-productImageTag) {
+  width: 50% !important;
+  display: flex;
+  margin: 0 auto;
+}
 @media (max-width: 950px) {
   .flexCol--container__col2__minicart__empty {
     display: none;
