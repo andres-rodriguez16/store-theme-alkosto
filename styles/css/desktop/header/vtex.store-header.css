@@ -26,3 +26,7 @@
 .headerRowContentContainer--header__container {
   padding: 0;
 }
+
+:global(.vtex-store-components-3-x-container) {
+  max-width: none !important;
+}

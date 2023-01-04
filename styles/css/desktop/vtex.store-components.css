@@ -57,6 +57,18 @@
   width: 300px;
 }
 
+.imageElement--home__grid--image {
+  width: 70% !important;
+  display: flex;
+  margin: 0 auto;
+}
+
+.imageElement--home__grid--image--one {
+  width: 70% !important;
+  display: flex;
+  margin: 0 auto;
+}
+
 @media (max-width: 450px) {
   .imageElement--image__logo--tuya {
     display: none;

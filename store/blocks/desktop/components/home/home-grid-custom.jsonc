@@ -1,0 +1,77 @@
+{
+  "custom-grid" : {
+    "title" : "custom-grid",
+    "children" : [
+      "image#home__grid--one",
+      "image#home__grid--two",
+      "image#home__grid--three",
+      "image#home__grid--four",
+      "image#home__grid--five"
+    ]
+  },
+  "image#home__grid--one": {
+    "title" : "image grid one",
+    "props": {
+    "title" : "xiaomi note 11",
+      "src": "assets/img/celulares1.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+      "blockClass" : "home__grid--image--one"
+    }
+  },
+  "image#home__grid--two": {
+    "title": "image grid one",
+    "props": {
+      "title": "Portátil HP Pavilion 15.6 Pulgadas eg0500la",
+      "src": "assets/img/computador1.jpg",
+      "link": {
+        "url": "https://www.gogle.com",
+        "newTab": true,
+        "attributeNoFollow": true
+      },
+      "blockClass": "home__grid--image"
+    }
+  },
+  "image#home__grid--three": {
+    "title" : "image grid one",
+    "props": {
+    "title" : "TV SAMSUNG 60 Pulgadas 152.4 cm 60BU8000 4K",
+      "src": "assets/img/televisores1.jpg",
+      "link" : {
+      "url" : "https://www.gogle.com",
+      "newTab" : true,
+      "attributeNoFollow" : true
+    },
+      "blockClass" : "home__grid--image"
+    }
+  },
+  "image#home__grid--four": {
+    "title" : "image grid one",
+    "props": {
+    "title" : "xiaomi note 11",
+      "src": "assets/img/celulares1.jpg",
+      "link" : {
+        "url" : "https://www.gogle.com",
+        "newTab" : true,
+        "attributeNoFollow" : true
+      },
+      "blockClass" : "home__grid--image"
+    }
+  },
+  "image#home__grid--five": {
+    "title": "image grid one",
+    "props": {
+    "title" : "Nevera WHIRLPOOL No Frost Congelador Inferior 450 Litros WRE57BKTWW Gris",
+      "src": "assets/img/eletrodomesticos1.jpg",
+      "link" : {
+      "url" : "https://www.gogle.com",
+      "newTab" : true,
+      "attributeNoFollow" : true
+    },
+      "blockClass" : "home__grid--image"
+    }
+  }
+}
