@@ -6,6 +6,7 @@
       "flex-layout.row#section__two--text-mobile",
       "flex-layout.row#home__section--banner",
       "list-context.product-list#slider",
+      "custom-grid",
       "flex-layout.row#home__container--seccion",
       "flex-layout.row#home__container-phone",
       "flex-layout.row#home__container--computadores",
