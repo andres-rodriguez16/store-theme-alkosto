@@ -30,3 +30,9 @@
 :global(.vtex-store-components-3-x-container) {
   max-width: none !important;
 }
+
+@media (max-width: 1346px) {
+  .headerRowContainer--header__desktop--menu {
+    justify-content: center;
+  }
+}
