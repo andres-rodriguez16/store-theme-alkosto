@@ -1,10 +1,11 @@
 {
   "header-layout.desktop": {
     "title": "resolution desktop",
-    "children": ["header-row#header__container", "header-row#menu__seccion"]
-    // "props": {
-    //   "sticky": true
-    // }
+    "children": [
+      "header-row#header__count-of-offers",
+      "header-row#header__container", 
+      "header-row#menu__seccion"
+    ]
   },
   "header-row#header__container": {
     "title": "header container desktop",
@@ -15,6 +16,23 @@
     "props": {
       "blockClass": "header__container",
       "sticky": true
+    }
+  },
+  "header-row#header__count-of-offers" : {
+    "title" : "containert count of offers",
+    "children" : [
+      "count-down"
+    ],
+    "props" : {
+      "blockClass": "header__container--count",
+      "sticky": true,
+      "fullWidth" : true
+    }
+  },
+  "count-down" : {
+    "title" : "count of offers",
+    "props" : {
+      "blockClass" : "container__count--offers"
     }
   },
   "flex-layout.row#header__conatiner--callToAction": {
@@ -86,9 +104,6 @@
       "iconLabel": "Mi cuenta"
     }
   },
-  // "modal-layout#header__top--login": {
-  //   "children": ["login-content"]
-  // },
   "logo#header__top--logo": {
     "title": "logo",
     "props": {
