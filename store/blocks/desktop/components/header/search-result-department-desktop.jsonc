@@ -182,10 +182,10 @@
   "flex-layout.col#container__price__and__add-to-cart": {
     "title": "container price and add to cart",
     "children": [
+      "product-price-savings",
       "product-list-price",
       "product-selling-price",
-      "add-to-cart-button"
-    ],
+      "add-to-cart-button"    ],
     "props": {
       "marginRight": 5,
       "marginLeft": 5,

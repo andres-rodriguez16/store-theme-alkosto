@@ -73,11 +73,13 @@
   "flex-layout.col#checkout--col" : {
     "title" : "checkout col",
     "children" : [
+      "product-price-savings",
       "vtex.store-components:product-price",
       "product-selling-price",
       "product-quantity",
       "add-to-cart-button",
       "share",
+      "discount-banners",
       "modal-trigger#add-to-cart-info"
     ],
     "props" : {

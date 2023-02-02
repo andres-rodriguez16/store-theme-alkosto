@@ -3,7 +3,7 @@
     "children": [
       "flex-layout.row#home__slider--menu",
       "flex-layout.row#home__section--banner",
-      "list-context.bullet-group#ejemplo",
+      // "list-context.bullet-group#ejemplo",
       "list-context.product-list#slider",
       "custom-grid",
       "quick-order",
